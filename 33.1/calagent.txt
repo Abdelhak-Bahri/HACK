@@ -1,0 +1,100 @@
+cwd
+/Users/shane/Library/Containers/com.apple.CalendarAgent/Data
+txt
+/System/Library/PrivateFrameworks/CalendarAgent.framework/Executables/CalendarAgent
+txt
+/Users/shane/Library/Calendars/Calendar Cache-shm
+txt
+/usr/share/icu/icudt57l.dat
+txt
+/System/Library/CoreServices/SystemAppearance.bundle/Contents/Resources/SystemAppearance.car
+txt
+/Users/shane/Library/Containers/com.apple.CalendarAgent/Data/Library/Caches/com.apple.CalendarAgent/Cache.db-shm
+txt
+/private/var/db/mds/messages/501/se_SecurityMessages
+txt
+/System/Library/Security/ldapdl.bundle/Contents/MacOS/ldapdl
+txt
+/System/Library/Address Book Plug-Ins/LocalSource.sourcebundle/Contents/MacOS/LocalSource
+txt
+/System/Library/Address Book Plug-Ins/DirectoryServices.sourcebundle/Contents/MacOS/DirectoryServices
+txt
+/System/Library/Address Book Plug-Ins/LDAP.sourcebundle/Contents/MacOS/LDAP
+txt
+/System/Library/Address Book Plug-Ins/CardDAVPlugin.sourcebundle/Contents/MacOS/CardDAVPlugin
+txt
+/Users/shane/Library/Application Support/AddressBook/Sources/2FA53252-D130-4A5E-849F-A2B4C8398284/AddressBook-v22.abcddb-shm
+txt
+/Users/shane/Library/Application Support/AddressBook/Sources/DFE14087-CBFA-4304-BCA2-AB76ABC4876C/AddressBook-v22.abcddb-shm
+txt
+/Users/shane/Library/Application Support/AddressBook/AddressBook-v22.abcddb-shm
+txt
+/usr/lib/dyld
+txt
+/private/var/db/dyld/dyld_shared_cache_x86_64h
+0
+/dev/null
+1
+/dev/null
+2
+/dev/null
+3
+/Users/shane/Library/Calendars/Calendar Cache
+4
+/Users/shane/Library/Calendars/Calendar Cache-wal
+5
+/Users/shane/Library/Calendars/Calendar Cache-shm
+6
+/Users/shane/Library/Calendars/Calendar Cache
+7
+/Users/shane/Library/Calendars/Calendar Cache-wal
+8
+/Users/shane/Library/Calendars/Calendar Cache
+9
+/Users/shane/Library/Calendars/Calendar Cache-wal
+10
+/Users/shane/Library/Containers/com.apple.CalendarAgent/Data/Library/Caches/com.apple.CalendarAgent/Cache.db
+11
+/Users/shane/Library/Containers/com.apple.CalendarAgent/Data/Library/Caches/com.apple.CalendarAgent/Cache.db-wal
+12
+/Users/shane/Library/Containers/com.apple.CalendarAgent/Data/Library/Caches/com.apple.CalendarAgent/Cache.db-shm
+13
+14
+/Users/shane/Library/Calendars/Calendar Cache
+15
+/Users/shane/Library/Calendars/Calendar Cache
+16
+/Users/shane/Library/Calendars/Calendar Cache-wal
+17
+18
+/Users/shane/Library/Calendars/Calendar Cache-wal
+19
+/private/var/folders/y7/tt7g8c1149qgmmjh31zqzzpw0000gn/T/.AddressBookLocks/database.lock
+20
+/Users/shane/Library/Calendars/Calendar Cache
+21
+/Users/shane/Library/Calendars/Calendar Cache-wal
+22
+/Users/shane/Library/Calendars/Calendar Cache
+23
+/Users/shane/Library/Application Support/AddressBook/Sources/2FA53252-D130-4A5E-849F-A2B4C8398284/AddressBook-v22.abcddb
+24
+/Users/shane/Library/Calendars/Calendar Cache-wal
+25
+/Users/shane/Library/Application Support/AddressBook/Sources/2FA53252-D130-4A5E-849F-A2B4C8398284/AddressBook-v22.abcddb-wal
+26
+/Users/shane/Library/Application Support/AddressBook/Sources/2FA53252-D130-4A5E-849F-A2B4C8398284/AddressBook-v22.abcddb-shm
+27
+/Users/shane/Library/Application Support/AddressBook/Sources/DFE14087-CBFA-4304-BCA2-AB76ABC4876C/AddressBook-v22.abcddb
+28
+/Users/shane/Library/Application Support/AddressBook/Sources/DFE14087-CBFA-4304-BCA2-AB76ABC4876C/AddressBook-v22.abcddb-wal
+29
+/Users/shane/Library/Application Support/AddressBook/Sources/DFE14087-CBFA-4304-BCA2-AB76ABC4876C/AddressBook-v22.abcddb-shm
+30
+/Users/shane/Library/Application Support/AddressBook/AddressBook-v22.abcddb
+31
+/Users/shane/Library/Application Support/AddressBook/AddressBook-v22.abcddb-wal
+32
+/Users/shane/Library/Application Support/AddressBook/AddressBook-v22.abcddb-shm
+35
+/private/var/folders/y7/tt7g8c1149qgmmjh31zqzzpw0000gn/T/.AddressBookLocks/_Users_shane_Library_Application Support_AddressBook_Metadata_.MetaData.lock_lock

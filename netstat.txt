@@ -1,0 +1,63 @@
+Active Internet connections
+Proto Recv-Q Send-Q  Local Address          Foreign Address        (state)    
+udp4       0      0  *.56963                *.*                               
+udp6       0      0  *.mdns                 *.*                               
+udp4       0      0  *.mdns                 *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.64769                *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp46      0      0  *.*                    *.*                               
+udp6       0      0  *.mdns                 *.*                               
+udp4       0      0  *.mdns                 *.*                               
+udp46      0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  localhost.32376        *.*                               
+Active Multipath Internet connections
+Proto/ID  Flags      Local Address          Foreign Address        (state)    
+icm6       0      0  *.*                    *.*                               
+Active LOCAL (UNIX) domain sockets
+Address          Type   Recv-Q Send-Q            Inode             Conn             Refs          Nextref Addr
+cfcadb129a0d6cfd stream      0      0                0 cfcadb129a0d6c35                0                0 /var/run/mDNSResponder
+cfcadb129a0d6c35 stream      0      0                0 cfcadb129a0d6cfd                0                0
+cfcadb129a0d78b5 stream      0      0 cfcadb129a0d1155                0                0                0 /var/run/mDNSResponder
+cfcadb129a0d6e8d dgram       0      0                0 cfcadb129a0d6dc5 cfcadb129a0d6dc5                0
+cfcadb129a0d6dc5 dgram       0      0                0 cfcadb129a0d6e8d cfcadb129a0d6e8d                0
+cfcadb129a0d6f55 dgram       0      0                0 cfcadb129a0d701d cfcadb129a0d701d                0
+cfcadb129a0d701d dgram       0      0                0 cfcadb129a0d6f55 cfcadb129a0d6f55                0
+cfcadb129a0d7275 dgram       0      0                0 cfcadb129a0d733d cfcadb129a0d733d                0
+cfcadb129a0d733d dgram       0      0                0 cfcadb129a0d7275 cfcadb129a0d7275                0
+cfcadb129a0d765d dgram       0      0                0 cfcadb129a0d7595 cfcadb129a0d7595                0
+cfcadb129a0d7595 dgram       0      0                0 cfcadb129a0d765d cfcadb129a0d765d                0
+cfcadb129a0d7405 dgram       0      0                0 cfcadb129a0d74cd cfcadb129a0d74cd                0
+cfcadb129a0d74cd dgram       0      0                0 cfcadb129a0d7405 cfcadb129a0d7405                0
+cfcadb129a0d7725 dgram       0      0                0 cfcadb129a0d77ed cfcadb129a0d77ed                0
+cfcadb129a0d77ed dgram       0      0                0 cfcadb129a0d7725 cfcadb129a0d7725                0
+Registered kernel control modules
+id       flags    pcbcount rcvbuf   sndbuf   name 
+       1        9        0   131072     8192 com.apple.flow-divert 
+       2        1        0    16384     2048 com.apple.nke.sockwall 
+       3        9        0   524288   524288 com.apple.content-filter 
+       4        9        0     8192     2048 com.apple.packet-mangler 
+       5        1        0    65536    65536 com.apple.net.necp_control 
+       6        9        0   524288   524288 com.apple.net.utun_control 
+       7        1        0    65536    65536 com.apple.net.ipsec_control 
+       8        0        4     8192     2048 com.apple.netsrc 
+       9       18        0     8192     2048 com.apple.network.statistics 
+       a        5        0     8192     2048 com.apple.network.tcp_ccdebug 
+       b        1        0     8192     2048 com.apple.nke.webcontentfilter 
+Active kernel event sockets
+Proto Recv-Q Send-Q vendor  class subcla
+kevt       0      0      1      1      2
+kevt       0      0      1      6      1
+kevt       0      0      1      6      1
+kevt       0      0      1      1      2
+kevt       0      0      1      1      2
+Active kernel control sockets
+Proto Recv-Q Send-Q   unit     id name
+kctl       0      0      1      8 com.apple.netsrc
+kctl       0      0      2      8 com.apple.netsrc
+kctl       0      0      3      8 com.apple.netsrc

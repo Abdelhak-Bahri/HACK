@@ -1,0 +1,95 @@
+# HardDrive diagnostic definition file.
+# $Id: HardDrive.prm,v 1.18 2011/06/09 06:08:13 acassidy Exp $
+#
+# This file needs to be in this format:
+#
+# DEVICE="DEVTYPE"						("HDD" or "SSD")
+# MRI<TAB>ON								(or OFF)			- Macintosh Repair Inspector
+# RETRY<TAB>ON							(or OFF)
+# JOURNAL<TAB>ON							(or OFF)
+# FREEZE<TAB>ON							(or OFF)
+# SLOWIGNORE<TAB>ON						(or OFF)
+# SLOWALLOW<TAB>NUMBER
+# LOWERLIMIT<TAB>NUMBER
+# UPPERLIMIT<TAB>NUMBER					(can be zero to disable)
+# AHCIRETRYLIMIT<TAB>NUMBER				(upper limit of AHCI retries - zero disables checking)
+# AHCITIMEOUTLIMIT<TAB>NUMBER			(upper limit of AHCI command timeouts - zero disables checking)
+# STRESSRUNTIME<TAB>NUMBER				(duration in seconds of drive stressing for AHCI port stress test
+# ATIBLOCKCOUNT<TAB>NUMBER
+# ATIBURNITER<TAB>NUMBER				(number of iteration of track 'burns' during the write section of the ATI test)
+# ATIBURNITERRRT<TAB>NUMBER				(number of iteration of track 'burns' during the write section of the ATI test - *RRT only*)
+# ATIIGNORECHECKS<TAB>ON				(or OFF - ignore partition checking - not recommended!)
+# ATIDISABLEWRITECACHE<TAB>ON			(or OFF - normally ON, per spec. This causes the target device to disable write caching before the burn strip is written. Engineering use only!!)
+# THROTTLINGSAMPLESIZE<TAB>INTEGER		(sample write size in megabytes - Throttling Test)
+# UNTHROTTLEDMARGIN<TAB>PERCENTAGE		(% margin from unthrottled throughput in which throttling is shown to have not occurred)
+# 50LOWERMARGIN<TAB>PERCENTAGE			(these next four params all specify the % upper and lower 'window' for throttling vs. unthrottled)
+# 50UPPERMARGIN<TAB>PERCENTAGE
+# 75LOWERMARGIN<TAB>PERCENTAGE
+# 75UPPERMARGIN<TAB>PERCENTAGE
+# RMBFAILALLOW<TAB>NUMBER				(normally zero. The number of fails to accept before flagging the test as having failed)
+# RMBCONTONFAIL<TAB>ON					(or OFF	- AppleCare only. Continue on fail for Random Multiblock fails)
+# KEEPAWAKE<TAB>ON						(or OFF) - keep the target device awake during thermal throttling test. This is to prevent the device from slipping into low power mode.
+# LOGRANDOM<TAB>ON						(or OFF) - log the random data used by the throttling test to a log file for analysis. These can be 100MB+, so use with care!
+# BINS<TAB>NUMBER<TAB>NUMBER<TAB>NUMBER<TAB>NUMBER<TAB>NUMBER<TAB>NUMBER<TAB>NUMBER<TAB>NUMBER
+# END
+#
+# Parameters for Hard-Disk Drives
+DEVICE="HDD"
+RETRY	ON
+JOURNAL	OFF
+MRI	OFF
+FREEZE	OFF
+SLOWIGNORE	OFF
+SLOWALLOW	2
+LOWERLIMIT	12
+UPPERLIMIT	0
+AHCIRETRYLIMIT	0
+AHCITIMEOUTLIMIT	0
+STRESSRUNTIME	20
+ATIBLOCKCOUNT	1024
+ATIBURNITER	100000
+ATIBURNITERRRT	500000
+ATIIGNORECHECKS	OFF
+ATIDISABLEWRITECACHE	ON
+THROTTLINGSAMPLESIZE	2400
+UNTHROTTLEDMARGIN	10.0
+50LOWERMARGIN	30.0
+50UPPERMARGIN	70.0
+75LOWERMARGIN	0.0
+75UPPERMARGIN	45.0
+RMBFAILALLOW	4
+RMBCONTONFAIL	ON
+KEEPAWAKE	OFF
+LOGRANDOM	OFF
+BINS	2	3	5	10	12	15	20	25	30
+END
+# Parameters for Solid-State Devices
+DEVICE="SSD"
+RETRY	ON
+JOURNAL	OFF
+MRI	OFF
+FREEZE	OFF
+SLOWIGNORE	OFF
+SLOWALLOW	8
+LOWERLIMIT	90
+UPPERLIMIT	400
+AHCIRETRYLIMIT	0
+AHCITIMEOUTLIMIT	0
+ATIBLOCKCOUNT	1024
+STRESSRUNTIME	20
+ATIBURNITER	100000
+ATIBURNITERRRT	500000
+ATIIGNORECHECKS	OFF
+ATIDISABLEWRITECACHE	ON
+THROTTLINGSAMPLESIZE	2400
+UNTHROTTLEDMARGIN	10.0
+50LOWERMARGIN	30.0
+50UPPERMARGIN	70.0
+75LOWERMARGIN	0.0
+75UPPERMARGIN	45.0
+RMBFAILALLOW	4
+RMBCONTONFAIL	ON
+KEEPAWAKE	ON
+LOGRANDOM	OFF
+BINS	15	21	30	42	60	90	120	150	180
+END

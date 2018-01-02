@@ -1,0 +1,48 @@
+Request URL:https://play.google.com/log?format=json&authuser=0
+Request Method:POST
+Status Code:200 
+Remote Address:172.217.2.174:443
+Referrer Policy:no-referrer-when-downgrade
+Response Headers
+access-control-allow-credentials:true
+access-control-allow-headers:X-Playlog-Web
+access-control-allow-origin:https://myaccount.google.com
+alt-svc:quic=":443"; ma=2592000; v="39,38,37,35"
+cache-control:private
+content-encoding:gzip
+content-length:114
+content-type:text/plain; charset=UTF-8
+date:Sat, 30 Sep 2017 09:10:22 GMT
+expires:Sat, 30 Sep 2017 09:10:22 GMT
+server:Playlog
+set-cookie:SIDCC=AE4kn7-5XwQuiKUrJ0oROBQStYjrRSxlmTB3d-Z0ICIjzu8qqptJ8536pDLbabnxYyFKPR935nRlSELMvzlY; expires=Fri, 29-Dec-2017 09:10:22 GMT; path=/; domain=.google.com; priority=high
+status:200
+x-frame-options:SAMEORIGIN
+x-xss-protection:1; mode=block
+Request Headers
+:authority:play.google.com
+:method:POST
+:path:/log?format=json&authuser=0
+:scheme:https
+accept:*/*
+accept-encoding:gzip, deflate, br
+accept-language:en-US,en;q=0.8
+authorization:SAPISIDHASH 3293f3de08ea1e5c560c6946428494ec2a7149f8
+content-length:762
+content-type:application/x-www-form-urlencoded;charset=UTF-8
+cookie:_ga=GA1.3.49886876.1493503143; PLAY_ACTIVE_ACCOUNT=ICrt_XL61NBE_S0rhk8RpG0k65e0XwQVdDlvB6kxiQ8=transform.interactive@gmail.com; PLAY_PREFS=CvcKCNeQ486IChLtCgoCQ0EQiejgju0rGq4KEhMVGPEBrwLhA8IExASBBYwF4wXlBegF1waQlYEGkZWBBpKVgQaVlYEGl5WBBqSVgQa3lYEGuJWBBsCVgQbBlYEGxJWBBsWVgQbIlYEGyZWBBsyVgQbOlYEG0JWBBtSVgQbYlYEG3ZWBBvGVgQb4lYEG-5WBBvyVgQaAloEGhpaBBomWgQaKloEGjpaBBpGWgQahloEGopaBBqOWgQakloEG7peBBu-XgQaFmIEGiZiBBoqYgQaLmIEGvpiBBombgQarm4EGrZuBBsmbgQbKm4EGy5uBBtWbgQa8nYEG3Z2BBt6dgQbnnYEGkJ6BBuKigQbzooEG_KKBBoujgQabo4EGmqSBBp6kgQaypIEG6qWBBsamgQbUpoEG1aaBBtamgQb-poEGgKeBBoKngQaEp4EGhqeBBoingQaKp4EG8qiBBvSogQa8rIEGyK-BBtavgQbBsIEGh7KBBomygQbWsoEGybOBBrG0gQbWuYEGjsCBBqLAgQbAwIEG8sCBBsHBgQbWwoEGjMWBBo_FgQbKxoEGy8aBBvjHgQaqyoEG2MyBBtzMgQbdzYEGhs6BBqHPgQbE0oEGldWBBtrYgQbi2IEGk9mBBsvZgQby24EG2OSBBtzkgQaX5YEGuOiBBs_rgQaw7IEG1_WBBrr7gQaw_4EGsf-BBsP_gQbG_4EGx_-BBsj_gQbVg4IGyISCBt6Fgga5hoIGpoeCBqeHggbsh4IG7YeCBvuNggaJjoIGj5GCBsyRggaVmIIGtpmCBr2ZggaPmoIGmZqCBsGaggb3moIGnZ6CBtWegga6oIIGu6CCBvaiggbipIIGkqWCBqulggbNpYIG8qeCBp6ogga0qIIGgbSCBoO0ggaGtIIGrbaCBrG7ggbCu4IG8b6CBom_ggaPv4IG6sCCBrzBggbnyYIGkMuCBpHLggbNy4IG0cuCBtzMggbY0IIG89GCBtvTggaC1YIGgdiCBpvYggaE2oIGjtqCBpraggaj2oIGrduCBq7bggbF24IGltyCBrHcggbq3YIG-N2CBoneggbk34IG79-CBqbhggbQ4YIG0eGCBuXhggam5oIG2uaCBofoggaW6YIGhuuCBqPtggaF7oIGnu6CBp_uggaz7oIGjPCCBrHwggaW8YIGn_GCBr7xggbr9oIGrfiCBrP4ggb2-oIG3vuCBuP7ggaE_IIGhfyCBtv8ggbc_IIG3fyCBqz9gga3_YIGgf-CBoCAgwbcgYMG8oGDBuOEgwbohIMGkIWDBp2IgwariIMG0IiDBvCIgwbzjYMGhY-DBpCPgwbNkIMG3ZCDBtmRgwb9kYMGuJWDBqOWgwbAloMG1ZaDBuSWgwbcl4MG7ZmDBvKZgwb0mYMG2pqDBo2bgwaQm4MGmZuDBt2cgwaMnYMG9J6DBpWfgwain4MGxp-DBtOfgwaboIMGn6CDBrOggwb9oIMGl6GDBsyhgwbNoYMGzqKDBuWigwbtooMG96KDBrmjgwagpIMG3KWDBsungwbsqIMG86iDBoCsgwaHrIMGo6yDBqOugwa_roMG-6-DBv2vgwaWsIMGsLCDBpSxgwaxsYMGubGDBr2xgwa2tIMGu7SDBtC1gwbgtoMGhreDBqS3gwbzt4MG97eDBqS4gwauuIMGuLiDBsO4gwbduIMGv7uDBtq8gwbwvIMG9byDBrC-gwa-voMG57-DBtfAgwbCwYMG0MGDBu7Bgwb6wYMGjsODBqDDgwavxIMGjsWDBsDIgwbRyIMGi8qDBpzKgwaPy4MGKJjo4I7tKzokMjk0NzQ2MzAtMWZjNi00MjE1LWEzNWEtYTk2OTFiOWNhZDIwQAFIAA:S:ANO1ljIXJbNBrJ8tlQ; NID=113=avBEQz2Au_krBkcUXipTxpnEaXYPPRh2z85i4cNPYEHHgzb-9Wtj71Fo3A37Eevuh3_bG2DPNU65vNEq876No3LXnsajqixrwVmYrRseHxgirydI9ODhqt2QtDs20rVnf1patAKL2lEXDXMkGrboBMP7l7rWKTAU_EeVLMEizBmw5yQ8n74e7hD03Cjdd54pIpha3cK66_rAOcNmGwSotthFt-Gg8WAi80QaO_rKUOfVvBXZLQ-do5I25xJ7fMMo-Pm__4wInLx0DFOUUrshFgP41a8Q1xeWDXUSIw; SID=OgVXyH95iC5CzX9cgha_xJvOnqYdvzB0M3IHw5k3aQKnHC_zRfWGslqn8gws0Ou7NkN8EA.; HSID=ATnannV10rjxSQi2G; SSID=ATt6XrUW9PhjBFqnE; APISID=wkbId-b5djCZkpZT/AhDEvFH652uroNqsl; SAPISID=G5iE5LCG5oR1MhAl/A3zihOLsErBq3IZXr; 1P_JAR=2017-9-30-9; SIDCC=AE4kn78lcdfTqIq3yCUS9TbdHV3ELAnEBAxd2ZeB6MCcXNUrc0W5wk40-pKurF1ZkMf2JOyBD7WmppyEoJqH
+origin:https://myaccount.google.com
+referer:https://myaccount.google.com/secureaccount
+user-agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+x-chrome-uma-enabled:1
+x-client-data:CIy2yQEIorbJAQjEtskBCMeKygEI+pzKAQipncoB
+x-goog-authuser:0
+Query String Parameters
+view source
+view URL encoded
+format:json
+authuser:0
+Form Data
+view source
+view URL encoded
+[[1,null,null,null,null,null,null,null,["en-US","chrome","57.0.2987.133"],null,[null,"10.12.6",3,null,"en",1]],407,[["1506762621040",null,[],null,null,null,null,"[192,1506762621040000,\"!z8ylzO1CF5gzBNbSeWhE2eKoc6qjqNMCAAAAKlIAAAAECgAWLpSofe3xlOxioO81ifIF9q22EHbab5kBCo5wuz_0OeMzupC_9WaO3RZk471Qmx7sc25zUr-hDWNZvROKp5vthZVHNWSUUNzypH0a9PaNeOIoQMSNazm8jKHRX83sXUuL7DrWG4WCt_Y8vrCKuFthb_C_VnkXMbNGeLE-q1BwEvdUfr6KTqHAgpgIabYduY6zLpKBVw6CNPKJhq5rM3_qayoU-7Fni-wbG0-1cKJREEuYfQg65-6cNVjePBO0UsTCMdsAoOq0zJYHGX9i9HKkpt0ZeExNvBBJS2MK32rVStITxSxVE2unOx2i0KEo_TXc1MoPoxHXujzeaB6aJul-h4MH9AmTu9z2304j7uGuz1U1b410vMnIUAEuKZQ4ieGO0xoj\",1749302029]",null,null,null,null,null,null,null,null,null,null,null,[],3]],"1506762621040",[],null,null,null,null,null,null,null,null,0]:

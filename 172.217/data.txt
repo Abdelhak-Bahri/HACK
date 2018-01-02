@@ -1,0 +1,54 @@
+Request URL:https://notifications.google.com/u/0/_/NotificationsOgbUi/data?ds.extension=116208916&f.sid=5364257622990364689&hl=en&soc-app=208&soc-platform=1&soc-device=1&_reqid=18327&rt=c
+Request Method:POST
+Status Code:200 
+Remote Address:172.217.0.238:443
+Referrer Policy:origin
+Response Headers
+alt-svc:quic=":443"; ma=2592000; v="39,38,37,35"
+cache-control:no-cache, no-store, max-age=0, must-revalidate
+content-disposition:attachment; filename="response.bin"; filename*=UTF-8''response.bin
+content-encoding:gzip
+content-type:application/json; charset=utf-8
+date:Sat, 30 Sep 2017 09:05:26 GMT
+expires:Mon, 01 Jan 1990 00:00:00 GMT
+pragma:no-cache
+server:ESF
+set-cookie:SIDCC=AE4kn7_SOzCX3wzxxhC3MmlROl0yNO3R6zhw0tHHFH7tCrdXVnwf-vD56pmTouB-VnESCSFH7k5zO-VexvN-; expires=Fri, 29-Dec-2017 09:05:26 GMT; path=/; domain=.google.com; priority=high
+status:200
+x-content-type-options:nosniff
+x-frame-options:SAMEORIGIN
+x-xss-protection:1; mode=block
+Request Headers
+:authority:notifications.google.com
+:method:POST
+:path:/u/0/_/NotificationsOgbUi/data?ds.extension=116208916&f.sid=5364257622990364689&hl=en&soc-app=208&soc-platform=1&soc-device=1&_reqid=18327&rt=c
+:scheme:https
+accept:*/*
+accept-encoding:gzip, deflate, br
+accept-language:en-US,en;q=0.8
+content-length:152
+content-type:application/x-www-form-urlencoded;charset=UTF-8
+cookie:OSID=cgRXyLBHqdrCxrlBRlQNztEkJavCt_QYBe-7GNlz-Yk49D2Xle3uvXVSSjnkCTAG45VyEQ.; OTZ=4073590_72_76_104100_72_446760; NID=113=avBEQz2Au_krBkcUXipTxpnEaXYPPRh2z85i4cNPYEHHgzb-9Wtj71Fo3A37Eevuh3_bG2DPNU65vNEq876No3LXnsajqixrwVmYrRseHxgirydI9ODhqt2QtDs20rVnf1patAKL2lEXDXMkGrboBMP7l7rWKTAU_EeVLMEizBmw5yQ8n74e7hD03Cjdd54pIpha3cK66_rAOcNmGwSotthFt-Gg8WAi80QaO_rKUOfVvBXZLQ-do5I25xJ7fMMo-Pm__4wInLx0DFOUUrshFgP41a8Q1xeWDXUSIw; SID=OgVXyH95iC5CzX9cgha_xJvOnqYdvzB0M3IHw5k3aQKnHC_zRfWGslqn8gws0Ou7NkN8EA.; HSID=ATnannV10rjxSQi2G; SSID=ATt6XrUW9PhjBFqnE; APISID=wkbId-b5djCZkpZT/AhDEvFH652uroNqsl; SAPISID=G5iE5LCG5oR1MhAl/A3zihOLsErBq3IZXr; 1P_JAR=2017-9-30-9; SIDCC=AE4kn7-dIgxNz3AcH3aEktJcDwpRpN0kZmx3E6Ahci08s4pNw0gtpof8c3wP9zRHxIuhAhp9hz7TYcDh2qCI
+origin:https://notifications.google.com
+referer:https://notifications.google.com/
+user-agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+x-chrome-uma-enabled:1
+x-client-data:CIy2yQEIorbJAQjEtskBCMeKygEI+pzKAQipncoB
+x-same-domain:1
+Query String Parameters
+view source
+view URL encoded
+ds.extension:116208916
+f.sid:5364257622990364689
+hl:en
+soc-app:208
+soc-platform:1
+soc-device:1
+_reqid:18327
+rt:c
+Form Data
+view source
+view URL encoded
+f.req:[[[116208916,[{"116208916":[[1]]}],null,null,0]]]
+at:ANFJoT7YMoK73mN3P2ae3UWLtsjzRiwywA:1506758772466
+(empty)

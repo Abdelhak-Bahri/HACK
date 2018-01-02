@@ -1,0 +1,92 @@
+cwd
+/
+txt
+/System/Library/Frameworks/AppKit.framework/Versions/C/XPCServices/com.apple.appkit.xpc.openAndSavePanelService.xpc/Contents/MacOS/com.apple.appkit.xpc.openAndSavePanelService
+txt
+/usr/share/icu/icudt57l.dat
+txt
+/System/Library/CoreServices/SystemAppearance.bundle/Contents/Resources/SystemAppearance.car
+txt
+/System/Library/CoreServices/SystemAppearance.bundle/Contents/Resources/GraphiteAppearance.car
+txt
+/System/Library/Caches/com.apple.IntlDataCache.le.kbdx
+txt
+/System/Library/Keyboard Layouts/AppleKeyboardLayouts.bundle/Contents/Resources/AppleKeyboardLayouts-L.dat
+txt
+/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Resources/Extras2.rsrc
+txt
+/Volumes/Macintosh HD/Users/shanemcconnell/Library/Application Support/CloudDocs/session/containers/VE8FC488U5.com.panic.Coda.plist
+txt
+/Volumes/Macintosh HD/Users/shanemcconnell/Library/Application Support/CloudDocs/session/containers/com.apple.Preview.plist
+txt
+/Volumes/Macintosh HD/Users/shanemcconnell/Library/Application Support/CloudDocs/session/containers/iCloud.com.panic.iOS.Transmit.plist
+txt
+/System/Library/PrivateFrameworks/FinderKit.framework/Versions/A/Resources/Assets.car
+txt
+/private/var/folders/47/jy7qwsq53ss2bpr5m3zlgpmw0000gn/0/com.apple.LaunchServices-175-v2.csstore
+txt
+/System/Library/CoreServices/SystemAppearance.bundle/Contents/Resources/Assets.car
+txt
+/System/Library/Fonts/SFNSText.ttf
+txt
+/System/Library/CoreServices/SystemAppearance.bundle/Contents/Resources/VibrantLightAppearance.car
+txt
+/System/Library/Fonts/SFNSDisplay.ttf
+txt
+/System/Library/Fonts/Helvetica.dfont
+txt
+/Volumes/Macintosh HD/Applications/TextEdit.app/Contents/Resources/Edit.icns
+txt
+/private/var/folders/47/jy7qwsq53ss2bpr5m3zlgpmw0000gn/C/com.apple.iconservices/store.index
+txt
+/System/Library/Extensions/AppleIntelHD4000GraphicsGLDriver.bundle/Contents/MacOS/AppleIntelHD4000GraphicsGLDriver
+txt
+/System/Library/Extensions/AppleIntelHD4000GraphicsMTLDriver.bundle/Contents/MacOS/AppleIntelHD4000GraphicsMTLDriver
+txt
+/private/var/folders/47/jy7qwsq53ss2bpr5m3zlgpmw0000gn/C/com.apple.TextEdit/com.apple.metal/libraries.data
+txt
+/private/var/folders/47/jy7qwsq53ss2bpr5m3zlgpmw0000gn/C/com.apple.TextEdit/com.apple.metal/Intel HD Graphics 4000/functions.data
+txt
+/usr/lib/libgermantok.dylib
+txt
+/System/Library/LinguisticData/Latn/Dict2.dat
+txt
+/System/Library/Frameworks/Security.framework/Versions/A/PlugIns/csparser.bundle/Contents/MacOS/csparser
+txt
+/private/var/db/mds/messages/se_SecurityMessages
+txt
+/System/Library/PrivateFrameworks/CoreNLP.framework/Versions/A/CoreNLP
+txt
+/System/Library/PrivateFrameworks/CoreNLP.framework/Versions/A/Resources/tokruleLE.data
+txt
+/System/Library/LinguisticData/Latn/Dict1.dat
+txt
+/System/Library/PrivateFrameworks/DataDetectorsCore.framework/Versions/A/Resources/com.apple.datadetectorscore.cache.urlifier.system
+txt
+/usr/share/langid/langid.inv
+txt
+/usr/share/germantok/german.index
+txt
+/usr/lib/dyld
+txt
+/private/var/db/dyld/dyld_shared_cache_x86_64
+0
+/dev/null
+1
+/dev/null
+2
+/dev/null
+3
+/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Resources/Extras2.rsrc
+4
+/Volumes/Macintosh HD/Applications/TextEdit.app/Contents/MacOS/TextEdit
+5
+/private/var/folders/47/jy7qwsq53ss2bpr5m3zlgpmw0000gn/C/com.apple.TextEdit/com.apple.metal/libraries.maps
+6
+/private/var/folders/47/jy7qwsq53ss2bpr5m3zlgpmw0000gn/C/com.apple.TextEdit/com.apple.metal/libraries.data
+7
+/private/var/folders/47/jy7qwsq53ss2bpr5m3zlgpmw0000gn/C/com.apple.TextEdit/com.apple.metal/Intel HD Graphics 4000/functions.maps
+8
+/private/var/folders/47/jy7qwsq53ss2bpr5m3zlgpmw0000gn/C/com.apple.TextEdit/com.apple.metal/Intel HD Graphics 4000/functions.data
+9
+->0x141a29ae6d6fdfd3

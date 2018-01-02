@@ -1,0 +1,130 @@
+cwd
+/
+txt
+/Volumes/Macintosh HD/Applications/Utilities/Console.app/Contents/MacOS/Console
+txt
+/System/Library/CoreServices/SystemAppearance.bundle/Contents/Resources/SystemAppearance.car
+txt
+/System/Library/CoreServices/SystemAppearance.bundle/Contents/Resources/GraphiteAppearance.car
+txt
+/System/Library/CoreServices/SystemAppearance.bundle/Contents/Resources/Assets.car
+txt
+/System/Library/Fonts/SFNSText.ttf
+txt
+/usr/lib/dyld
+txt
+/usr/share/icu/icudt57l.dat
+txt
+/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Resources/Extras2.rsrc
+txt
+/System/Library/Fonts/Helvetica.dfont
+txt
+/System/Library/CoreServices/SystemAppearance.bundle/Contents/Resources/VibrantLightAppearance.car
+txt
+/System/Library/Frameworks/AppKit.framework/Versions/C/Resources/Assets.car
+txt
+/System/Library/Extensions/AppleIntelHD4000GraphicsMTLDriver.bundle/Contents/MacOS/AppleIntelHD4000GraphicsMTLDriver
+txt
+/private/var/folders/47/jy7qwsq53ss2bpr5m3zlgpmw0000gn/0/com.apple.LaunchServices-175-v2.csstore
+txt
+/System/Library/Extensions/AppleIntelHD4000GraphicsGLDriver.bundle/Contents/MacOS/AppleIntelHD4000GraphicsGLDriver
+txt
+/System/Library/Caches/com.apple.IntlDataCache.le.kbdx
+txt
+/private/var/folders/47/jy7qwsq53ss2bpr5m3zlgpmw0000gn/C/com.apple.Console/com.apple.metal/Intel HD Graphics 4000/functions.data
+txt
+/private/var/folders/47/jy7qwsq53ss2bpr5m3zlgpmw0000gn/C/com.apple.Console/com.apple.metal/libraries.data
+txt
+/private/var/folders/47/jy7qwsq53ss2bpr5m3zlgpmw0000gn/C/com.apple.Console/com.apple.metal/NVIDIA GeForce GT 650M/functions.data
+txt
+/Volumes/Macintosh HD/Applications/Utilities/Console.app/Contents/Resources/UpArrow.tiff
+txt
+/Volumes/Macintosh HD/Applications/Utilities/Console.app/Contents/Resources/DownArrow.tiff
+txt
+/Volumes/Macintosh HD/Applications/Utilities/Console.app/Contents/Resources/Reload.tiff
+txt
+/Volumes/Macintosh HD/Applications/Utilities/Console.app/Contents/Resources/Mark.tiff
+txt
+/Volumes/Macintosh HD/Applications/Utilities/Console.app/Contents/Resources/English.lproj/MessageItemCellViewPrototype1.nib
+txt
+/Volumes/Macintosh HD/Applications/Utilities/Console.app/Contents/Resources/TopsShow.tiff
+txt
+/Volumes/Macintosh HD/Applications/Utilities/Console.app/Contents/Resources/IgnoreList.tiff
+txt
+/Volumes/Macintosh HD/Applications/Utilities/Console.app/Contents/Resources/TopsHide.tiff
+txt
+/System/Library/Fonts/Menlo.ttc
+txt
+/System/Library/CoreServices/SystemAppearance.bundle/Contents/Resources/DarkAppearance.car
+txt
+/Volumes/Macintosh HD/Applications/Utilities/Console.app/Contents/Resources/Clear.tiff
+txt
+/System/Library/Keyboard Layouts/AppleKeyboardLayouts.bundle/Contents/Resources/AppleKeyboardLayouts-L.dat
+txt
+/Volumes/Macintosh HD/Applications/Utilities/Console.app/Contents/Resources/ActivityMonitor.icns
+txt
+/Volumes/Macintosh HD/Applications/Utilities/Console.app/Contents/Resources/Terminal.icns
+txt
+/Volumes/Macintosh HD/Applications/Utilities/Console.app/Contents/Resources/attachment.tiff
+txt
+/private/var/folders/47/jy7qwsq53ss2bpr5m3zlgpmw0000gn/C/com.apple.iconservices/store.index
+txt
+/Library/Caches/com.apple.iconservices.store/22DD77DF-A536-2096-B913-5CEC54500801.isdata
+txt
+/Volumes/Macintosh HD/Applications/Utilities/Console.app/Contents/Resources/Placeholder.tiff
+txt
+/private/var/db/dyld/dyld_shared_cache_x86_64
+0
+/dev/null
+1
+/dev/null
+2
+/dev/null
+3
+/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Resources/Extras2.rsrc
+4
+/System/Library/Extensions/GeForceMTLDriver.bundle/Contents/Resources/internal.metallib
+5
+/private/var/folders/47/jy7qwsq53ss2bpr5m3zlgpmw0000gn/C/com.apple.Console/com.apple.metal/libraries.maps
+6
+/private/var/folders/47/jy7qwsq53ss2bpr5m3zlgpmw0000gn/C/com.apple.Console/com.apple.metal/libraries.data
+7
+/private/var/folders/47/jy7qwsq53ss2bpr5m3zlgpmw0000gn/C/com.apple.Console/com.apple.metal/NVIDIA GeForce GT 650M/functions.maps
+8
+/private/var/folders/47/jy7qwsq53ss2bpr5m3zlgpmw0000gn/C/com.apple.Console/com.apple.metal/NVIDIA GeForce GT 650M/functions.data
+9
+/Volumes/Macintosh HD/Applications/Utilities/Console.app/Contents/Resources/ASLQueries/All Messages.aslquery
+10
+/private/var/log/DiagnosticMessages
+11
+/Volumes/Macintosh HD/Users/shanemcconnell/Library/Logs/DiagnosticReports
+12
+/Library/Logs/DiagnosticReports
+13
+/private/var/folders/47/jy7qwsq53ss2bpr5m3zlgpmw0000gn/C/com.apple.Console/com.apple.metal/Intel HD Graphics 4000/functions.maps
+14
+/private/var/folders/47/jy7qwsq53ss2bpr5m3zlgpmw0000gn/C/com.apple.Console/com.apple.metal/Intel HD Graphics 4000/functions.data
+15
+/private/var/log/system.log
+16
+/Volumes/Macintosh HD/Users/shanemcconnell/Library/Logs
+17
+/Library/Logs
+18
+/private/var/log
+19
+->0x141a29ae6e4a93cb
+20
+->0x141a29ae6e4a6ccb
+21
+->0x141a29ae6e4a93cb
+22
+/Volumes/Macintosh HD/Users/shanemcconnell/Library/Saved Application State/com.apple.Console.savedState/data.data
+23
+/Volumes/Macintosh HD/Users/shanemcconnell/Library/Saved Application State/com.apple.Console.savedState/windows.plist
+24
+/Volumes/Macintosh HD/Users/shanemcconnell/Library/Saved Application State/com.apple.Console.savedState/window_3.data
+25
+/Volumes/Macintosh HD/Users/shanemcconnell/Library/Saved Application State/com.apple.Console.savedState/window_1.data
+26
+/Volumes/Macintosh HD/Users/shanemcconnell/Library/Saved Application State/com.apple.Console.savedState/window_2.data

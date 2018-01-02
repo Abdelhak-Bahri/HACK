@@ -1,0 +1,1000 @@
+GET /Docsis_system.php HTTP/1.1
+Host: 192.168.0.1
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/604.3.2 (KHTML, like Gecko)
+Accept-Language: en-ca
+DNT: 1
+Accept-Encoding: gzip, deflate
+
+HTTP/1.1 200 OK
+X-Powered-By: PHP/5.4.35
+Set-Cookie: PHPSESSID=n8ko1pool2dhtt8sul6m5jn395; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-type: text/html
+Transfer-Encoding: chunked
+Date: Tue, 03 Oct 2017 17:14:37 GMT
+Server: lighttpd
+
+1f00
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<META http-equiv="Pragma" CONTENT="no-cache">
+		<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+		<LINK REL="stylesheet" TYPE="text/css" id="webframe" HREF="cmn/css/webframe.css">
+		<script src="./cmn/js/utilityFunctions.js"></script>
+		<script src="./i18n/i18nReader.php?lang=en"></script>
+		
+		<script src="./cmn/js/lib/jquery-1.9.1.js"></script>
+		<script src="./cmn/js/lib/jquery-migrate-1.2.1.js"></script>
+		<script src="./cmn/js/lib/jquery.validate.js"></script>
+		<script src="./cmn/js/lib/jquery.alerts.js"></script>
+		<script src="./cmn/js/lib/jquery.alerts.progress.js"></script>
+		<script src="./cmn/js/lib/jquery.ciscoExt.js"></script>
+		<script src="./cmn/js/lib/jquery.virtualDialog.js"></script>
+
+		<!--monitor user's click event to see if user is active-->
+		<script>
+		$(document).ready(function() {
+			var timoutValue = "900";
+			var jsInactTimeout = parseInt(timoutValue) * 1000;
+			initLabelForI18n();
+			//console.log("inactivity setup timer:",document.URL,jsInactTimeout);
+			
+			// jsInactTimeout = 5000;	// 5 seconds debug
+			var h_timer = null;
+			$(document).click(function() {
+				// do not handle click if no-login for GA
+				if ("" == "") {
+					return;
+				}			
+			
+				// do not handle click event when count-down show up
+				if ($("#count_down").length > 0) {
+					return;
+				}
+				// console.log(h_timer);
+				
+				clearTimeout(h_timer);
+				h_timer = setTimeout(function(){
+					var cnt		= 60;
+					var h_cntd  = setInterval(function(){
+						$("#count_down").text(--cnt);
+						// (1)stop counter when less than 0, (2)hide warning when achieved 0, (3)add another alert to block user action if network unreachable
+						if (cnt<=0) {
+							clearInterval(h_cntd);	
+							jAlert("You have been logged out due to inactivity!");
+							location.href="logout.php";
+						}
+					}, 1000);
+					// use jAlert instead of alert, or it will not auto log out untill OK pressed!
+					jAlert('Press <b>OK</b> to continue session. Otherwise you will be logged out in <span id="count_down" style="font-size: 200%; color: red;">'+cnt+'</span> seconds!'
+					, 'You are being logged out due to inactivity!'
+					, function(){
+						clearInterval(h_cntd);
+					});
+				}
+				, jsInactTimeout);
+			}).trigger("click");
+			
+			
+			$.ajaxSetup({
+				beforeSend: function (jqXHR,settings) {
+					$.ajax({
+						url : "actionHandler/checkLogin.php",
+						async : false,
+						success : function (isLogin) {
+						  if (isLogin == "1") {
+							jqXHR.abort();
+							alert("Please Login First!");
+							location.href="index.php";
+						  };
+						},
+						beforeSend : function () {
+						}
+					});
+				}
+			});
+		});
+		</script>
+	</head>
+
+	<body class="BodyStyle">
+	    <div id="skip-to-links">
+		  <a href="#mainMenuDiv">Skip to main menu</a>
+		  <a href="#subMenuDiv">Skip to sub menu</a>
+		  <a href="#contentDiv">Skip to content</a>
+		</div>
+		<div class="BackgroundStyle">
+			<img width="100%" src="./cmn/img/pageBackground.jpg" alt="background image" />
+		</div>
+		
+		<div id="container">	<!--this is the main div-->
+		<div id="headDiv"><div id="logoDiv"><span><a class="imglink" target="_blank" href="http://www.cisco.com">
+			<img src="cmn/img/cisco_logo.png" title="Cisco Logo" alt="cisco" width="93px" height="59px"/></a></span></div><div id="modelDiv"><div class="modelContainer"><span>Cisco DPC3848 DOCSIS 3.0 Gateway</span><span class="productName">DPC3848</span></div></div><div id="menuDiv"><div id="mainMenuDiv"><div class="mainMenuContainer"><div class="mainMenuBg"></div><table><tr><td><a href="Docsis_system.php" tabindex="0" class="link_tab current"><span><script>document.write(vstatus);</script></span></a></td></tr></table></div></div><div id="subMenuDiv"><div class="subMenuContainer"><ul class="layout_list"><li><a href="Docsis_system.php" tabindex="0" class="link_tab current"><span><script>document.write(vcable3);</script></span></a></li></ul></div></div></div></div>		<div id="contentDiv" tabindex="-1">
+			
+
+
+<script>
+	setTitle(vt_docsystem);
+	var cableStatus = "OPERATIONAL";
+	function LanguageChange()
+	{   
+		var cf = document.forms[0]; 
+		var lang = cf.LanguageSelect.value;
+		document.cookie = "lang="+lang;
+		location.reload();
+	}
+	
+	$(document).ready(function() {
+		RefreshScrn(180000);
+
+		var lang = "en";
+		$("#LanguageSelect option[value='"+lang+"']").prop("selected",true);
+
+		if ("" == "") {
+			$(".login").show();
+		}
+	});
+</script>
+
+<style>
+.std input, select {
+	margin: 3px;
+}
+.top-margin {
+	
+	margin-top: 50px;
+}
+</style>
+
+<table class="Top">
+	<tr>
+		<td colspan="2" class="Top1"></td>
+		<td colspan="2" class="Top2"></td>
+	</tr>
+</table>
+<form action="check.php" method="post" id="pageForm">
+<!-- Data Table -->
+<table class="dataTable">
+	<tr>
+		<td>
+			<table class="nav paramTable login" style="display:none;">
+				<tr>
+					<td class="bwhead">
+						<script >dw(vlogin);</script>
+					</td>
+					<td class="bwhead1">&nbsp;</td>
+					<td class="nav1">&nbsp;</td>
+				</tr>
+				<tr height="3px">
+					<td class="Item1"></td>
+					<td class="Item2"></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td class="Item1"> </td>
+					<td class="Item2"> </td>
+					<td class="Item3">
+						<table class="std" WIDTH="206">
+							<tr>
+								<td nowrap>
+									<label  for="username_login" ><script >dw(vusername);</script></label>
+								</td>
+								<td nowrap>
+									<input type="text" name="username_login" id="username_login" value="" />
+								</td>
+							</TR>
+							<tr>
+								<td nowrap>
+									<label  for="password_login" ><script >dw(vpasswd);</script></label>
+								</td>
+								<td nowrap>
+									<input type="password" name="password_login" id="password_login" value="" />
+								</td>
+							</TR>
+							<tr>
+								<td nowrap width="118">
+									<label for="LanguageSelect"><script >dw(v_Language_Selection);</script></label>
+								</td>
+								<td nowrap>
+									<select id="LanguageSelect" name="LanguageSelect" onchange="LanguageChange()">
+										<option id='English' value='en'> <script>dw(v_lang_en)</script></option>
+										<option id='French' value='fr'>  <script>dw(v_lang_fr)</script></option>
+										<option id='Spanish' value='es'> <script>dw(v_lang_es)</script></option>
+										<option id='German' value='de'>  <script>dw(v_lang_de)</script></option>
+										<option id='Japanese' value='ja'><script>dw(v_lang_ja)</script></option>
+									</select>
+								</td>
+							</TR>					
+							<tr>
+								<td colspan="2" align="right">
+									<script >showSubmit("login", vlogin, "");</script>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr id="i_HR1">
+					<td class="Item1">&nbsp;</td>
+					<td class="Item2"></td>
+					<td><hr class="std"></td>
+				</tr>
+			</table>			
+			<!-- Modem Information Start -->
+			<table class="nav paramTable bm_docsisWanAbout">
+				<tr>
+					<td class="bwhead">
+						<script>dw(vt_docsystem);</script>
+					</td>
+					<td class="bwhead1">&nbsp;</td>
+					<td class="nav1">&nbsp;</td>
+				</tr>
+				<tr height="3px">
+					<td class="Item1"></td>
+					<td class="Item2"></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td class="Item1"> </td>
+					<td class="Item2"> </td>
+					<td class="Item3">
+						<div class="fieldGroup">
+							<div class="fieldRow">
+								<div class="fieldLabel longLabel">
+									<script>dw(vmodel);</script>
+								</div>
+								<div class="fieldContent stdbold">
+									Cisco DPC3848								</div>
+							</div>
+							<div class="fieldRow">
+								<div class="fieldLabel longLabel">
+									<script>dw(vvendor);</script>
+								</div>
+								<div class="fi
+1ff8
+eldContent stdbold">
+									Cisco								</div>
+							</div>
+							<div class="fieldRow">
+								<div class="fieldLabel longLabel">
+									<script>dw(vhwrev);</script>
+								</div>
+								<div class="fieldContent stdbold">
+									2.0								</div>
+							</div>
+							<div class="fieldRow">
+								<div class="fieldLabel longLabel">
+									<script>dw(vserial);</script>
+								</div>
+								<div class="fieldContent stdbold">
+									271505662								</div>
+							</div>
+							<div class="fieldRow">
+								<div class="fieldLabel longLabel">
+									<script>dw(vmac1);</script>
+								</div>
+								<div class="fieldContent stdbold">
+									84:8d:c7:e8:6e:f5								</div>
+							</div>
+							<div class="fieldRow">
+								<div class="fieldLabel longLabel">
+									<script>dw(vbootloader);</script>
+								</div>
+								<div class="fieldContent stdbold">
+									3.4.20								</div>
+							</div>
+							<div class="fieldRow">
+								<div class="fieldLabel longLabel">
+									<script>dw(vfwname);</script>
+								</div>
+								<div class="fieldContent stdbold">
+									dpc3800-v303r2042162-160115a.p7b								</div>
+							</div>
+							<div class="fieldRow">
+								<div class="fieldLabel longLabel">
+									<script>dw(vfwbldtime);</script>
+								</div>
+								<div class="fieldContent stdbold">
+									01-15-2016  16:01:19								</div>
+							</div>
+							<div class="fieldRow">
+								<div class="fieldLabel longLabel">
+									<script>dw(vcmstatus);</script>
+								</div>
+								<div class="fieldContent stdbold">
+									<script>dw(cableStatus == "OPERATIONAL"? vcm_operational:vcm_notSynced)</script>
+								</div>
+							</div>
+	                         <div class="fieldRow">
+                                <div class="fieldLabel longLabel">
+                                    <script>dw(vt_wnet_colon);</script>
+                                </div>
+                                <div class="fieldContent stdbold">
+                                    <script>dw(vdisabled)</script>                                </div>
+                            </div>
+						</div>
+						<br/>
+					</td>
+				</tr>
+			</table>
+			<!-- Modem Information End -->
+			<table class="nav bm_docsisWanAbout">
+				<tr id="i_HR1">
+					<td class="Item1">&nbsp;</td>
+					<td class="Item2"></td>
+					<td><hr class="std"></td>
+				</tr>
+			</table>
+			<!-- Docsis Information Start -->
+			<table class="nav paramTable bm_docsisWanCmState">
+				<tr>
+					<td class="bwhead">
+						<script>dw(vcm_state);</script>
+					</td>
+					<td class="bwhead1">&nbsp;</td>
+					<td class="nav1">&nbsp;</td>
+				</tr>
+				<tr height="3px">
+					<td class="Item1"></td>
+					<td class="Item2"></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td class="Item1"> </td>
+					<td class="Item2"> </td>
+					<td class="Item3">
+						<div class="fieldGroup">
+							<div class="fieldRow">
+								<div class="fieldLabel longLabel">
+									<script>dw(vcm_state_ds);</script>
+								</div>
+								<div class="fieldContent stdbold">
+									<script>dw(vcompeleted)</script>								</div>
+							</div>
+							<div class="fieldRow">
+								<div class="fieldLabel longLabel">
+									<script>dw(vcm_state_us);</script>
+								</div>
+								<div class="fieldContent stdbold">
+									<script>dw(vcompeleted)</script>								</div>
+							</div>
+							<div class="fieldRow">
+								<div class="fieldLabel longLabel">
+									<script>dw(vcm_state_dhcp);</script>
+								</div>
+								<div class="fieldContent stdbold">
+									<script>dw(vcompeleted)</script>								</div>
+							</div>
+							<div class="fieldRow">
+								<div class="fieldLabel longLabel">
+									<script>dw(vcm_state_tftp);</script>
+								</div>
+								<div class="fieldContent stdbold">
+									<script>dw(vcompeleted)</script>								</div>
+							</div>
+							<div class="fieldRow">
+								<div class="fieldLabel longLabel">
+									<script>dw(vcm_state_reg);</script>
+								</div>
+								<div class="fieldContent stdbold">
+									<script>dw(vcompeleted)</script>								</div>
+							</div>
+							<div class="fieldRow">
+								<div class="fieldLabel longLabel">
+									<script>dw(vcm_state_privacy);</script>
+								</div>
+								<div class="fieldContent stdbold">
+									<script>dw(venabled)</script>								</div>
+							</div>
+						</div>
+						<br/>
+					</td>
+				</tr>
+			</table>
+			<!-- Docsis Information End -->
+			<table class="nav bm_docsisWanCmState">
+				<tr id="i_HR2">
+					<td class="Item1">&nbsp;</td>
+					<td class="Item2"></td>
+					<td><hr class="std"></td>
+				</tr>
+			</table>
+			<!-- Downstream Channel Information Start -->
+			<table class="nav paramTable bm_docsisWanDSChannel">
+				<tr>
+					<td class="bwhead">
+						<script>dw(vdsch);</script>
+					</td>
+					<td class="bwhead1">&nbsp;</td>
+					<td class="nav1">&nbsp;</td>
+				</tr>
+				<tr height="3px">
+					<td class="Item1"></td>
+					<td class="Item2"></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td class="Item1"> </td>
+					<td class="Item2"> </td>
+					<td class="Item3">
+						<table class="std" summary="this table shows downstream channel information">
+							<thead><tr><th align="left" id="ds_channel" width="140" nowrap><script>dw(vChannel);</script></th><th align="left" id="ds_power" width="140" class="stdbold" nowrap><script>dw(vch_pwr);</script></th><th align="left" id="ds_snr" class="stdbold" nowrap><script>dw(vdsch_snr);</script></th></tr></thead><tbody><tr><td headers="ds_channel" width="140" nowrap><script>dw(vs_channel);</script> 1<script>dw(vcolon);</script></td><td headers="ds_power" nowrap>2.000 <script>dw(vdbmv);</script></td><td headers="ds_snr" nowrap>40.36<script>dw(vdb);</script></td></tr><tr><td headers="ds_channel" width="140" nowrap><script>dw(vs_channel);</script> 2<script>dw(vcolon);</script></td><td headers="ds_power" nowrap>1.500 <script>dw(vdbmv);</script></td><td headers="ds_snr" nowrap>40.36<script>dw(vdb);</script></td></tr><tr><td headers="ds_channel" width="140" nowrap><script>dw(vs_channel);</script> 3<script>dw(vcolon);</script></td><td headers="ds_power" nowrap>1.900 <script>dw(vdbmv);</script></td><td headers="ds_snr" nowrap>40.94<script>dw(vdb);</script></td></tr><tr><td headers="ds_channel" width="140" nowrap><script>dw(vs_channel);</script> 4<script>dw(vcolon);</script></td><td headers="ds_power" nowrap>2.200 <script>dw(vdbmv);</script></td><td headers="ds_snr" nowrap>40.36<script>dw(vdb);</script></td></tr><tr><td headers="ds_channel" width="140" nowrap><script>dw(vs_channel);</script> 5<script>dw(vcolon);</script></td><td headers="ds_power" nowrap>-1.300 <script>dw(vdbmv);</script></td><td headers="ds_snr" nowrap>38.60<script>dw(vdb);</script></td></tr><tr><td headers="ds_channel" width="140" nowrap><script>dw(vs_channel);</script> 6<script>dw(vcolon);</script></td><td headers="ds_power" nowrap>2.100 <script>dw(vdbmv);</script></td><td headers="ds_snr" nowrap>40.36<script>dw(vdb);</script></td></tr><tr><td headers="ds_channel" width="140" nowrap><script>dw(vs_channel);</script> 7<script>dw(vcolon);</script></td><td headers="ds_power" nowrap>2.100 <script>dw(vdbmv);</script></td><td headers="ds_snr" nowrap>40.94<script>dw(vdb);</script></td></tr><tr><td headers="ds_channel" width="140" nowrap><script>dw(vs_channel);</script> 8<script>dw(vcolon);</script></td><td headers="ds_power" nowrap>2.200 <script>dw(vdbmv);</script></td><td headers="ds_snr" nowrap>40.36<script>dw(vdb);</script></td></tr><tr><td headers="ds_channel" width="140" nowrap><script>dw(vs_channel);</script> 9<script>dw(vcolon);</script></td><td headers="ds_power" nowrap>2.200 <script>dw(vdbmv);</script></td><td headers="ds_snr" nowrap>40.94<script>dw(vdb);</script></td></tr><tr><td headers="ds_channel" width="140" nowrap><script>dw(vs_channel);</script> 10<script>dw(vcolon);</script></td><td headers="ds_power" nowrap>2.400 <script>dw(vdbmv);</script></td><td headers="ds_snr" nowrap>40.94<script>dw(vdb);</script></td></tr><tr><td headers="ds_channel" width="140" nowrap><script>dw(vs_channel);</script> 11<script>dw(vcolon);</script></td><td headers="ds_power" nowrap>2.600 <script>dw(vdbmv);</script><
+1650
+/td><td headers="ds_snr" nowrap>40.36<script>dw(vdb);</script></td></tr><tr><td headers="ds_channel" width="140" nowrap><script>dw(vs_channel);</script> 12<script>dw(vcolon);</script></td><td headers="ds_power" nowrap>2.600 <script>dw(vdbmv);</script></td><td headers="ds_snr" nowrap>40.94<script>dw(vdb);</script></td></tr><tr><td headers="ds_channel" width="140" nowrap><script>dw(vs_channel);</script> 13<script>dw(vcolon);</script></td><td headers="ds_power" nowrap>2.600 <script>dw(vdbmv);</script></td><td headers="ds_snr" nowrap>40.36<script>dw(vdb);</script></td></tr><tr><td headers="ds_channel" width="140" nowrap><script>dw(vs_channel);</script> 14<script>dw(vcolon);</script></td><td headers="ds_power" nowrap>2.600 <script>dw(vdbmv);</script></td><td headers="ds_snr" nowrap>40.36<script>dw(vdb);</script></td></tr><tr><td headers="ds_channel" width="140" nowrap><script>dw(vs_channel);</script> 15<script>dw(vcolon);</script></td><td headers="ds_power" nowrap>2.600 <script>dw(vdbmv);</script></td><td headers="ds_snr" nowrap>40.94<script>dw(vdb);</script></td></tr><tr><td headers="ds_channel" width="140" nowrap><script>dw(vs_channel);</script> 16<script>dw(vcolon);</script></td><td headers="ds_power" nowrap>2.700 <script>dw(vdbmv);</script></td><td headers="ds_snr" nowrap>40.94<script>dw(vdb);</script></td></tr><tr><td headers="ds_channel" width="140" nowrap><script>dw(vs_channel);</script> 17<script>dw(vcolon);</script></td><td headers="ds_power" nowrap>2.700 <script>dw(vdbmv);</script></td><td headers="ds_snr" nowrap>40.36<script>dw(vdb);</script></td></tr><tr><td headers="ds_channel" width="140" nowrap><script>dw(vs_channel);</script> 18<script>dw(vcolon);</script></td><td headers="ds_power" nowrap>2.700 <script>dw(vdbmv);</script></td><td headers="ds_snr" nowrap>40.94<script>dw(vdb);</script></td></tr><tr><td headers="ds_channel" width="140" nowrap><script>dw(vs_channel);</script> 19<script>dw(vcolon);</script></td><td headers="ds_power" nowrap>2.600 <script>dw(vdbmv);</script></td><td headers="ds_snr" nowrap>40.36<script>dw(vdb);</script></td></tr><tr><td headers="ds_channel" width="140" nowrap><script>dw(vs_channel);</script> 20<script>dw(vcolon);</script></td><td headers="ds_power" nowrap>2.600 <script>dw(vdbmv);</script></td><td headers="ds_snr" nowrap>40.36<script>dw(vdb);</script></td></tr><tr><td headers="ds_channel" width="140" nowrap><script>dw(vs_channel);</script> 21<script>dw(vcolon);</script></td><td headers="ds_power" nowrap>2.600 <script>dw(vdbmv);</script></td><td headers="ds_snr" nowrap>40.36<script>dw(vdb);</script></td></tr><tr><td headers="ds_channel" width="140" nowrap><script>dw(vs_channel);</script> 22<script>dw(vcolon);</script></td><td headers="ds_power" nowrap>2.500 <script>dw(vdbmv);</script></td><td headers="ds_snr" nowrap>40.94<script>dw(vdb);</script></td></tr><tr><td headers="ds_channel" width="140" nowrap><script>dw(vs_channel);</script> 23<script>dw(vcolon);</script></td><td headers="ds_power" nowrap>2.300 <script>dw(vdbmv);</script></td><td headers="ds_snr" nowrap>40.36<script>dw(vdb);</script></td></tr><tr><td headers="ds_channel" width="140" nowrap><script>dw(vs_channel);</script> 24<script>dw(vcolon);</script></td><td headers="ds_power" nowrap>2.400 <script>dw(vdbmv);</script></td><td headers="ds_snr" nowrap>40.94<script>dw(vdb);</script></td></tr></tbody>						</table>
+						<br/>
+					</td>
+				</tr>
+			</table>
+			<!-- Downstream Channel Information End -->
+			<table class="nav bm_docsisWanDSChannel">
+				<tr id="i_HR3">
+					<td class="Item1">&nbsp;</td>
+					<td class="Item2"></td>
+					<td><hr class="std"></td>
+				</tr>
+			</table>
+			<!-- Upstream Channel Information Start -->
+			<table class="nav paramTable bm_docsisWanUPChannel">
+				<tr>
+					<td class="bwhead">
+						<script>dw(vusch);</script>
+					</td>
+					<td class="bwhead1">&nbsp;</td>
+					<td class="nav1">&nbsp;</td>
+				</tr>
+				<tr height="3px">
+					<td class="Item1"></td>
+					<td class="Item2"></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td class="Item1"> </td>
+					<td class="Item2"> </td>
+					<td class="Item3">
+						<table class="std" summary="this table shows upstream channel information">
+							<thead><tr><th align="left" id="us_channel" width="140" nowrap><script>dw(vChannel);</script></th><th align="left" id="us_power" width="140" class="stdbold" nowrap><script>dw(vch_pwr);</script></th></tr></thead><tbody><tr>      <td headers="us_channel" width="140" nowrap><script>dw(vs_channel);</script>1      <script>dw(vcolon);</script></td>      <td headers="us_power" nowrap>45.750 <script>dw(vdbmv);</script></td></tr><tr>      <td headers="us_channel" width="140" nowrap><script>dw(vs_channel);</script>2      <script>dw(vcolon);</script></td>      <td headers="us_power" nowrap>46.250 <script>dw(vdbmv);</script></td></tr><tr>      <td headers="us_channel" width="140" nowrap><script>dw(vs_channel);</script>3      <script>dw(vcolon);</script></td>      <td headers="us_power" nowrap>46.000 <script>dw(vdbmv);</script></td></tr></tbody>						</table>
+						<br/>
+					</td>
+				</tr>
+			</table>
+			<!-- Upstream Channel Information End -->
+		</td>
+		<td class="help">
+		</td>
+	</tr>
+</table>
+</form>
+<table class="bottom">
+	<tr>
+		<td class="Footer1">&nbsp;</td>
+		<td class="Footer2" id="refreshButton">
+			<script>showRefresh("Docsis_system.php");</script>&nbsp; &nbsp;
+		</td>
+		<td class="Footer3">&nbsp;</td>
+	</tr>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td align="center">
+			<font size="1" color="white">
+				<script>dw(vcopyright);</script>
+			</font>
+		</td>
+	</tr>
+</table>
+
+
+</div><!-- end tag for #contentDiv-->
+</div><!-- end tag for #container-->
+
+</body>
+</html>
+0
+
+GET /Docsis_system.php HTTP/1.1
+Host: 192.168.0.1
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.3 Mobile/14E277 Safari/603.1.30
+Accept-Language: en-ca
+DNT: 1
+Accept-Encoding: gzip, deflate
+
+HTTP/1.1 200 OK
+X-Powered-By: PHP/5.4.35
+Set-Cookie: PHPSESSID=iathgkajfdklio0opr6rokknv1; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-type: text/html
+Transfer-Encoding: chunked
+Date: Tue, 03 Oct 2017 17:14:44 GMT
+Server: lighttpd
+
+1f00
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<META http-equiv="Pragma" CONTENT="no-cache">
+		<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+		<LINK REL="stylesheet" TYPE="text/css" id="webframe" HREF="cmn/css/webframe.css">
+		<script src="./cmn/js/utilityFunctions.js"></script>
+		<script src="./i18n/i18nReader.php?lang=en"></script>
+		
+		<script src="./cmn/js/lib/jquery-1.9.1.js"></script>
+		<script src="./cmn/js/lib/jquery-migrate-1.2.1.js"></script>
+		<script src="./cmn/js/lib/jquery.validate.js"></script>
+		<script src="./cmn/js/lib/jquery.alerts.js"></script>
+		<script src="./cmn/js/lib/jquery.alerts.progress.js"></script>
+		<script src="./cmn/js/lib/jquery.ciscoExt.js"></script>
+		<script src="./cmn/js/lib/jquery.virtualDialog.js"></script>
+
+		<!--monitor user's click event to see if user is active-->
+		<script>
+		$(document).ready(function() {
+			var timoutValue = "900";
+			var jsInactTimeout = parseInt(timoutValue) * 1000;
+			initLabelForI18n();
+			//console.log("inactivity setup timer:",document.URL,jsInactTimeout);
+			
+			// jsInactTimeout = 5000;	// 5 seconds debug
+			var h_timer = null;
+			$(document).click(function() {
+				// do not handle click if no-login for GA
+				if ("" == "") {
+					return;
+				}			
+			
+				// do not handle click event when count-down show up
+				if ($("#count_down").length > 0) {
+					return;
+				}
+				// console.log(h_timer);
+				
+				clearTimeout(h_timer);
+				h_timer = setTimeout(function(){
+					var cnt		= 60;
+					var h_cntd  = setInterval(function(){
+						$("#count_down").text(--cnt);
+						// (1)stop counter when less than 0, (2)hide warning when achieved 0, (3)add another alert to block user action if network unreachable
+						if (cnt<=0) {
+							clearInterval(h_cntd);	
+							jAlert("You have been logged out due to inactivity!");
+							location.href="logout.php";
+						}
+					}, 1000);
+					// use jAlert instead of alert, or it will not auto log out untill OK pressed!
+					jAlert('Press <b>OK</b> to continue session. Otherwise you will be logged out in <span id="count_down" style="font-size: 200%; color: red;">'+cnt+'</span> seconds!'
+					, 'You are being logged out due to inactivity!'
+					, function(){
+						clearInterval(h_cntd);
+					});
+				}
+				, jsInactTimeout);
+			}).trigger("click");
+			
+			
+			$.ajaxSetup({
+				beforeSend: function (jqXHR,settings) {
+					$.ajax({
+						url : "actionHandler/checkLogin.php",
+						async : false,
+						success : function (isLogin) {
+						  if (isLogin == "1") {
+							jqXHR.abort();
+							alert("Please Login First!");
+							location.href="index.php";
+						  };
+						},
+						beforeSend : function () {
+						}
+					});
+				}
+			});
+		});
+		</script>
+	</head>
+
+	<body class="BodyStyle">
+	    <div id="skip-to-links">
+		  <a href="#mainMenuDiv">Skip to main menu</a>
+		  <a href="#subMenuDiv">Skip to sub menu</a>
+		  <a href="#contentDiv">Skip to content</a>
+		</div>
+		<div class="BackgroundStyle">
+			<img width="100%" src="./cmn/img/pageBackground.jpg" alt="background image" />
+		</div>
+		
+		<div id="container">	<!--this is the main div-->
+		<div id="headDiv"><div id="logoDiv"><span><a class="imglink" target="_blank" href="http://www.cisco.com">
+			<img src="cmn/img/cisco_logo.png" title="Cisco Logo" alt="cisco" width="93px" height="59px"/></a></span></div><div id="modelDiv"><div class="modelContainer"><span>Cisco DPC3848 DOCSIS 3.0 Gateway</span><span class="productName">DPC3848</span></div></div><div id="menuDiv"><div id="mainMenuDiv"><div class="mainMenuContainer"><div class="mainMenuBg"></div><table><tr><td><a href="Docsis_system.php" tabindex="0" class="link_tab current"><span><script>document.write(vstatus);</script></span></a></td></tr></table></div></div><div id="subMenuDiv"><div class="subMenuContainer"><ul class="layout_list"><li><a href="Docsis_system.php" tabindex="0" class="link_tab current"><span><script>document.write(vcable3);</script></span></a></li></ul></div></div></div></div>		<div id="contentDiv" tabindex="-1">
+			
+
+
+<script>
+	setTitle(vt_docsystem);
+	var cableStatus = "OPERATIONAL";
+	function LanguageChange()
+	{   
+		var cf = document.forms[0]; 
+		var lang = cf.LanguageSelect.value;
+		document.cookie = "lang="+lang;
+		location.reload();
+	}
+	
+	$(document).ready(function() {
+		RefreshScrn(180000);
+
+		var lang = "en";
+		$("#LanguageSelect option[value='"+lang+"']").prop("selected",true);
+
+		if ("" == "") {
+			$(".login").show();
+		}
+	});
+</script>
+
+<style>
+.std input, select {
+	margin: 3px;
+}
+.top-margin {
+	
+	margin-top: 50px;
+}
+</style>
+
+<table class="Top">
+	<tr>
+		<td colspan="2" class="Top1"></td>
+		<td colspan="2" class="Top2"></td>
+	</tr>
+</table>
+<form action="check.php" method="post" id="pageForm">
+<!-- Data Table -->
+<table class="dataTable">
+	<tr>
+		<td>
+			<table class="nav paramTable login" style="display:none;">
+				<tr>
+					<td class="bwhead">
+						<script >dw(vlogin);</script>
+					</td>
+					<td class="bwhead1">&nbsp;</td>
+					<td class="nav1">&nbsp;</td>
+				</tr>
+				<tr height="3px">
+					<td class="Item1"></td>
+					<td class="Item2"></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td class="Item1"> </td>
+					<td class="Item2"> </td>
+					<td class="Item3">
+						<table class="std" WIDTH="206">
+							<tr>
+								<td nowrap>
+									<label  for="username_login" ><script >dw(vusername);</script></label>
+								</td>
+								<td nowrap>
+									<input type="text" name="username_login" id="username_login" value="" />
+								</td>
+							</TR>
+							<tr>
+								<td nowrap>
+									<label  for="password_login" ><script >dw(vpasswd);</script></label>
+								</td>
+								<td nowrap>
+									<input type="password" name="password_login" id="password_login" value="" />
+								</td>
+							</TR>
+							<tr>
+								<td nowrap width="118">
+									<label for="LanguageSelect"><script >dw(v_Language_Selection);</script></label>
+								</td>
+								<td nowrap>
+									<select id="LanguageSelect" name="LanguageSelect" onchange="LanguageChange()">
+										<option id='English' value='en'> <script>dw(v_lang_en)</script></option>
+										<option id='French' value='fr'>  <script>dw(v_lang_fr)</script></option>
+										<option id='Spanish' value='es'> <script>dw(v_lang_es)</script></option>
+										<option id='German' value='de'>  <script>dw(v_lang_de)</script></option>
+										<option id='Japanese' value='ja'><script>dw(v_lang_ja)</script></option>
+									</select>
+								</td>
+							</TR>					
+							<tr>
+								<td colspan="2" align="right">
+									<script >showSubmit("login", vlogin, "");</script>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr id="i_HR1">
+					<td class="Item1">&nbsp;</td>
+					<td class="Item2"></td>
+					<td><hr class="std"></td>
+				</tr>
+			</table>			
+			<!-- Modem Information Start -->
+			<table class="nav paramTable bm_docsisWanAbout">
+				<tr>
+					<td class="bwhead">
+						<script>dw(vt_docsystem);</script>
+					</td>
+					<td class="bwhead1">&nbsp;</td>
+					<td class="nav1">&nbsp;</td>
+				</tr>
+				<tr height="3px">
+					<td class="Item1"></td>
+					<td class="Item2"></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td class="Item1"> </td>
+					<td class="Item2"> </td>
+					<td class="Item3">
+						<div class="fieldGroup">
+							<div class="fieldRow">
+								<div class="fieldLabel longLabel">
+									<script>dw(vmodel);</script>
+								</div>
+								<div class="fieldContent stdbold">
+									Cisco DPC3848								</div>
+							</div>
+							<div class="fieldRow">
+								<div class="fieldLabel longLabel">
+									<script>dw(vvendor);</script>
+								</div>
+								<div class="fi
+1ff8
+eldContent stdbold">
+									Cisco								</div>
+							</div>
+							<div class="fieldRow">
+								<div class="fieldLabel longLabel">
+									<script>dw(vhwrev);</script>
+								</div>
+								<div class="fieldContent stdbold">
+									2.0								</div>
+							</div>
+							<div class="fieldRow">
+								<div class="fieldLabel longLabel">
+									<script>dw(vserial);</script>
+								</div>
+								<div class="fieldContent stdbold">
+									271505662								</div>
+							</div>
+							<div class="fieldRow">
+								<div class="fieldLabel longLabel">
+									<script>dw(vmac1);</script>
+								</div>
+								<div class="fieldContent stdbold">
+									84:8d:c7:e8:6e:f5								</div>
+							</div>
+							<div class="fieldRow">
+								<div class="fieldLabel longLabel">
+									<script>dw(vbootloader);</script>
+								</div>
+								<div class="fieldContent stdbold">
+									3.4.20								</div>
+							</div>
+							<div class="fieldRow">
+								<div class="fieldLabel longLabel">
+									<script>dw(vfwname);</script>
+								</div>
+								<div class="fieldContent stdbold">
+									dpc3800-v303r2042162-160115a.p7b								</div>
+							</div>
+							<div class="fieldRow">
+								<div class="fieldLabel longLabel">
+									<script>dw(vfwbldtime);</script>
+								</div>
+								<div class="fieldContent stdbold">
+									01-15-2016  16:01:19								</div>
+							</div>
+							<div class="fieldRow">
+								<div class="fieldLabel longLabel">
+									<script>dw(vcmstatus);</script>
+								</div>
+								<div class="fieldContent stdbold">
+									<script>dw(cableStatus == "OPERATIONAL"? vcm_operational:vcm_notSynced)</script>
+								</div>
+							</div>
+	                         <div class="fieldRow">
+                                <div class="fieldLabel longLabel">
+                                    <script>dw(vt_wnet_colon);</script>
+                                </div>
+                                <div class="fieldContent stdbold">
+                                    <script>dw(vdisabled)</script>                                </div>
+                            </div>
+						</div>
+						<br/>
+					</td>
+				</tr>
+			</table>
+			<!-- Modem Information End -->
+			<table class="nav bm_docsisWanAbout">
+				<tr id="i_HR1">
+					<td class="Item1">&nbsp;</td>
+					<td class="Item2"></td>
+					<td><hr class="std"></td>
+				</tr>
+			</table>
+			<!-- Docsis Information Start -->
+			<table class="nav paramTable bm_docsisWanCmState">
+				<tr>
+					<td class="bwhead">
+						<script>dw(vcm_state);</script>
+					</td>
+					<td class="bwhead1">&nbsp;</td>
+					<td class="nav1">&nbsp;</td>
+				</tr>
+				<tr height="3px">
+					<td class="Item1"></td>
+					<td class="Item2"></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td class="Item1"> </td>
+					<td class="Item2"> </td>
+					<td class="Item3">
+						<div class="fieldGroup">
+							<div class="fieldRow">
+								<div class="fieldLabel longLabel">
+									<script>dw(vcm_state_ds);</script>
+								</div>
+								<div class="fieldContent stdbold">
+									<script>dw(vcompeleted)</script>								</div>
+							</div>
+							<div class="fieldRow">
+								<div class="fieldLabel longLabel">
+									<script>dw(vcm_state_us);</script>
+								</div>
+								<div class="fieldContent stdbold">
+									<script>dw(vcompeleted)</script>								</div>
+							</div>
+							<div class="fieldRow">
+								<div class="fieldLabel longLabel">
+									<script>dw(vcm_state_dhcp);</script>
+								</div>
+								<div class="fieldContent stdbold">
+									<script>dw(vcompeleted)</script>								</div>
+							</div>
+							<div class="fieldRow">
+								<div class="fieldLabel longLabel">
+									<script>dw(vcm_state_tftp);</script>
+								</div>
+								<div class="fieldContent stdbold">
+									<script>dw(vcompeleted)</script>								</div>
+							</div>
+							<div class="fieldRow">
+								<div class="fieldLabel longLabel">
+									<script>dw(vcm_state_reg);</script>
+								</div>
+								<div class="fieldContent stdbold">
+									<script>dw(vcompeleted)</script>								</div>
+							</div>
+							<div class="fieldRow">
+								<div class="fieldLabel longLabel">
+									<script>dw(vcm_state_privacy);</script>
+								</div>
+								<div class="fieldContent stdbold">
+									<script>dw(venabled)</script>								</div>
+							</div>
+						</div>
+						<br/>
+					</td>
+				</tr>
+			</table>
+			<!-- Docsis Information End -->
+			<table class="nav bm_docsisWanCmState">
+				<tr id="i_HR2">
+					<td class="Item1">&nbsp;</td>
+					<td class="Item2"></td>
+					<td><hr class="std"></td>
+				</tr>
+			</table>
+			<!-- Downstream Channel Information Start -->
+			<table class="nav paramTable bm_docsisWanDSChannel">
+				<tr>
+					<td class="bwhead">
+						<script>dw(vdsch);</script>
+					</td>
+					<td class="bwhead1">&nbsp;</td>
+					<td class="nav1">&nbsp;</td>
+				</tr>
+				<tr height="3px">
+					<td class="Item1"></td>
+					<td class="Item2"></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td class="Item1"> </td>
+					<td class="Item2"> </td>
+					<td class="Item3">
+						<table class="std" summary="this table shows downstream channel information">
+							<thead><tr><th align="left" id="ds_channel" width="140" nowrap><script>dw(vChannel);</script></th><th align="left" id="ds_power" width="140" class="stdbold" nowrap><script>dw(vch_pwr);</script></th><th align="left" id="ds_snr" class="stdbold" nowrap><script>dw(vdsch_snr);</script></th></tr></thead><tbody><tr><td headers="ds_channel" width="140" nowrap><script>dw(vs_channel);</script> 1<script>dw(vcolon);</script></td><td headers="ds_power" nowrap>2.000 <script>dw(vdbmv);</script></td><td headers="ds_snr" nowrap>40.36<script>dw(vdb);</script></td></tr><tr><td headers="ds_channel" width="140" nowrap><script>dw(vs_channel);</script> 2<script>dw(vcolon);</script></td><td headers="ds_power" nowrap>1.500 <script>dw(vdbmv);</script></td><td headers="ds_snr" nowrap>40.36<script>dw(vdb);</script></td></tr><tr><td headers="ds_channel" width="140" nowrap><script>dw(vs_channel);</script> 3<script>dw(vcolon);</script></td><td headers="ds_power" nowrap>1.900 <script>dw(vdbmv);</script></td><td headers="ds_snr" nowrap>40.94<script>dw(vdb);</script></td></tr><tr><td headers="ds_channel" width="140" nowrap><script>dw(vs_channel);</script> 4<script>dw(vcolon);</script></td><td headers="ds_power" nowrap>2.200 <script>dw(vdbmv);</script></td><td headers="ds_snr" nowrap>40.36<script>dw(vdb);</script></td></tr><tr><td headers="ds_channel" width="140" nowrap><script>dw(vs_channel);</script> 5<script>dw(vcolon);</script></td><td headers="ds_power" nowrap>-1.300 <script>dw(vdbmv);</script></td><td headers="ds_snr" nowrap>38.60<script>dw(vdb);</script></td></tr><tr><td headers="ds_channel" width="140" nowrap><script>dw(vs_channel);</script> 6<script>dw(vcolon);</script></td><td headers="ds_power" nowrap>2.100 <script>dw(vdbmv);</script></td><td headers="ds_snr" nowrap>40.36<script>dw(vdb);</script></td></tr><tr><td headers="ds_channel" width="140" nowrap><script>dw(vs_channel);</script> 7<script>dw(vcolon);</script></td><td headers="ds_power" nowrap>2.100 <script>dw(vdbmv);</script></td><td headers="ds_snr" nowrap>40.94<script>dw(vdb);</script></td></tr><tr><td headers="ds_channel" width="140" nowrap><script>dw(vs_channel);</script> 8<script>dw(vcolon);</script></td><td headers="ds_power" nowrap>2.200 <script>dw(vdbmv);</script></td><td headers="ds_snr" nowrap>40.36<script>dw(vdb);</script></td></tr><tr><td headers="ds_channel" width="140" nowrap><script>dw(vs_channel);</script> 9<script>dw(vcolon);</script></td><td headers="ds_power" nowrap>2.200 <script>dw(vdbmv);</script></td><td headers="ds_snr" nowrap>40.94<script>dw(vdb);</script></td></tr><tr><td headers="ds_channel" width="140" nowrap><script>dw(vs_channel);</script> 10<script>dw(vcolon);</script></td><td headers="ds_power" nowrap>2.400 <script>dw(vdbmv);</script></td><td headers="ds_snr" nowrap>40.94<script>dw(vdb);</script></td></tr><tr><td headers="ds_channel" width="140" nowrap><script>dw(vs_channel);</script> 11<script>dw(vcolon);</script></td><td headers="ds_power" nowrap>2.600 <script>dw(vdbmv);</script><
+1650
+/td><td headers="ds_snr" nowrap>40.36<script>dw(vdb);</script></td></tr><tr><td headers="ds_channel" width="140" nowrap><script>dw(vs_channel);</script> 12<script>dw(vcolon);</script></td><td headers="ds_power" nowrap>2.600 <script>dw(vdbmv);</script></td><td headers="ds_snr" nowrap>40.94<script>dw(vdb);</script></td></tr><tr><td headers="ds_channel" width="140" nowrap><script>dw(vs_channel);</script> 13<script>dw(vcolon);</script></td><td headers="ds_power" nowrap>2.600 <script>dw(vdbmv);</script></td><td headers="ds_snr" nowrap>40.36<script>dw(vdb);</script></td></tr><tr><td headers="ds_channel" width="140" nowrap><script>dw(vs_channel);</script> 14<script>dw(vcolon);</script></td><td headers="ds_power" nowrap>2.600 <script>dw(vdbmv);</script></td><td headers="ds_snr" nowrap>40.36<script>dw(vdb);</script></td></tr><tr><td headers="ds_channel" width="140" nowrap><script>dw(vs_channel);</script> 15<script>dw(vcolon);</script></td><td headers="ds_power" nowrap>2.600 <script>dw(vdbmv);</script></td><td headers="ds_snr" nowrap>40.94<script>dw(vdb);</script></td></tr><tr><td headers="ds_channel" width="140" nowrap><script>dw(vs_channel);</script> 16<script>dw(vcolon);</script></td><td headers="ds_power" nowrap>2.700 <script>dw(vdbmv);</script></td><td headers="ds_snr" nowrap>40.94<script>dw(vdb);</script></td></tr><tr><td headers="ds_channel" width="140" nowrap><script>dw(vs_channel);</script> 17<script>dw(vcolon);</script></td><td headers="ds_power" nowrap>2.700 <script>dw(vdbmv);</script></td><td headers="ds_snr" nowrap>40.36<script>dw(vdb);</script></td></tr><tr><td headers="ds_channel" width="140" nowrap><script>dw(vs_channel);</script> 18<script>dw(vcolon);</script></td><td headers="ds_power" nowrap>2.700 <script>dw(vdbmv);</script></td><td headers="ds_snr" nowrap>40.94<script>dw(vdb);</script></td></tr><tr><td headers="ds_channel" width="140" nowrap><script>dw(vs_channel);</script> 19<script>dw(vcolon);</script></td><td headers="ds_power" nowrap>2.600 <script>dw(vdbmv);</script></td><td headers="ds_snr" nowrap>40.36<script>dw(vdb);</script></td></tr><tr><td headers="ds_channel" width="140" nowrap><script>dw(vs_channel);</script> 20<script>dw(vcolon);</script></td><td headers="ds_power" nowrap>2.600 <script>dw(vdbmv);</script></td><td headers="ds_snr" nowrap>40.36<script>dw(vdb);</script></td></tr><tr><td headers="ds_channel" width="140" nowrap><script>dw(vs_channel);</script> 21<script>dw(vcolon);</script></td><td headers="ds_power" nowrap>2.600 <script>dw(vdbmv);</script></td><td headers="ds_snr" nowrap>40.36<script>dw(vdb);</script></td></tr><tr><td headers="ds_channel" width="140" nowrap><script>dw(vs_channel);</script> 22<script>dw(vcolon);</script></td><td headers="ds_power" nowrap>2.500 <script>dw(vdbmv);</script></td><td headers="ds_snr" nowrap>40.94<script>dw(vdb);</script></td></tr><tr><td headers="ds_channel" width="140" nowrap><script>dw(vs_channel);</script> 23<script>dw(vcolon);</script></td><td headers="ds_power" nowrap>2.300 <script>dw(vdbmv);</script></td><td headers="ds_snr" nowrap>40.36<script>dw(vdb);</script></td></tr><tr><td headers="ds_channel" width="140" nowrap><script>dw(vs_channel);</script> 24<script>dw(vcolon);</script></td><td headers="ds_power" nowrap>2.400 <script>dw(vdbmv);</script></td><td headers="ds_snr" nowrap>40.94<script>dw(vdb);</script></td></tr></tbody>						</table>
+						<br/>
+					</td>
+				</tr>
+			</table>
+			<!-- Downstream Channel Information End -->
+			<table class="nav bm_docsisWanDSChannel">
+				<tr id="i_HR3">
+					<td class="Item1">&nbsp;</td>
+					<td class="Item2"></td>
+					<td><hr class="std"></td>
+				</tr>
+			</table>
+			<!-- Upstream Channel Information Start -->
+			<table class="nav paramTable bm_docsisWanUPChannel">
+				<tr>
+					<td class="bwhead">
+						<script>dw(vusch);</script>
+					</td>
+					<td class="bwhead1">&nbsp;</td>
+					<td class="nav1">&nbsp;</td>
+				</tr>
+				<tr height="3px">
+					<td class="Item1"></td>
+					<td class="Item2"></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td class="Item1"> </td>
+					<td class="Item2"> </td>
+					<td class="Item3">
+						<table class="std" summary="this table shows upstream channel information">
+							<thead><tr><th align="left" id="us_channel" width="140" nowrap><script>dw(vChannel);</script></th><th align="left" id="us_power" width="140" class="stdbold" nowrap><script>dw(vch_pwr);</script></th></tr></thead><tbody><tr>      <td headers="us_channel" width="140" nowrap><script>dw(vs_channel);</script>1      <script>dw(vcolon);</script></td>      <td headers="us_power" nowrap>45.750 <script>dw(vdbmv);</script></td></tr><tr>      <td headers="us_channel" width="140" nowrap><script>dw(vs_channel);</script>2      <script>dw(vcolon);</script></td>      <td headers="us_power" nowrap>46.250 <script>dw(vdbmv);</script></td></tr><tr>      <td headers="us_channel" width="140" nowrap><script>dw(vs_channel);</script>3      <script>dw(vcolon);</script></td>      <td headers="us_power" nowrap>46.000 <script>dw(vdbmv);</script></td></tr></tbody>						</table>
+						<br/>
+					</td>
+				</tr>
+			</table>
+			<!-- Upstream Channel Information End -->
+		</td>
+		<td class="help">
+		</td>
+	</tr>
+</table>
+</form>
+<table class="bottom">
+	<tr>
+		<td class="Footer1">&nbsp;</td>
+		<td class="Footer2" id="refreshButton">
+			<script>showRefresh("Docsis_system.php");</script>&nbsp; &nbsp;
+		</td>
+		<td class="Footer3">&nbsp;</td>
+	</tr>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td align="center">
+			<font size="1" color="white">
+				<script>dw(vcopyright);</script>
+			</font>
+		</td>
+	</tr>
+</table>
+
+
+</div><!-- end tag for #contentDiv-->
+</div><!-- end tag for #container-->
+
+</body>
+</html>
+0
+

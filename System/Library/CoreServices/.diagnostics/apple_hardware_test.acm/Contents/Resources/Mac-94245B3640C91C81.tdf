@@ -1,0 +1,332 @@
+#     Copyright © 2006-2012 Apple Inc. All rights reserved.				        + *
+#																				+ *
+#  THESE COMPUTER LISTINGS AND SPECIFICATIONS, HEREIN, ARE THE					+ *
+#  PROPERTY OF Apple Inc. AND SHALL									+ *  
+#  NOT BE REPRODUCED OR COPIED OR USED IN WHOLE OR IN PART AS THE BASIS FOR		+ *
+#  MANUFACTURE OR SALE OF ITEMS WITHOUT WRITTEN PERMISSION.						+ *
+#
+#  Created using XCode
+#
+#  Change History (newest on top)
+#
+
+TDF	102
+TITLE	"This TDF contains test definitions for AHT MacBookPro8,1."
+PRODUCT	"MacBookPro8,1"
+VERSION	2.7.33
+
+
+comparison-table-sensor = {
+	{"ALSL","Photometer (ALSL) - Light Sensor"}, 
+	{"TA0P","Temp (TA0P) - Ambient air temperature sensor"}, 
+	{"TALP","Temp (TALP) - Ambient air temperature sensor"}, 
+	{"TB0T","Temp (TB0T) - Battery  temperature"}, 
+	{"TCAH","Temp (TCAH) - CPU-A heatsink  temperature"},
+	{"TCBH","Temp (TCBH) - CPU-B heatsink  temperature"},
+	{"TC0C","Temp (TC0C) - CPU-A Die 1 Temp offset"},	
+    {"TC1C","Temp (TC1C) - CPU-A Die 2 Temp offset"},
+	{"TC2C","Temp (TC2C) - CPU-B Die 1 Temp offset"},	
+    {"TC3C","Temp (TC3C) - CPU-B Die 2 Temp offset"},
+	{"TC0D","Temp (TC0D) - CPU0  Die  Temp"}, 
+	{"TC0H","Temp (TC0H) - CPU  Heat-sync"},
+	{"TCOH","Temp (TCOH) - CPU  Heat-sync"},
+	{"TC0P","Temp (TC0P) - CPU VR area"}, 
+	{"TC1P","Temp (TC1P) - CPU1  Temp  Proximity  or  alt.  CPU0  Temp  Proximity"}, 
+	{"TC2C","Temp (TC2C) - CPU-B Die 1 Temp offset"},
+	{"TG0D","Temp (TG0D) - GPU0  Die  Temp"}, 
+	{"TG0H","Temp (TG0H) - GPU0  Heatsync"}, 
+	{"TG0T","Temp (TG0T) - GPU0  Discrete  Thermal  Diode"}, 
+	{"Th0H","Temp (Th0H) - NB/CPU/GPU  HeatPipe  0  Proximity"}, 
+	{"Th1H","Temp (Th1H) - NB/CPU/GPU  HeatPipe  1  Proximity"}, 
+	{"TG0P","Temp (TG0P) - GPU0 Proximity"}, 
+	{"TH0P","Temp (TH0P) - Hard disk drive 1 body temperature"}, 
+	{"TH1P","Temp (TH1P) - Hard disk drive 2 body temperature"}, 
+	{"TH2P","Temp (TH2P) - Hard disk drive 3 body temperature"}, 
+	{"TH3P","Temp (TH3P) - Hard disk drive 4 body temperature"}, 
+	{"TM0P","Temp (TM0P) - FBDIMM Riser A incoming air temperature"}, 
+	{"TM1P","Temp (TM1P) - FBDIMM Riser A outgoing air temperature"},
+	{"TM2P","Temp (TM2P) - FBDIMM Riser A voltage regulator area temperature"},
+	{"TM8P","Temp (TM8P) - FBDIMM Riser B incoming air temperature"},
+	{"TM9P","Temp (TM9P) - FBDIMM Riser B outgoing air temperature"},
+	{"TMAP","Temp (TMAP) - FBDIMM Riser B voltage regulator area temperature"},
+	{"TM0S","Temp (TM0S) - Temperature of AMB IC on FBDIMM in Riser A Slot 1"},
+	{"TM1S","Temp (TM1S) - Temperature of AMB IC on FBDIMM in Riser A Slot 2"},
+	{"TM2S","Temp (TM2S) - Temperature of AMB IC on FBDIMM in Riser A Slot 3"},
+	{"TM3S","Temp (TM3S) - Temperature of AMB IC on FBDIMM in Riser A Slot 4"}, 
+	{"TM8S","Temp (TM8S) - Temperature of AMB IC on FBDIMM in Riser B Slot 1"},
+	{"TM9S","Temp (TM9S) - Temperature of AMB IC on FBDIMM in Riser B Slot 2"},
+	{"TMAS","Temp (TMAS) - Temperature of AMB IC on FBDIMM in Riser B Slot 3"},
+	{"TMBS","Temp (TMBS) - Temperature of AMB IC on FBDIMM in Riser B Slot 4"},
+	{"TN0H","Temp (TN0H) - Temperature of MCH heatsink"},
+	{"TN0C","Temp (TN0C) - Temperature of MCH die temp diode"}, 
+	{"TN0D","Temp (TN0D) - Temperature of MCH die temp offset"}, 
+	{"TN0P","Temp (TN0P) - NB Proximity"}, 
+	{"TN1P","Temp (TN1P) - NB Proximity"}, 
+	{"TO0P","Temp (TO0P) - ODD  Temp"}, 
+	{"Tp0C","Temp (Tp0C) - PSMI supply AC/DC Supply Temperature 1"},
+	{"Tp1C","Temp (Tp1C) - PSMI supply AC/DC Supply Temperature 2"},
+	{"Tp0P","Temp (Tp0P) - PSMI supply AC/DC Supply Temperature"},
+	{"TS0C","Temp (TS0C) - Temperature of LM94, between CPU-A and CPU-A's VR"},
+	{"Ts0P","Temp (Ts0P) - Palm  rest  L"}, 
+	{"Ts1P","Temp (Ts1P) - Palm  rest  R"}, 
+	{"VCAC","Voltage (VCAC) - CPU-A core voltage"},	
+	{"VCBC","Voltage (VCBC) - CPU-B core voltage"},	
+	{"VC0C","Voltage (VC0C) - CPU0  V-Sense"}, 
+	{"VC0c","Voltage (VC0c) - CPU0  V-Sense"}, 
+	{"VC0R","Voltage (VC0R) - CPU0 High Side "}, 
+	{"VC0r","Voltage (VC0r) - CPU0 High Side "}, 
+	{"VD0R","Voltage (VD0R) - DC  V-Sense"}, 
+	{"VD0r","Voltage (VD0r) - DC  V-Sense"}, 
+	{"VeES","Voltage (VeES) - PCIe Slots +12V rail voltage"},
+	{"VG0C","Voltage (VG0C) - GPU0  V-Sense"}, 
+	{"VG0c","Voltage (VG0c) - GPU0  V-Sense"}, 
+	{"VMAS","Voltage (VMAS) - FBDIMM Riser A +12V rail at VRs"},
+	{"VMBS","Voltage (VMBS) - FBDIMM Riser B +12V rail at VRs"},
+	{"VN0C","Voltage (VN0C) - MCH core voltage 0"},
+	{"VN1C","Voltage (VN1C) - MCH core voltage 1"},
+	{"Vp0C","Voltage (Vp0C) - PSMI supply AC/DC output voltage, +12V rail"},
+	{"VP0R","Voltage (VP0R) - PBus  V-Sense"}, 
+	{"VP0r","Voltage (VP0r) - PBus  V-Sense"}, 
+	{"VP1R","Voltage (VP1R) - PBusA  V-Sense"}, 
+	{"VP1r","Voltage (VP1r) - PBusA  V-Sense"}, 
+	{"IB0r","Current (IB0r) - Battery  I-Sense"}, 
+	{"ICAC","Current (ICAC) - CPU-A core current"},
+	{"ICBC","Current (ICBC) - CPU-B core current"},
+	{"IC0c","Current (IC0c) - CPU0  I-Sense"},
+	{"IC0C","Current (IC0C) - CPU0  I-Sense"}, 
+	{"IC0R","Current (IC0R) - CPU0 High Side "}, 
+	{"IC0r","Current (IC0r) - CPU0 High Side "}, 
+	{"ID0R","Current (ID0R) - DC  I-Sense"}, 
+	{"ID0r","Current (ID0r) - DC  I-Sense"}, 
+	{"ID1R","Current (ID1R) - PBusA  I-Sense"}, 
+	{"ID1r","Current (ID1r) - PBusA  I-Sense"}, 
+	{"Ie1S","Current (Ie1S) - PCIe Slot 1 +12V Current"};
+	{"Ie2S","Current (Ie2S) - PCIe Slot 2 +12V Current"};
+	{"Ie3S","Current (Ie3S) - PCIe Slot 3 +12V Current"};
+	{"Ie4S","Current (Ie4S) - PCIe Slot 4 +12V Current"};
+	{"IeAS","Current (IeAS) - PCIe Slot Boost 1 +12V Current"},
+	{"IeBS","Current (IeBS) - PCIe Slot Boost 2 +12V Current"},
+	{"IF0C","Current (IF0C) - FWire  I-Sense"}, 
+	{"IF0c","Current (IF0c) - FWire  I-Sense"}, 
+	{"IF0R","Current (IF0R) - FWire  I-Sense"}, 
+	{"IG0C","Current (IG0C) - GPU0  I-Sense"}, 
+	{"IG0c","Current (IG0c) - GPU0  I-Sense"}, 
+	{"IMAS","Current (IMAS) - FBDIMM Riser A 12V supply current"},
+	{"IMBS","Current (IMBS) - FBDIMM Riser B 12V supply current"},
+	{"IM0R","Current (IM0R) - Memory  I-Sense"}, 
+	{"IM0r","Current (IM0r) - Memory  I-Sense"}, 
+	{"IN0C","Current (IN0C) - MCH core current 0 - Supply input"},
+	{"IN1C","Current (IN1C) - MCH core current 1"},	
+	{"IN0c","Current (IN0c) - NorthBridge I-Sense"}, 
+	{"IN0R","Current (IN0R) - NorthBridge  I-Sense 1"}, 
+	{"IN1R","Current (IN1R) - NorthBridge  I-Sense 2"}, 
+	{"Ip0C","Current (Ip0C) - PSMI supply AC/DC total output current, +12V rail"},
+	{"IP0R","Current (IP0R) - PBus  I-Sense"}, 
+	{"IP1R","Current (IP1R) - PBusA  I-Sense"}, 
+	{"PC0C","Power (PC0C) - CPU Core Power"}, 
+	{"PD0R","Power (PD0R) - DC-In Rail Power"}, 
+	{"PF0R","Power (PF0R) - 1394 Rail Power"}, 
+	{"PG0C","Power (PG0C) - GPU Core Power"}, 
+	{"PM0R","Power (PM0R) - Memory Rail Power"}, 
+	{"PN0R","Power (PN0R) - NorthBridge Rail Power"}, 
+	{"PP0R","Power (PP0R) - P Buss Rail Power"}, 
+	{"PP1R","Power Sensor - P Buss A Rail Power"}, 
+	{"MSC0","CalibrationKeys (MSC0) - Calibration Key 0 - CPU"}, 
+	{"MSC1","CalibrationKeys (MSC1) - Calibration Key 1 - GPU  "}, 
+	{"MSC2","CalibrationKeys (MSC2) - Calibration Key 2 - Memory "}, 
+	{"MSC3","CalibrationKeys (MSC3) - Calibration Key 3 - NB"}, 
+	{"MO_X","Accelerometer (MO_X) - Motion Sensor"}, 
+}
+
+
+
+group-propertiesSA  = {
+//	 Package Name							Group Label				Indentifier		String modifier
+//	 ------------							-----------				-----------		----------------
+	"Memory",									
+	"Battery",																	
+	"Processor",												
+	"Product",							
+	"Bluetooth",					
+	"BootROM",								
+	"Motor",								"Fan",					"location"		{!"?"	"- %s"	"property-val"	"append-val"}
+	"AirPort",				               			
+	"IRPort",								"IR Port"			
+	"Sensor",								"Sensor",				"location"		{{comparison-table-sensor}, {<"V", 1>,"Voltage Sensor (%s)","property-val"}, {<"I", 1>,"Current Sensor (%s)","property-val"}, {<"T", 1>,"Temperature Sensor (%s)","property-val"}, {<"P", 1>,"Power Sensor (%s)","property-val"}}
+	"SMC"				
+	"EthernetController",					"Ethernet Controller",
+	"HardDrive",							"Hard Drive ",
+}
+
+// strings for profile layout
+
+aht-config-stringsEnumerated =
+{
+	aht-cfg-ffmt,		 "100",
+	aht-cfg-vers,		 "187.1.1d1",
+
+	//  Features
+	shutdown-ejects-cd,	 "1",
+	machine-name,			 "MacBook Pro",
+
+	//  Profile
+	prof-01-ttl,	"prof-prod-group-title",
+	prof-01-00,		"prof-prod-group-subtitle",
+	prof-01-01,		"prof-prod-name-label@mapMacModel,Product:model,:system-id,prodModelNam",
+	prof-01-02,		"prof-prod-model-label@fetchValue,Product:model",
+	prof-01-03,		"prof-prod-cputype-label@mapCPUModel,Processor:family,Processor:model,Processor:number-of-cores",
+	prof-01-04,		"prof-prod-cpucorecount-label@sizeScaled,Processor:number-of-cores,1,1,noUnits,10",
+	prof-01-05,		"prof-prod-cpuspeed-label@sizeScaled,Processor:max-speed,3,9,unitsHertz,10,2",
+	prof-01-06,		"prof-prod-L2cachecore-label@sizeScaled,Processor:l2-cache-size,3,3,unitsByte,2,0",
+	prof-01-07,		"prof-prod-L3cache-label@sizeScaled,Processor:l3-cache-size,6,6,unitsByte,2,0",
+	prof-01-08,		"prof-board-brom-vers-label@fetchValue,BootROM:firmware-version",
+	prof-01-09,		"prof-board-syst-sn-label@fetchValue,Product:serial-number,formatSSN",
+	prof-01-10,		"prof-board-smc-vers-label@fetchValue,SMC:version",
+
+	prof-02-ttl,	"prof-communi-group-title",
+	prof-02-00,		"prof-communi-group-subtitle",
+	prof-02-01,		"prof-communi-enet-mac-label@fetchValue,EthernetController:mac-address,toUpper",
+	prof-02-02,		"prof-communi-irport-label@fetchValue,IRPort:firmware-version",
+
+	prof-03-ttl,	"prof-graph-group-title",
+	prof-03-00,		"prof-graph-group-subtitle",
+	prof-03-01,		"prof-graph-disp-width-label@fetchValue,displayWd",
+	prof-03-02,		"prof-graph-disp-height-label@fetchValue,displayHt",	
+	
+	prof-03-03,		"prof-graph-chipset-label@mapGraphics,VideoController#1:vendor,VideoController#1:model,prodModelIdx",
+	#prof-03-04,		"prof-graph-vram-label@sizeScaled,VideoController#1:vram-size,1,6,unitsByte,2,0,1",
+	prof-03-04,		"prof-graph-chipset-label@mapGraphics,VideoController#2:vendor,VideoController#2:model,prodModelIdx,1",
+	#prof-03-06,		"prof-graph-vram-label@sizeScaled,VideoController#2:vram-size,1,6,unitsByte,2,0,1",
+
+	prof-04-ttl,	"prof-memo-group-title",
+	prof-04-00,		"prof-memo-group-subtitle",
+	prof-04-01,		"prof-memo-overview-label@sizeScaled,MemoryVirtual:size,1,6,unitsByte,2,0",
+	prof-04-02,		"prof-memo-slot-1-label@memModule,Memory#1:location,Memory#1:size,Memory#1:xxx,Memory#1:speed,Memory#1:xxx,Memory#1:part-number",
+	prof-04-03,		"prof-memo-slot-2-label@memModule,Memory#2:location,Memory#2:size,Memory#2:xxx,Memory#2:speed,Memory#2:xxx,Memory#2:part-number",
+
+	prof-05-ttl,	"prof-powr-group-title",
+	prof-05-00,		"prof-powr-group-subtitle",
+	prof-05-01,		"prof-powr-src-label@fetchValue,Battery:is-charger-connected,toPowerConnection",
+	prof-05-02,		"prof-powr-volt-label@sizeScaled,Battery:voltage,3,0,unitsVolt,10,2",
+	prof-05-03,		"prof-powr-capac-label@ratio,Battery:capacity,Battery:max-capacity,pct,0"
+}
+
+# --	EFI AirPort	--
+TEST	"AirPort"	"AASP"	'EFI_'	'SA__'	1	(class="AirPort")	"PCI-E LinkWidth Verification Test"	"Verifies PCI-E link width is as expected"
+
+RESULT	"AirPort"	'EFI_'	0x40000001	"AirPort test failed"
+RESULT	"AirPort"	'EFI_'	0x40000002	"Get pci-e link status failed"
+RESULT	"AirPort"	'EFI_'	0x40000003	"Link widith mismatch failed"
+RESULT	"AirPort"	'EFI_'	0x40000004	"Failed to get parent node link status"
+
+# == EFI BootROM
+TEST	"BootROM"	"AASP"	'EFI_'	'SA__'	2	(class="BootROM")	"Boot ROM FW GUID MAC Addr Checksum Test"	"Verify the Boot ROM FW GUID MAC address checksum."	""	
+TEST	"BootROM"	"AASP"	'EFI_'	'SA__'	4	(class="BootROM")	"Boot ROM Headers and Data Checksum Test"	"Verify headers and data checksum for all firmware volume regions throughout BootROM."	""
+
+# -- results ----
+RESULT	"BootROM"	'EFI_'	0x40000000	"Main Checksum Failed"
+RESULT	"BootROM"	'EFI_'	0x40000001	"Primary Checksum Signature Not Found"
+RESULT	"BootROM"	'EFI_'	0x40000002	"Recovery Checksum Signature Not Found"
+RESULT	"BootROM"	'EFI_'	0x40000003	"Configuration Checksum Signature Not Found"
+RESULT	"BootROM"	'EFI_'	0x40000004	"Recovery Checksum Failed"
+RESULT	"BootROM"	'EFI_'	0x40000005	"Configuration Checksum Failed"
+RESULT	"BootROM"	'EFI_'	0x40000006	"FFFE0000 Checksum Signature Not Found"
+RESULT	"BootROM"	'EFI_'	0x40000007	"FFFE0000 Checksum Failed"
+RESULT	"BootROM"	'EFI_'	0x40000008	"Boot ROM MAC Address Magic Number Not Found"
+RESULT	"BootROM"	'EFI_'	0x40000009	"Boot ROM MAC Address Checksum Failed"
+RESULT	"BootROM"	'EFI_'	0x4000000A	"Boot ROM Found To Be Unlocked"
+
+# --	EFI IRPort	--
+TEST	"IRPort"	"AASP"	'EFI_'	'SA__'	1	(class="IRPort")	"IR Presence Test"	"IR Presence Test"	""	
+
+RESULT	"IRPort"	'EFI_'	0x40000000	"Unable to find IR ControllerHandle"
+
+# --	Battery		--
+
+TEST	"Battery"	"AASP"	'EFI_'	'SA__'	1	(class="Battery")	"Error Condition Test"	"Checks if there is an Error Condition set."	""
+TEST	"Battery"	"AASP"	'EFI_'	'SA__'	6	(class="Battery")	"Sealed Battery test"	"Checks the Battery is sealed."	""
+
+
+# --	EFI Memory	--
+TEST	"Memory"	"AASP"	'EFI_'	'SA__'	1	(class="Memory"&type="virtual")	"Address as Data Test"	"Test memory using address as data and !address as data."	""	test-checkbox-off
+TEST	"Memory"	"AASP"	'EFI_'	'SA__'	2	(class="Memory"&type="virtual")	"Patterns Test"	"Test memory using different data patterns."	""	test-checkbox-off
+TEST	"Memory"	"AASP"	'EFI_'	'SA__'	3	(class="Memory"&type="virtual")	"Marching ones and zeros Test"	"Test memory using marching ones and zeros."	""	test-checkbox-off
+TEST	"Memory"	"AASP"	'EFI_'	'SA__'	4	(class="Memory"&type="virtual")	"Knaizuk Hartmann Test"	"Test memory using the Knaizuk Hartmann algorithm."	""
+TEST	"Memory"	"AASP"	'EFI_'	'SA__'	5	(class="Memory"&type="virtual")	"MOD3 Test"	"Test memory using the MOD3 data patterns."	""	test-checkbox-off
+TEST	"Memory"	"AASP"	'EFI_'	'SA__'	6	(class="Memory"&type="virtual")	"March U Test"	"Test memory using Van de Goor's March U."	""	test-checkbox-off
+TEST	"Memory"	"AASP"	'EFI_'	'SA__'	7	(class="Memory"&type="virtual")	"Random Test"	"Test memory using Pseudo-random values."	""	test-checkbox-off
+TEST	"Memory"	"AASP"	'EFI_'	'SA__'	9	(class="Memory"&type="virtual")	"MP Memory Test"	"Test memory using many cores."	""
+TEST	"Memory"	"AASP"	'EFI_'	'SA__'	60	(class="Memory"&type="virtual")	"MP Block Checkerboard Test"	"Run Block Checkerboard Test in MP mode"	""	test-checkbox-off
+TEST	"Memory"	"AASP"	'EFI_'	'SA__'	61	(class="Memory"&type="virtual")	"MP Bit Checkerboard Test"	"Run Bit Checkerboard Test"	""
+TEST	"Memory"	"AASP"	'EFI_'	'SA__'	62	(class="Memory"&type="virtual")	"MP Sequential Byte Block Test"	"Run Sequential ByteBlock Test in MP mode"	""	test-checkbox-off
+TEST	"Memory"	"AASP"	'EFI_'	'SA__'	63	(class="Memory"&type="virtual")	"MP Walking Ones Test"	"Run Walking Ones Test in MP mode"	""	test-checkbox-off
+TEST	"Memory"	"AASP"	'EFI_'	'SA__'	64	(class="Memory"&type="virtual")	"MP Walking Zeros Test"	"Run Walking Zeros Test in MP mode"	""	test-checkbox-off
+TEST	"Memory"	"AASP"	'EFI_'	'SA__'	65	(class="Memory"&type="virtual")	"MP Walking Spread Bits Test"	"Run Walking Spread Bits Test in MP mode"	""	test-checkbox-off
+TEST	"Memory"	"AASP"	'EFI_'	'SA__'	66	(class="Memory"&type="virtual")	"MP Walking Bit Flip Test"	"Run Walking Bit Flip Test in MP mode"	""	test-checkbox-off
+
+RESULT	"Memory"	'EFI_'	0x40000000	"Data match failed"
+RESULT	"Memory"	'EFI_'	0x40000004	"Memory controller reported a fatal error"
+RESULT	"Memory"	'EFI_'	0x40000005	"Memory controller reported a recoverable error"
+RESULT	"Memory"	'EFI_'	0x40000006	"Memory controller reported a correctable error"
+RESULT	"Memory"	'EFI_'	0x40000002	"Auxiliary Processor timeout."
+RESULT	"Memory"	'EFI_'	0x40000003	"SMBIOS has flagged this device as having an error."
+RESULT	"Memory"	'EFI_'	0x40000007	"Minimum temperature was not reached"
+RESULT	"Memory"	'EFI_'	0x40000008	"Temperature got too hot"
+
+# --	EFI Processor	--
+TEST	"Processor"	"AASP"	'EFI_'	'SA__'	1	(class="Processor")	"L1 Cache Test"	"Test Processor's L1 Caches."
+
+RESULT	"Processor"	'EFI_'	0x40000000	"Core failed"
+RESULT	"Processor"	'EFI_'	0x40000001	"Auxillary Processor timeout"
+RESULT	"Processor"	'EFI_'	0x40000002	"Instruction cache failed"
+RESULT	"Processor"	'EFI_'	0x40000003	"Data cache failed"
+RESULT	"Processor"	'EFI_'	0x40000004	"L2 cache failed"
+RESULT	"Processor"	'EFI_'	0x40000005	"L3 cache failed"
+
+# --	EFI HardDrive	--
+TEST	"HardDrive"	"AASP"	'EFI_'	'SA__'	11	(class="HardDrive"&location="SATA(0,0)")	"DMA Abbreviated Read Scan at 1250"	"Reads the first 10GB of the HD checking for slow-read failures."
+TEST	"HardDrive"	"AASP"	'EFI_'	'SA__'	30	(class="HardDrive" & is-raid-controlled="FALSE" & smart-support="TRUE")	"Check SMART status"	"Check the SMART status of a device."	""
+
+RESULT	"HardDrive"	'EFI_'	0x40000000	"Reading took longer than the average time"
+RESULT	"HardDrive"	'EFI_'	0x40000001	"A failure occurred while writing data"
+RESULT	"HardDrive"	'EFI_'	0x40000002	"A failure occurred while reading data"
+RESULT	"HardDrive"	'EFI_'	0x40000003	"Data verification failed"
+
+
+# --	EFI Motor	--
+TEST	"Motor"	"AASP"	'EFI_'	'SA__'	4	(class="Motor")	"Max Speed All Fans Full,Min Speed All Fans Min"	"Verify fan max speed with all fans at full speed, min speed with all fans at min speed"	""	
+
+RESULT	"Motor"	'EFI_'	0x40000000	"Motor failed setting speed"
+RESULT	"Motor"	'EFI_'	0x40000001	"Motor could not be turned off"
+RESULT	"Motor"	'EFI_'	0x40000002	"Motor is spinning slower than it should"
+RESULT	"Motor"	'EFI_'	0x40000003	"Motor is spinning faster than it should"
+RESULT	"Motor"	'EFI_'	0x40000004	"Motor did not reach target speed in time"
+RESULT	"Motor"	'EFI_'	0x40000005	"Motor failed reading speed"
+
+# --	EFI Sensor	--
+using-package="Sensor"	'SA__'	dontTest-action={"high-limit", 0}
+TEST	"Sensor"	"AASP"	'EFI_'	'SA__'	1	(class="Sensor" & (type="Current" | type="Voltage" | type="Temperature" | type="Power")  & !(location="mDTS0" | location="IC0G" | location="VC0G" | location="IZAP" | location="IZBL" | location="IZDM" | location="IZHD" | location="VZBL" | location="IZOD" | location="VZOD" | location="VZAP") )	"Sensor Reads Within Operating Range"	"Check to ensure that sensor reads within operating range."
+
+RESULT	"Sensor"	'EFI_'	0x40000000	"Sensor is reading above the high limit"
+RESULT	"Sensor"	'EFI_'	0x40000001	"Sensor is reading below the low limit"
+RESULT	"Sensor"	'EFI_'	0x40000002	"The IC0C sensor has not been calibrated"
+
+# --	EFI Ethernet	--
+TEST	"EthernetController"	"AASP"	'EFI_'	'SA__'	1	(class="EthernetController")	"MAC Address Verification Test"	"MAC Address Verification Test"	""
+
+RESULT	"EthernetController"	'EFI_'	0x40000001	"Ethernet test failed"
+RESULT	"EthernetController"	'EFI_'	0x40000002	"Get pci-e link status failed"
+RESULT	"EthernetController"	'EFI_'	0x40000003	"Link widith mismatch failed"
+RESULT	"EthernetController"	'EFI_'	0x40000004	"Failed to get parent node link status"
+
+# --	SMC  --
+TEST	"SMC"	"AASP"	'EFI_'	'SA__'	7	(class="SMC" & is-primary="TRUE")	"SMC EPM check"	"Test to check that the UV and CV tables have been flashed correctly."	""
+TEST	"SMC"	"AASP"	'EFI_'	'SA__'	8	(class="SMC" & is-primary="TRUE")	"SMC Power Balancing check"	"Test to check that power balancing is on."	""
+
+# == EFI Product ==================================================================================
+
+TEST	"Product"	"AASP"	'EFI_'	'SA__'	50	(class="Product")	"Verify Bof Flash With Crc"	"Verify Bof Flash With Crc"	""
+
+# == EFI Bluetooth ================================================================================
+
+TEST	"Bluetooth"	"AASP"	'EFI_'	'SA__'	1	(class="Bluetooth")	"Bluetooth USB Interface Test"	"Verifies bluetooth host usb interface"	""

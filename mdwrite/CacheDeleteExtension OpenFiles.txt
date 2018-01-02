@@ -1,0 +1,26 @@
+cwd
+/Volumes/Macintosh HD/Users/shanemcconnell/Library/Containers/com.apple.Safari.CacheDeleteExtension/Data
+txt
+/Applications/Safari.app/Contents/PlugIns/CacheDeleteExtension.appex/Contents/MacOS/CacheDeleteExtension
+txt
+/Volumes/Macintosh HD/Users/shanemcconnell/Library/Containers/com.apple.Safari.CacheDeleteExtension/Data/Library/Caches/com.apple.Safari.CacheDeleteExtension/Cache.db-shm
+txt
+/usr/share/icu/icudt57l.dat
+txt
+/private/var/db/mds/messages/se_SecurityMessages
+txt
+/usr/lib/dyld
+txt
+/private/var/db/dyld/dyld_shared_cache_x86_64
+0
+/dev/null
+1
+/dev/null
+2
+/dev/null
+4
+/Volumes/Macintosh HD/Users/shanemcconnell/Library/Containers/com.apple.Safari.CacheDeleteExtension/Data/Library/Caches/com.apple.Safari.CacheDeleteExtension/Cache.db
+5
+/Volumes/Macintosh HD/Users/shanemcconnell/Library/Containers/com.apple.Safari.CacheDeleteExtension/Data/Library/Caches/com.apple.Safari.CacheDeleteExtension/Cache.db-wal
+6
+/Volumes/Macintosh HD/Users/shanemcconnell/Library/Containers/com.apple.Safari.CacheDeleteExtension/Data/Library/Caches/com.apple.Safari.CacheDeleteExtension/Cache.db-shm
