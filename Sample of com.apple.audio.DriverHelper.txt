@@ -1,0 +1,95 @@
+Sampling process 3472 for 1 second with 1 millisecond of run time between samples
+Sampling completed, processing symbols...
+Analysis of sampling com.apple.audio.DriverHelper (pid 3472) every 1 millisecond
+Process:         com.apple.audio.DriverHelper [3472]
+Path:            /System/Library/Frameworks/CoreAudio.framework/Versions/A/XPCServices/com.apple.audio.DriverHelper.xpc/Contents/MacOS/com.apple.audio.DriverHelper
+Load Address:    0x101a89000
+Identifier:      com.apple.audio.DriverHelper
+Version:         1.0 (1)
+Code Type:       X86-64
+Parent Process:  launchd [1]
+
+Date/Time:       2018-01-02 08:29:42.636 -0500
+Launch Time:     2018-01-02 08:27:30.893 -0500
+OS Version:      Mac OS X 10.12 (16A323)
+Report Version:  7
+Analysis Tool:   /usr/bin/sample
+----
+
+Call graph:
+    887 Thread_26349   DispatchQueue_11: com.apple.root.default-qos.overcommit  (concurrent)
+    + 887 _dispatch_sig_thread  (in libdispatch.dylib) + 41  [0x7fffbcdb7337]
+    +   887 _dispatch_sigsuspend  (in libdispatch.dylib) + 21  [0x7fffbcdb734c]
+    +     887 __sigsuspend_nocancel  (in libsystem_kernel.dylib) + 10  [0x7fffbcf0e27e]
+    887 Thread_26351
+      887 start_wqthread  (in libsystem_pthread.dylib) + 13  [0x7fffbcff5221]
+        887 _pthread_wqthread  (in libsystem_pthread.dylib) + 1426  [0x7fffbcff57c5]
+          887 __workq_kernreturn  (in libsystem_kernel.dylib) + 10  [0x7fffbcf0e4e6]
+
+Total number in stack (recursive counted multiple, when >=5):
+
+Sort by top of stack, same collapsed (when >= 5):
+        __sigsuspend_nocancel  (in libsystem_kernel.dylib)        887
+        __workq_kernreturn  (in libsystem_kernel.dylib)        887
+
+Binary Images:
+       0x101a89000 -        0x101a8bff7  com.apple.audio.DriverHelper (1.0 - 1) <90A1321A-825B-308D-B759-0455EA7E6688> /System/Library/Frameworks/CoreAudio.framework/Versions/A/XPCServices/com.apple.audio.DriverHelper.xpc/Contents/MacOS/com.apple.audio.DriverHelper
+       0x106fe9000 -        0x1070261c7  dyld (0.0 - ???) <A525EAEA-AF86-30C2-B360-3D093B4F0828> /usr/lib/dyld
+    0x7fffa7c8a000 -     0x7fffa811dff7  com.apple.CoreFoundation (6.9 - 1348.1) <2A35BE4F-BA5B-3C22-BCF1-CFBBA2786081> /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+    0x7fffa9c64000 -     0x7fffa9cf9fff  com.apple.framework.IOKit (2.0.2 - 1324.1.7) <10BDCD1E-0463-3C53-BF11-C9A0919C1588> /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+    0x7fffadf9a000 -     0x7fffae2b5fff  com.apple.security (7.0 - 57740.1.18) <AF5E42F1-B513-3410-A5BE-1EC9CBAF8452> /System/Library/Frameworks/Security.framework/Versions/A/Security
+    0x7fffbb5a9000 -     0x7fffbb5aaff3  libDiagnosticMessagesClient.dylib (102) <422911A4-E273-3E88-BFC4-DF6470E48242> /usr/lib/libDiagnosticMessagesClient.dylib
+    0x7fffbb7e2000 -     0x7fffbb7e2fff  libOpenScriptingUtil.dylib (172) <D025E180-BB3B-3FFA-98FC-B6835354D723> /usr/lib/libOpenScriptingUtil.dylib
+    0x7fffbb7e7000 -     0x7fffbb7e8ff3  libSystem.B.dylib (1238) <168B3C56-081B-3998-9A44-681EB4C6828F> /usr/lib/libSystem.B.dylib
+    0x7fffbb95e000 -     0x7fffbb95eff3  libauto.dylib (187) <5BBF6A00-CC76-389D-84E7-CA88EDADE683> /usr/lib/libauto.dylib
+    0x7fffbb95f000 -     0x7fffbb96fff3  libbsm.0.dylib (34) <20084796-B04D-3B35-A003-EA11459557A9> /usr/lib/libbsm.0.dylib
+    0x7fffbb970000 -     0x7fffbb97eff7  libbz2.1.0.dylib (38) <6FD3B63F-0F86-3A25-BD5B-E243F58792C9> /usr/lib/libbz2.1.0.dylib
+    0x7fffbb97f000 -     0x7fffbb9d5ff7  libc++.1.dylib (307.4) <BEE86868-F831-384C-919E-2B286ACFE87C> /usr/lib/libc++.1.dylib
+    0x7fffbb9d6000 -     0x7fffbba00fff  libc++abi.dylib (307.2) <1CEF8ABB-7E6D-3C2F-8E0A-E7884478DD23> /usr/lib/libc++abi.dylib
+    0x7fffbba28000 -     0x7fffbba28ff7  libcoretls.dylib (121.1.1) <F3BAB54C-DA82-37C3-A218-46FEB179D555> /usr/lib/libcoretls.dylib
+    0x7fffbba29000 -     0x7fffbba2affb  libcoretls_cfhelpers.dylib (121.1.1) <D12709F3-BBE3-3CF7-9070-C2A0803F5526> /usr/lib/libcoretls_cfhelpers.dylib
+    0x7fffbbe33000 -     0x7fffbbe33fff  libenergytrace.dylib (15) <A1B040A2-7977-3097-9ADF-34FF181EB970> /usr/lib/libenergytrace.dylib
+    0x7fffbbf3c000 -     0x7fffbc161fff  libicucore.A.dylib (57131.0.1) <72594943-D25E-3F70-A4AC-8E9F9F442B7E> /usr/lib/libicucore.A.dylib
+    0x7fffbc169000 -     0x7fffbc182ffb  liblzma.5.dylib (10) <44BD0279-99DD-36B5-8A6E-C11432E2098D> /usr/lib/liblzma.5.dylib
+    0x7fffbc4ef000 -     0x7fffbc8c4127  libobjc.A.dylib (706) <47104A1B-13E8-369F-BC36-27FF465809FD> /usr/lib/libobjc.A.dylib
+    0x7fffbc8c7000 -     0x7fffbc8cbfff  libpam.2.dylib (21) <352F8FF6-2248-3594-B357-8D031DEFB06C> /usr/lib/libpam.2.dylib
+    0x7fffbc986000 -     0x7fffbcac7ffb  libsqlite3.dylib (252) <A531C105-64D7-37C0-B999-9320047B71C5> /usr/lib/libsqlite3.dylib
+    0x7fffbcbb8000 -     0x7fffbcbc5fff  libxar.1.dylib (354) <AAFCF321-8100-3622-880B-9661DCA35D69> /usr/lib/libxar.1.dylib
+    0x7fffbcbc9000 -     0x7fffbccb8ffb  libxml2.2.dylib (30.11) <26676155-64CE-323F-B73C-AD77AF5982E8> /usr/lib/libxml2.2.dylib
+    0x7fffbcce3000 -     0x7fffbccf4ff3  libz.1.dylib (67) <46E3FFA2-4328-327A-8D34-A03E20BFFB8E> /usr/lib/libz.1.dylib
+    0x7fffbcd03000 -     0x7fffbcd07ff7  libcache.dylib (79) <84E55656-FDA9-3B29-9E4F-BE31B2C0AA3C> /usr/lib/system/libcache.dylib
+    0x7fffbcd08000 -     0x7fffbcd12fff  libcommonCrypto.dylib (60092.1.2) <79F738D8-0AD7-3DEA-AF80-E0F8B90B74E3> /usr/lib/system/libcommonCrypto.dylib
+    0x7fffbcd13000 -     0x7fffbcd1afff  libcompiler_rt.dylib (62) <486BDE52-81B4-3446-BD72-23977CAE556F> /usr/lib/system/libcompiler_rt.dylib
+    0x7fffbcd1b000 -     0x7fffbcd23fff  libcopyfile.dylib (138) <0DA49B77-56EC-362D-98FF-FA78CFD986D6> /usr/lib/system/libcopyfile.dylib
+    0x7fffbcd24000 -     0x7fffbcda6ff3  libcorecrypto.dylib (442.1.3) <1CA8B679-810E-3C04-945A-4AC19372CDC7> /usr/lib/system/libcorecrypto.dylib
+    0x7fffbcda7000 -     0x7fffbcdd9fff  libdispatch.dylib (703.1.4) <12B1D95B-283D-325D-85AB-29A2FFD36987> /usr/lib/system/libdispatch.dylib
+    0x7fffbcdda000 -     0x7fffbcddfff3  libdyld.dylib (421.1) <CDFBDC9C-418C-369D-B433-F64B0630E640> /usr/lib/system/libdyld.dylib
+    0x7fffbcde0000 -     0x7fffbcde0ffb  libkeymgr.dylib (28) <09CD7CA6-46D2-3A9F-B9F1-7C4CA5CA0D68> /usr/lib/system/libkeymgr.dylib
+    0x7fffbcde1000 -     0x7fffbcdedffb  libkxld.dylib (3789.1.32) <48BDBE7F-AAE6-3050-9017-6959051CF16A> /usr/lib/system/libkxld.dylib
+    0x7fffbcdee000 -     0x7fffbcdeefff  liblaunch.dylib (972.1.5) <DC31FDEA-FD81-335E-BAA8-5A7395D20772> /usr/lib/system/liblaunch.dylib
+    0x7fffbcdef000 -     0x7fffbcdf4fff  libmacho.dylib (894) <1EAE5ADD-490C-3B1F-9F97-447BA8E0E90F> /usr/lib/system/libmacho.dylib
+    0x7fffbcdf5000 -     0x7fffbcdf7ff3  libquarantine.dylib (85) <78EF62D8-C890-3FC0-937A-C2FD8CEF8992> /usr/lib/system/libquarantine.dylib
+    0x7fffbcdf8000 -     0x7fffbcdf9ffb  libremovefile.dylib (45) <C4FC07FF-ED86-382E-B06F-33C34718080C> /usr/lib/system/libremovefile.dylib
+    0x7fffbcdfa000 -     0x7fffbce12ff7  libsystem_asl.dylib (349.1.1) <F0987490-8427-367F-B302-A05A7D61FEBF> /usr/lib/system/libsystem_asl.dylib
+    0x7fffbce13000 -     0x7fffbce13ff7  libsystem_blocks.dylib (67) <B8C3701D-5A91-3D35-999D-2DC8D5393525> /usr/lib/system/libsystem_blocks.dylib
+    0x7fffbce14000 -     0x7fffbcea1fe7  libsystem_c.dylib (1158.1.2) <5F260836-48E4-3F57-8553-62D2DA228A1F> /usr/lib/system/libsystem_c.dylib
+    0x7fffbcea2000 -     0x7fffbcea5ffb  libsystem_configuration.dylib (888.1.2) <67BB9D8B-2430-38AD-81A7-F0EC924B2590> /usr/lib/system/libsystem_configuration.dylib
+    0x7fffbcea6000 -     0x7fffbcea9fff  libsystem_coreservices.dylib (41.1) <11F22E6C-0DCB-3699-A4F0-C99E301E56E9> /usr/lib/system/libsystem_coreservices.dylib
+    0x7fffbceaa000 -     0x7fffbcec2ffb  libsystem_coretls.dylib (121.1.1) <8F7E9B12-400D-3276-A9C5-4546B0258554> /usr/lib/system/libsystem_coretls.dylib
+    0x7fffbcec3000 -     0x7fffbcec9fff  libsystem_dnssd.dylib (765.1.2) <C5FF2025-C60B-39C6-B205-6BF1BC51D1B3> /usr/lib/system/libsystem_dnssd.dylib
+    0x7fffbceca000 -     0x7fffbcef3fff  libsystem_info.dylib (503) <C686B834-5E7D-382C-AF6E-44AB78EE83E2> /usr/lib/system/libsystem_info.dylib
+    0x7fffbcef4000 -     0x7fffbcf16ff7  libsystem_kernel.dylib (3789.1.32) <5C68A0D7-C3C9-3E52-B983-EDE9A28AB6FC> /usr/lib/system/libsystem_kernel.dylib
+    0x7fffbcf17000 -     0x7fffbcf5efe7  libsystem_m.dylib (3121.4) <E3370D16-EBAA-3C7F-AC56-2D6EAD7DB0A4> /usr/lib/system/libsystem_m.dylib
+    0x7fffbcf5f000 -     0x7fffbcf7dff7  libsystem_malloc.dylib (116) <3DD17B88-B7A4-38B9-9E95-AB88E1C3B647> /usr/lib/system/libsystem_malloc.dylib
+    0x7fffbcf7e000 -     0x7fffbcfd4fff  libsystem_network.dylib (856.1.8) <A8973360-956A-33BF-9971-14D59C84E0D1> /usr/lib/system/libsystem_network.dylib
+    0x7fffbcfd5000 -     0x7fffbcfdeff3  libsystem_networkextension.dylib (563.1.11) <1C551832-9360-36DD-A7BA-52B55A171720> /usr/lib/system/libsystem_networkextension.dylib
+    0x7fffbcfdf000 -     0x7fffbcfe8ffb  libsystem_notify.dylib (165) <AF77D471-6B13-36BA-B144-7E7DDB9DBA9F> /usr/lib/system/libsystem_notify.dylib
+    0x7fffbcfe9000 -     0x7fffbcff1fe7  libsystem_platform.dylib (126.1.2) <884DDF42-3CAE-334A-82CE-965617130FB1> /usr/lib/system/libsystem_platform.dylib
+    0x7fffbcff2000 -     0x7fffbcffcfff  libsystem_pthread.dylib (218.1.3) <050AE77B-4F4B-334A-A5BA-CF0D10AF5304> /usr/lib/system/libsystem_pthread.dylib
+    0x7fffbcffd000 -     0x7fffbd000fff  libsystem_sandbox.dylib (592.1.3) <90FEF628-316D-3F84-9EF4-F7F510A4FBBB> /usr/lib/system/libsystem_sandbox.dylib
+    0x7fffbd001000 -     0x7fffbd002fff  libsystem_secinit.dylib (24) <A54B8FEF-E792-3C54-8E0B-E80A376662F2> /usr/lib/system/libsystem_secinit.dylib
+    0x7fffbd003000 -     0x7fffbd00afff  libsystem_symptoms.dylib (532.1.1) <B26F656E-94F9-3834-9B03-51C4FF11D1BF> /usr/lib/system/libsystem_symptoms.dylib
+    0x7fffbd00b000 -     0x7fffbd02bff7  libsystem_trace.dylib (518.1.16) <C3CDF7BC-CA3D-34F5-ADF8-46AAAB0B47F8> /usr/lib/system/libsystem_trace.dylib
+    0x7fffbd02c000 -     0x7fffbd031ffb  libunwind.dylib (35.3) <9F7C2AD8-A9A7-3DE4-828D-B0F0F166AAA0> /usr/lib/system/libunwind.dylib
+    0x7fffbd032000 -     0x7fffbd05bff7  libxpc.dylib (972.1.5) <2A901937-48E1-3BF2-83F1-2431156D82B7> /usr/lib/system/libxpc.dylib
+Sample analysis of process 3472 written to file /dev/stdout
