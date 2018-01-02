@@ -1,0 +1,1432 @@
+Dec 26 00:00:51 MacBookPro syslogd[37]: ASL Sender Statistics
+Dec 26 00:01:46 MacBookPro TextNow[9785]: [Error]: Error Domain=NSURLErrorDomain Code=-1012 "(null)" UserInfo={NSErrorFailingURLKey=https://api.parse.com/2/client_events, NSErrorFailingURLStringKey=https://api.parse.com/2/client_events} (Code: 100, Version: 1.6.2)
+Dec 26 00:01:46 MacBookPro TextNow[9785]: [Warning]: Attempt at runEventually command timed out. Waiting 600.000000 seconds. 4 retries remaining.
+Dec 26 00:05:28 MacBookPro com.apple.xpc.launchd[1] (com.apple.WebKit.Networking.EA6D1433-DD11-4757-8330-558F6C662008[9942]): Service exited with abnormal code: 1
+Dec 26 00:08:14 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 00:11:11 MacBookPro syslogd[37]: ASL Sender Statistics
+Dec 26 00:11:46 MacBookPro TextNow[9785]: [Error]: Error Domain=NSURLErrorDomain Code=-1012 "(null)" UserInfo={NSErrorFailingURLKey=https://api.parse.com/2/client_events, NSErrorFailingURLStringKey=https://api.parse.com/2/client_events} (Code: 100, Version: 1.6.2)
+Dec 26 00:11:46 MacBookPro TextNow[9785]: [Warning]: Attempt at runEventually command timed out. Waiting 600.000000 seconds. 3 retries remaining.
+Dec 26 00:21:22 MacBookPro syslogd[37]: ASL Sender Statistics
+Dec 26 00:21:41 MacBookPro login[10019]: USER_PROCESS: 10019 ttys000
+Dec 26 00:21:47 MacBookPro TextNow[9785]: [Error]: Error Domain=NSURLErrorDomain Code=-1012 "(null)" UserInfo={NSErrorFailingURLKey=https://api.parse.com/2/client_events, NSErrorFailingURLStringKey=https://api.parse.com/2/client_events} (Code: 100, Version: 1.6.2)
+Dec 26 00:21:47 MacBookPro TextNow[9785]: [Warning]: Attempt at runEventually command timed out. Waiting 600.000000 seconds. 2 retries remaining.
+Dec 26 00:24:46 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 00:27:35 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 00:28:12 --- last message repeated 1 time ---
+Dec 26 00:29:41 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 00:29:42 MacBookPro com.apple.xpc.launchd[1] (com.apple.bsd.dirhelper[10157]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.bsd.dirhelper
+Dec 26 00:29:42 MacBookPro Finder[711]: libcoreservices: __create_or_fix_relative_directory: 937: __dirhelper_create_relative returned 5
+Dec 26 00:29:47 MacBookPro com.apple.xpc.launchd[1] (com.apple.quicklook[10160]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Dec 26 00:30:06 MacBookPro SandboxedServiceRunner[2481]: assertion failed: 16A323: libxpc.dylib + 20875 [2A901937-48E1-3BF2-83F1-2431156D82B7]: 0x13
+Dec 26 00:30:06 --- last message repeated 2120 times ---
+Dec 26 00:30:06 MacBookPro SandboxedServiceRunner[2481]: assertion failed: 16A323: libxpc.dylib + 20875 [2A901937-48E1-3BF2-83F1-2431156D82B7]: 0x13
+Dec 26 00:30:06 MacBookPro SandboxedServiceRunner[2481]: assertion failed: 16A323: libxpc.dylib + 20875 [2A901937-48E1-3BF2-83F1-2431156D82B7]: 0x13
+Dec 26 00:30:06 --- last message repeated 1129 times ---
+Dec 26 00:30:06 MacBookPro syslogd[37]: Configuration Notice:
+	ASL Module "com.apple.AccountPolicyHelper" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Dec 26 00:30:06 MacBookPro syslogd[37]: Configuration Notice:
+	ASL Module "com.apple.authd" sharing output destination "/var/log/asl" with ASL Module "com.apple.asl".
+	Output parameters from ASL Module "com.apple.asl" override any specified in ASL Module "com.apple.authd".
+Dec 26 00:30:06 MacBookPro SandboxedServiceRunner[2481]: assertion failed: 16A323: libxpc.dylib + 20875 [2A901937-48E1-3BF2-83F1-2431156D82B7]: 0x13
+Dec 26 00:30:06 MacBookPro syslogd[37]: Configuration Notice:
+	ASL Module "com.apple.authd" sharing output destination "/var/log/system.log" with ASL Module "com.apple.asl".
+	Output parameters from ASL Module "com.apple.asl" override any specified in ASL Module "com.apple.authd".
+Dec 26 00:30:06 MacBookPro syslogd[37]: Configuration Notice:
+	ASL Module "com.apple.authd" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Dec 26 00:30:06 MacBookPro syslogd[37]: Configuration Notice:
+	ASL Module "com.apple.callhistory.asl.conf" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Dec 26 00:30:06 MacBookPro syslogd[37]: Configuration Notice:
+	ASL Module "com.apple.cdscheduler" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Dec 26 00:30:06 MacBookPro syslogd[37]: Configuration Notice:
+	ASL Module "com.apple.clouddocs" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Dec 26 00:30:06 MacBookPro syslogd[37]: Configuration Notice:
+	ASL Module "com.apple.contacts.ContactsAutocomplete" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Dec 26 00:30:06 MacBookPro syslogd[37]: Configuration Notice:
+	ASL Module "com.apple.contacts.ContactsUICore" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Dec 26 00:30:06 MacBookPro syslogd[37]: Configuration Notice:
+	ASL Module "com.apple.coreaudio" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Dec 26 00:30:06 MacBookPro syslogd[37]: Configuration Notice:
+	ASL Module "com.apple.CoreDuetAdmissionControl" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Dec 26 00:30:06 MacBookPro syslogd[37]: Configuration Notice:
+	ASL Module "com.apple.eventmonitor" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Dec 26 00:30:06 MacBookPro SandboxedServiceRunner[2481]: assertion failed: 16A323: libxpc.dylib + 20875 [2A901937-48E1-3BF2-83F1-2431156D82B7]: 0x13
+Dec 26 00:30:06 MacBookPro syslogd[37]: Configuration Notice:
+	ASL Module "com.apple.family.asl" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Dec 26 00:30:06 MacBookPro syslogd[37]: Configuration Notice:
+	ASL Module "com.apple.icloud.fmfd" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Dec 26 00:30:06 --- last message repeated 2 times ---
+Dec 26 00:30:06 MacBookPro syslogd[37]: Configuration Notice:
+	ASL Module "com.apple.install" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Dec 26 00:30:06 MacBookPro syslogd[37]: Configuration Notice:
+	ASL Module "com.apple.iokit.power" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Dec 26 00:30:06 MacBookPro syslogd[37]: Configuration Notice:
+	ASL Module "com.apple.mail" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Dec 26 00:30:06 MacBookPro syslogd[37]: Configuration Notice:
+	ASL Module "com.apple.MessageTracer" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Dec 26 00:30:06 MacBookPro SandboxedServiceRunner[2481]: assertion failed: 16A323: libxpc.dylib + 20875 [2A901937-48E1-3BF2-83F1-2431156D82B7]: 0x13
+Dec 26 00:30:06 MacBookPro syslogd[37]: Configuration Notice:
+	ASL Module "com.apple.mkb" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Dec 26 00:30:06 MacBookPro syslogd[37]: Configuration Notice:
+	ASL Module "com.apple.mkb.internal" sharing output destination "/private/var/log/keybagd.log" with ASL Module "com.apple.mkb".
+	Output parameters from ASL Module "com.apple.mkb" override any specified in ASL Module "com.apple.mkb.internal".
+Dec 26 00:30:06 MacBookPro syslogd[37]: Configuration Notice:
+	ASL Module "com.apple.mobileme.fmf1" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Dec 26 00:30:06 MacBookPro SandboxedServiceRunner[2481]: assertion failed: 16A323: libxpc.dylib + 20875 [2A901937-48E1-3BF2-83F1-2431156D82B7]: 0x13
+Dec 26 00:30:06 MacBookPro syslogd[37]: Configuration Notice:
+	ASL Module "com.apple.mobileme.fmf1.internal" sharing output destination "/var/log/FindMyFriendsApp/FindMyFriendsApp.asl" with ASL Module "com.apple.mobileme.fmf1".
+	Output parameters from ASL Module "com.apple.mobileme.fmf1" override any specified in ASL Module "com.apple.mobileme.fmf1.internal".
+Dec 26 00:30:06 MacBookPro syslogd[37]: Configuration Notice:
+	ASL Module "com.apple.mobileme.fmf1.internal" sharing output destination "/var/log/FindMyFriendsApp" with ASL Module "com.apple.mobileme.fmf1".
+	Output parameters from ASL Module "com.apple.mobileme.fmf1" override any specified in ASL Module "com.apple.mobileme.fmf1.internal".
+Dec 26 00:30:06 MacBookPro syslogd[37]: Configuration Notice:
+	ASL Module "com.apple.mobileme.fmf1.internal" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Dec 26 00:30:06 MacBookPro SandboxedServiceRunner[2481]: assertion failed: 16A323: libxpc.dylib + 20875 [2A901937-48E1-3BF2-83F1-2431156D82B7]: 0x13
+Dec 26 00:30:06 MacBookPro syslogd[37]: Configuration Notice:
+	ASL Module "com.apple.networking.symptoms" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Dec 26 00:30:06 --- last message repeated 2 times ---
+Dec 26 00:30:06 MacBookPro SandboxedServiceRunner[2481]: assertion failed: 16A323: libxpc.dylib + 20875 [2A901937-48E1-3BF2-83F1-2431156D82B7]: 0x13
+Dec 26 00:30:06 MacBookPro syslogd[37]: Configuration Notice:
+	ASL Module "com.apple.performance" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Dec 26 00:30:06 MacBookPro syslogd[37]: Configuration Notice:
+	ASL Module "com.apple.secinitd" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Dec 26 00:30:06 MacBookPro SandboxedServiceRunner[2481]: assertion failed: 16A323: libxpc.dylib + 20875 [2A901937-48E1-3BF2-83F1-2431156D82B7]: 0x13
+Dec 26 00:30:44 --- last message repeated 72374 times ---
+Dec 26 00:30:15 MacBookPro SandboxedServiceRunner[2481]: assertion failed: 16A323: libxpc.dylib + 20875 [2A901937-48E1-3BF2-83F1-2431156D82B7]: 0x13
+Dec 26 00:30:48 --- last message repeated 16403 times ---
+Dec 26 00:30:17 MacBookPro syslogd[37]: Internal memory size limit 10240000 exceeded - dropping messages
+Dec 26 00:30:51 MacBookPro com.apple.xpc.launchd[1] (com.apple.ReportCrash.Root[10169]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.ReportCrash.DirectoryService
+Dec 26 00:30:54 MacBookPro spindump[436]: Saved memory_resource.diag report for system_installd version (null) to /Library/Logs/DiagnosticReports/system_installd_2017-12-26-003054_MacBookPro.memory_resource.diag
+Dec 26 00:31:43 MacBookPro syslogd[37]: ASL Sender Statistics
+Dec 26 00:31:54 MacBookPro TextNow[9785]: [Error]: Error Domain=NSURLErrorDomain Code=-1012 "(null)" UserInfo={NSErrorFailingURLKey=https://api.parse.com/2/client_events, NSErrorFailingURLStringKey=https://api.parse.com/2/client_events} (Code: 100, Version: 1.6.2)
+Dec 26 00:31:54 MacBookPro TextNow[9785]: [Warning]: Attempt at runEventually command timed out. Waiting 600.000000 seconds. 1 retries remaining.
+Dec 26 00:32:26 MacBookPro SandboxedServiceRunner[2481]: assertion failed: 16A323: libxpc.dylib + 20875 [2A901937-48E1-3BF2-83F1-2431156D82B7]: 0x13
+Dec 26 00:33:19 --- last message repeated 93348 times ---
+Dec 26 00:32:40 MacBookPro SandboxedServiceRunner[2481]: assertion failed: 16A323: libxpc.dylib + 20875 [2A901937-48E1-3BF2-83F1-2431156D82B7]: 0x13
+Dec 26 00:32:40 MacBookPro SandboxedServiceRunner[2481]: assertion failed: 16A323: libxpc.dylib + 20875 [2A901937-48E1-3BF2-83F1-2431156D82B7]: 0x13
+Dec 26 00:33:58 --- last message repeated 16408 times ---
+Dec 26 00:32:42 MacBookPro syslogd[37]: Internal memory size limit 10240000 exceeded - dropping messages
+Dec 26 00:35:17 MacBookPro com.apple.xpc.launchd[1] (com.apple.metadata.mds.scan[10243]): Service exited due to signal: Terminated: 15 sent by com.apple.activitymonitor.helper[10244]
+Dec 26 00:40:15 MacBookPro SandboxedServiceRunner[2481]: assertion failed: 16A323: libxpc.dylib + 20875 [2A901937-48E1-3BF2-83F1-2431156D82B7]: 0x13
+Dec 26 00:40:39 --- last message repeated 67119 times ---
+Dec 26 00:40:24 MacBookPro syslogd[37]: Internal memory size limit 10240000 exceeded - dropping messages
+Dec 26 00:40:37 MacBookPro SandboxedServiceRunner[2481]: assertion failed: 16A323: libxpc.dylib + 20875 [2A901937-48E1-3BF2-83F1-2431156D82B7]: 0x13
+Dec 26 00:40:41 --- last message repeated 16377 times ---
+Dec 26 00:40:39 MacBookPro syslogd[37]: Internal memory size limit 10240000 exceeded - dropping messages
+Dec 26 00:40:40 MacBookPro SandboxedServiceRunner[2481]: assertion failed: 16A323: libxpc.dylib + 20875 [2A901937-48E1-3BF2-83F1-2431156D82B7]: 0x13
+Dec 26 00:40:45 --- last message repeated 25364 times ---
+Dec 26 00:40:43 MacBookPro syslogd[37]: Internal memory size limit 10240000 exceeded - dropping messages
+Dec 26 00:40:44 MacBookPro SandboxedServiceRunner[2481]: assertion failed: 16A323: libxpc.dylib + 20875 [2A901937-48E1-3BF2-83F1-2431156D82B7]: 0x13
+Dec 26 00:41:15 --- last message repeated 15050 times ---
+Dec 26 00:41:48 MacBookPro syslogd[37]: ASL Sender Statistics
+Dec 26 00:41:56 MacBookPro TextNow[9785]: [Error]: Error Domain=NSURLErrorDomain Code=-1012 "(null)" UserInfo={NSErrorFailingURLKey=https://api.parse.com/2/client_events, NSErrorFailingURLStringKey=https://api.parse.com/2/client_events} (Code: 100, Version: 1.6.2)
+Dec 26 00:41:56 MacBookPro TextNow[9785]: [Warning]: Attempt at runEventually command timed out. Waiting 600.000000 seconds. 0 retries remaining.
+Dec 26 00:41:59 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 00:42:05 MacBookPro Activity Monitor[2818]: assertion failed: 16A323: libxpc.dylib + 74287 [2A901937-48E1-3BF2-83F1-2431156D82B7]: 0x89
+Dec 26 00:42:17 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 00:45:05 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 00:46:06 MacBookPro com.apple.preferences.icloud.remoteservice[10131]: BUG in libdispatch client: kevent[EVFILT_MACHPORT] monitored resource vanished before the source cancel handler was invoked
+Dec 26 00:46:55 MacBookPro com.apple.xpc.launchd[1] (com.apple.activitymonitor.helper[10244]): Service exited due to signal: Killed: 9 sent by com.apple.activitymonitor.helper[10244]
+Dec 26 00:47:02 MacBookPro GoogleSoftwareUpdateAgent[10322]: 2017-12-26 00:47:02.571 GoogleSoftwareUpdateAgent[10322/0x7fffa83e53c0] [lvl=2] -[KSAgentApp(PrivateMethods) setUpLoggerOutputForVerboseMode:] Agent default/global settings: <KSAgentSettings:0x100211200 bundleID=com.google.Keystone.Agent lastCheck=2017-12-26 02:45:20 +0000 lastServerCheck=2017-12-13 18:35:07 +0000 lastCheckStart=2017-12-26 02:45:10 +0000 checkInterval=18000.000000 uiDisplayInterval=604800.000000 sleepInterval=1800.000000 jitterInterval=900 maxRunInterval=0.000000 isConsoleUser=1 ticketStorePath=/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore runMode=3 daemonUpdateEngineBrokerServiceName=com.google.Keystone.Daemon.UpdateEngine daemonAdministrationServiceName=com.google.Keystone.Daemon.Administration alwaysPromptForUpdates=0 lastUIDisplayed=(null) alwaysShowStatusItem=0 updateCheckTag=(null) printResults=NO userInitiated=NO>
+Dec 26 00:47:04 MacBookPro com.apple.xpc.launchd[1] (com.apple.preferences.icloud.remoteservice[10131]): Service did not exit 5 seconds after SIGTERM. Sending SIGKILL.
+Dec 26 00:47:32 MacBookPro com.apple.WebKit.WebContent[10302]: BUG in libdispatch client: kevent[EVFILT_MACHPORT] monitored resource vanished before the source cancel handler was invoked
+Dec 26 00:51:50 MacBookPro syslogd[37]: ASL Sender Statistics
+Dec 26 00:51:56 MacBookPro TextNow[9785]: [Error]: Failed to run command eventually with error: Error Domain=Parse Code=100 "(null)" UserInfo={code=100, temporary=1, error=Error Domain=NSURLErrorDomain Code=-1012 "(null)" UserInfo={NSErrorFailingURLKey=https://api.parse.com/2/client_events, NSErrorFailingURLStringKey=https://api.parse.com/2/client_events}, originalError=Error Domain=NSURLErrorDomain Code=-1012 "(null)" UserInfo={NSErrorFailingURLKey=https://api.parse.com/2/client_events, NSErrorFailingURLStringKey=https://api.parse.com/2/client_events}}
+Dec 26 00:52:01 MacBookPro TextNow[9785]: [Error]: Error Domain=NSURLErrorDomain Code=-1012 "(null)" UserInfo={NSErrorFailingURLKey=https://api.parse.com/2/client_events, NSErrorFailingURLStringKey=https://api.parse.com/2/client_events} (Code: 100, Version: 1.6.2)
+Dec 26 00:52:01 MacBookPro TextNow[9785]: [Warning]: Attempt at runEventually command timed out. Waiting 600.000000 seconds. 0 retries remaining.
+Dec 26 00:55:30 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 00:56:07 MacBookPro SandboxedServiceRunner[2481]: assertion failed: 16A323: libxpc.dylib + 20875 [2A901937-48E1-3BF2-83F1-2431156D82B7]: 0x13
+Dec 26 00:56:14 --- last message repeated 28405 times ---
+Dec 26 00:56:11 MacBookPro syslogd[37]: Internal memory size limit 10240000 exceeded - dropping messages
+Dec 26 00:56:12 MacBookPro SandboxedServiceRunner[2481]: assertion failed: 16A323: libxpc.dylib + 20875 [2A901937-48E1-3BF2-83F1-2431156D82B7]: 0x13
+Dec 26 00:56:16 --- last message repeated 15538 times ---
+Dec 26 00:56:14 MacBookPro syslogd[37]: Internal memory size limit 10240000 exceeded - dropping messages
+Dec 26 00:56:15 MacBookPro SandboxedServiceRunner[2481]: assertion failed: 16A323: libxpc.dylib + 20875 [2A901937-48E1-3BF2-83F1-2431156D82B7]: 0x13
+Dec 26 00:56:52 --- last message repeated 1236 times ---
+Dec 26 00:56:15 MacBookPro SandboxedServiceRunner[2481]: assertion failed: 16A323: libxpc.dylib + 20875 [2A901937-48E1-3BF2-83F1-2431156D82B7]: 0x13
+Dec 26 00:56:55 --- last message repeated 12710 times ---
+Dec 26 00:56:17 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 00:56:17 MacBookPro SandboxedServiceRunner[2481]: assertion failed: 16A323: libxpc.dylib + 20875 [2A901937-48E1-3BF2-83F1-2431156D82B7]: 0x13
+Dec 26 00:56:56 --- last message repeated 3632 times ---
+Dec 26 00:56:17 MacBookPro syslogd[37]: Internal memory size limit 10240000 exceeded - dropping messages
+Dec 26 00:57:09 MacBookPro Console[10457]: BUG in libdispatch client: kevent[EVFILT_MACHPORT] monitored resource vanished before the source cancel handler was invoked
+Dec 26 01:00:19 MacBookPro com.apple.xpc.launchd[1] (com.apple.ReportCrash[10532]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.ReportCrash
+Dec 26 01:00:21 MacBookPro spindump[436]: Saved memory_resource.diag report for Activity Monitor version (null) to /Library/Logs/DiagnosticReports/Activity Monitor_2017-12-26-010021_MacBookPro.memory_resource.diag
+Dec 26 01:00:33 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 01:02:07 MacBookPro syslogd[37]: ASL Sender Statistics
+Dec 26 01:02:22 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 01:04:43 MacBookPro com.apple.xpc.launchd[1] (com.apple.quicklook[11181]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Dec 26 01:05:59 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 01:08:39 MacBookPro com.apple.xpc.launchd[1] (com.apple.quicklook[11775]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Dec 26 01:10:06 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 01:10:48 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 01:10:49 MacBookPro com.apple.xpc.launchd[1] (com.apple.WebKit.Networking.D359978F-D072-4D03-B043-52E77C30A98D[11973]): Service exited with abnormal code: 1
+Dec 26 01:10:52 MacBookPro com.apple.xpc.launchd[1] (com.apple.WebKit.Networking.BFF8A72A-7F87-45EC-937E-1DC73777D029[12062]): Service exited with abnormal code: 1
+Dec 26 01:11:06 MacBookPro com.apple.xpc.launchd[1] (com.apple.WebKit.Networking.B94C6784-F19A-471F-9388-00ED59D072A6[12073]): Service exited with abnormal code: 1
+Dec 26 01:11:06 MacBookPro com.apple.xpc.launchd[1] (com.apple.WebKit.Networking.06D3E59F-A8FC-4139-B895-06618EB1B183[12015]): Service exited with abnormal code: 1
+Dec 26 01:11:06 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 01:11:56 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 01:11:59 MacBookPro com.apple.xpc.launchd[1] (com.apple.WebKit.Networking.65A155DF-ED89-4361-B0BC-9EAF48CE4D91[12217]): Service exited with abnormal code: 1
+Dec 26 01:12:02 MacBookPro com.apple.xpc.launchd[1] (com.apple.WebKit.Networking.75586E97-8770-4945-8EE5-5E23C437BE05[12219]): Service exited with abnormal code: 1
+Dec 26 01:12:05 MacBookPro com.apple.xpc.launchd[1] (com.apple.WebKit.Networking.956529A7-CE70-46BC-A45D-37C227DDEE15[12231]): Service exited with abnormal code: 1
+Dec 26 01:12:07 MacBookPro syslogd[37]: ASL Sender Statistics
+Dec 26 01:12:07 MacBookPro com.apple.xpc.launchd[1] (com.apple.WebKit.Networking.1595C301-4AE6-4679-96E9-A96D82AADBE0[12242]): Service exited with abnormal code: 1
+Dec 26 01:13:20 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 01:16:10 MacBookPro com.apple.xpc.launchd[1] (com.apple.quicklook[12833]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Dec 26 01:17:24 MacBookPro com.apple.xpc.launchd[1] (com.apple.quicklook[13021]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Dec 26 01:20:16 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 01:22:27 MacBookPro syslogd[37]: ASL Sender Statistics
+Dec 26 01:22:56 MacBookPro com.apple.xpc.launchd[1] (com.apple.quicklook[13842]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Dec 26 01:22:58 MacBookPro system_installd[372]: rootless_apply: unrestricted file at /.PKInstallSandboxManager-SystemSoftware/023BC97F-E39E-4AF7-AA13-AAB3566B7488.activeSandbox/Root/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/include/ruby-2.3.0/ruby/debug.h
+Dec 26 01:22:58 MacBookPro system_installd[372]: rootless_apply: unrestricted file at /.PKInstallSandboxManager-SystemSoftware/023BC97F-E39E-4AF7-AA13-AAB3566B7488.activeSandbox/Root/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/include/ruby-2.3.0/ruby/defines.h
+Dec 26 01:22:58 MacBookPro system_installd[372]: rootless_apply: unrestricted file at /.PKInstallSandboxManager-SystemSoftware/023BC97F-E39E-4AF7-AA13-AAB3566B7488.activeSandbox/Root/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/include/ruby-2.3.0/ruby/digest.h
+Dec 26 01:22:58 MacBookPro system_installd[372]: rootless_apply: unrestricted file at /.PKInstallSandboxManager-SystemSoftware/023BC97F-E39E-4AF7-AA13-AAB3566B7488.activeSandbox/Root/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/include/ruby-2.3.0/ruby/encoding.h
+Dec 26 01:22:58 MacBookPro system_installd[372]: rootless_apply: unrestricted file at /.PKInstallSandboxManager-SystemSoftware/023BC97F-E39E-4AF7-AA13-AAB3566B7488.activeSandbox/Root/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/include/ruby-2.3.0/ruby/intern.h
+Dec 26 01:22:58 MacBookPro system_installd[372]: rootless_apply: unrestricted file at /.PKInstallSandboxManager-SystemSoftware/023BC97F-E39E-4AF7-AA13-AAB3566B7488.activeSandbox/Root/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/include/ruby-2.3.0/ruby/io.h
+Dec 26 01:22:58 MacBookPro system_installd[372]: rootless_apply: unrestricted file at /.PKInstallSandboxManager-SystemSoftware/023BC97F-E39E-4AF7-AA13-AAB3566B7488.activeSandbox/Root/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/include/ruby-2.3.0/ruby/missing.h
+Dec 26 01:22:58 MacBookPro system_installd[372]: rootless_apply: unrestricted file at /.PKInstallSandboxManager-SystemSoftware/023BC97F-E39E-4AF7-AA13-AAB3566B7488.activeSandbox/Root/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/include/ruby-2.3.0/ruby/oniguruma.h
+Dec 26 01:22:58 MacBookPro system_installd[372]: rootless_apply: unrestricted file at /.PKInstallSandboxManager-SystemSoftware/023BC97F-E39E-4AF7-AA13-AAB3566B7488.activeSandbox/Root/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/include/ruby-2.3.0/ruby/re.h
+Dec 26 01:22:58 MacBookPro system_installd[372]: rootless_apply: unrestricted file at /.PKInstallSandboxManager-SystemSoftware/023BC97F-E39E-4AF7-AA13-AAB3566B7488.activeSandbox/Root/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/include/ruby-2.3.0/ruby/regex.h
+Dec 26 01:22:58 MacBookPro system_installd[372]: rootless_apply: unrestricted file at /.PKInstallSandboxManager-SystemSoftware/023BC97F-E39E-4AF7-AA13-AAB3566B7488.activeSandbox/Root/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/include/ruby-2.3.0/ruby/ruby.h
+Dec 26 01:22:58 MacBookPro system_installd[372]: rootless_apply: unrestricted file at /.PKInstallSandboxManager-SystemSoftware/023BC97F-E39E-4AF7-AA13-AAB3566B7488.activeSandbox/Root/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/include/ruby-2.3.0/ruby/st.h
+Dec 26 01:22:58 MacBookPro system_installd[372]: rootless_apply: unrestricted file at /.PKInstallSandboxManager-SystemSoftware/023BC97F-E39E-4AF7-AA13-AAB3566B7488.activeSandbox/Root/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/include/ruby-2.3.0/ruby/subst.h
+Dec 26 01:22:58 MacBookPro system_installd[372]: rootless_apply: unrestricted file at /.PKInstallSandboxManager-SystemSoftware/023BC97F-E39E-4AF7-AA13-AAB3566B7488.activeSandbox/Root/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/include/ruby-2.3.0/ruby/thread.h
+Dec 26 01:22:58 MacBookPro system_installd[372]: rootless_apply: unrestricted file at /.PKInstallSandboxManager-SystemSoftware/023BC97F-E39E-4AF7-AA13-AAB3566B7488.activeSandbox/Root/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/include/ruby-2.3.0/ruby/thread_native.h
+Dec 26 01:22:58 MacBookPro system_installd[372]: rootless_apply: unrestricted file at /.PKInstallSandboxManager-SystemSoftware/023BC97F-E39E-4AF7-AA13-AAB3566B7488.activeSandbox/Root/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/include/ruby-2.3.0/ruby/util.h
+Dec 26 01:22:58 MacBookPro system_installd[372]: rootless_apply: unrestricted file at /.PKInstallSandboxManager-SystemSoftware/023BC97F-E39E-4AF7-AA13-AAB3566B7488.activeSandbox/Root/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/include/ruby-2.3.0/ruby/version.h
+Dec 26 01:22:58 MacBookPro system_installd[372]: rootless_apply: unrestricted file at /.PKInstallSandboxManager-SystemSoftware/023BC97F-E39E-4AF7-AA13-AAB3566B7488.activeSandbox/Root/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/include/ruby-2.3.0/ruby/vm.h
+Dec 26 01:22:58 MacBookPro system_installd[372]: rootless_apply: unrestricted file at /.PKInstallSandboxManager-SystemSoftware/023BC97F-E39E-4AF7-AA13-AAB3566B7488.activeSandbox/Root/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/include/ruby-2.3.0/ruby.h
+Dec 26 01:22:58 MacBookPro system_installd[372]: rootless_apply: unrestricted file at /.PKInstallSandboxManager-SystemSoftware/023BC97F-E39E-4AF7-AA13-AAB3566B7488.activeSandbox/Root/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/include/ruby-2.3.0/universal-darwin17/ruby/config.h
+Dec 26 01:24:01 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 01:24:03 MacBookPro com.apple.xpc.launchd[1] (com.apple.ActivityMonitor.756[2818]): Service exited due to signal: Terminated: 15 sent by Activity Monitor[2818]
+Dec 26 01:24:23 MacBookPro com.apple.xpc.launchd[1] (com.apple.quicklook[13912]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Dec 26 01:24:29 MacBookPro loginwindow[94]: BUG in libdispatch client: kevent[EVFILT_MACHPORT] monitored resource vanished before the source cancel handler was invoked
+Dec 26 01:25:03 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 01:25:05 MacBookPro com.apple.xpc.launchd[1] (com.apple.WebKit.Networking.F6FB3823-A7BF-4147-AF0E-947D1CB908A5[13926]): Service exited with abnormal code: 1
+Dec 26 01:25:05 MacBookPro com.apple.xpc.launchd[1] (com.apple.WebKit.Networking.613E8D78-5633-4EA2-9404-62A7906AE254[13927]): Service exited with abnormal code: 1
+Dec 26 01:25:05 MacBookPro com.apple.xpc.launchd[1] (com.apple.WebKit.Networking.4D378CCE-2361-4631-A818-7362BDE18D11[13928]): Service exited with abnormal code: 1
+Dec 26 01:25:05 MacBookPro com.apple.xpc.launchd[1] (com.apple.WebKit.Networking.654E8F82-DAAE-4FC9-A664-382BBFFBA4B7[13929]): Service exited with abnormal code: 1
+Dec 26 01:27:11 MacBookPro com.apple.xpc.launchd[1] (com.apple.quicklook[13954]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Dec 26 01:28:21 MacBookPro com.apple.xpc.launchd[1] (com.apple.quicklook[13967]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Dec 26 01:29:32 MacBookPro com.apple.xpc.launchd[1] (com.apple.quicklook[13972]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Dec 26 01:30:42 MacBookPro com.apple.xpc.launchd[1] (com.apple.quicklook[13977]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Dec 26 01:31:52 MacBookPro com.apple.xpc.launchd[1] (com.apple.quicklook[13987]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Dec 26 01:32:42 MacBookPro syslogd[37]: ASL Sender Statistics
+Dec 26 01:33:02 MacBookPro com.apple.xpc.launchd[1] (com.apple.quicklook[13991]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Dec 26 01:34:12 MacBookPro com.apple.xpc.launchd[1] (com.apple.quicklook[14002]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Dec 26 01:35:23 MacBookPro com.apple.xpc.launchd[1] (com.apple.quicklook[14006]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Dec 26 01:42:59 MacBookPro syslogd[37]: ASL Sender Statistics
+Dec 26 01:47:26 MacBookPro GoogleSoftwareUpdateAgent[14045]: 2017-12-26 01:47:26.489 GoogleSoftwareUpdateAgent[14045/0x7fffa83e53c0] [lvl=2] -[KSAgentApp(PrivateMethods) setUpLoggerOutputForVerboseMode:] Agent default/global settings: <KSAgentSettings:0x100503190 bundleID=com.google.Keystone.Agent lastCheck=2017-12-26 02:45:20 +0000 lastServerCheck=2017-12-13 18:35:07 +0000 lastCheckStart=2017-12-26 02:45:10 +0000 checkInterval=18000.000000 uiDisplayInterval=604800.000000 sleepInterval=1800.000000 jitterInterval=900 maxRunInterval=0.000000 isConsoleUser=1 ticketStorePath=/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore runMode=3 daemonUpdateEngineBrokerServiceName=com.google.Keystone.Daemon.UpdateEngine daemonAdministrationServiceName=com.google.Keystone.Daemon.Administration alwaysPromptForUpdates=0 lastUIDisplayed=(null) alwaysShowStatusItem=0 updateCheckTag=(null) printResults=NO userInitiated=NO>
+Dec 26 01:53:00 MacBookPro syslogd[37]: ASL Sender Statistics
+Dec 26 02:03:08 MacBookPro syslogd[37]: ASL Sender Statistics
+Dec 26 02:05:09 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 02:09:03 MacBookPro com.apple.xpc.launchd[1] (com.apple.ReportCrash[14113]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.ReportCrash
+Dec 26 02:09:05 MacBookPro spindump[436]: Saved memory_resource.diag report for storeassetd version (null) to /Library/Logs/DiagnosticReports/storeassetd_2017-12-26-020905_MacBookPro.memory_resource.diag
+Dec 26 02:13:24 MacBookPro syslogd[37]: ASL Sender Statistics
+Dec 26 02:23:38 MacBookPro syslogd[37]: ASL Sender Statistics
+Dec 26 02:33:42 MacBookPro syslogd[37]: ASL Sender Statistics
+Dec 26 02:43:51 MacBookPro syslogd[37]: ASL Sender Statistics
+Dec 26 02:47:49 MacBookPro GoogleSoftwareUpdateAgent[14228]: 2017-12-26 02:47:49.494 GoogleSoftwareUpdateAgent[14228/0x7fffa83e53c0] [lvl=2] -[KSAgentApp(PrivateMethods) setUpLoggerOutputForVerboseMode:] Agent default/global settings: <KSAgentSettings:0x100403690 bundleID=com.google.Keystone.Agent lastCheck=2017-12-26 02:45:20 +0000 lastServerCheck=2017-12-13 18:35:07 +0000 lastCheckStart=2017-12-26 02:45:10 +0000 checkInterval=18000.000000 uiDisplayInterval=604800.000000 sleepInterval=1800.000000 jitterInterval=900 maxRunInterval=0.000000 isConsoleUser=1 ticketStorePath=/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore runMode=3 daemonUpdateEngineBrokerServiceName=com.google.Keystone.Daemon.UpdateEngine daemonAdministrationServiceName=com.google.Keystone.Daemon.Administration alwaysPromptForUpdates=0 lastUIDisplayed=(null) alwaysShowStatusItem=0 updateCheckTag=(null) printResults=NO userInitiated=NO>
+Dec 26 02:47:49 MacBookPro GoogleSoftwareUpdateAgent[14228]: 2017-12-26 02:47:49.496 GoogleSoftwareUpdateAgent[14228/0x7fffa83e53c0] [lvl=2] -[KSAgentApp(PrivateMethods) checkForUpdatesUsingArguments:invocation:error:] Starting update check.
+Dec 26 02:47:50 MacBookPro GoogleSoftwareUpdateAgent[14228]: 2017-12-26 02:47:50.046 GoogleSoftwareUpdateAgent[14228/0x7000041d1000] [lvl=2] -[KSEngineInvocation(KeystoneThread) runKeystonesInThread] Starting engine thread
+Dec 26 02:47:50 MacBookPro GoogleSoftwareUpdateAgent[14228]: 2017-12-26 02:47:50.106 GoogleSoftwareUpdateAgent[14228/0x7000041d1000] [lvl=2] -[KSEngineInvocation(KeystoneThread) runKeystonesInThread] No functional system update engine detected. Only user tickets will be processed.
+Dec 26 02:47:50 MacBookPro GoogleSoftwareUpdateAgent[14228]: 2017-12-26 02:47:50.119 GoogleSoftwareUpdateAgent[14228/0x7000041d1000] [lvl=2] -[KSEngineInvocation(KeystoneThread) runKeystonesInThread] Checking with local engine: <KSUpdateEngine:0x1002930a0
+		ticketStore=<KSPersistentTicketStore:0x10040b910 store=<KSKeyedPersistentStore:0x10040d030
+			path="/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore"
+			lockFile=<KSLockFile:0x10040cc10
+				path="/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore.lock"
+				locked=NO
+			>
+		>>
+		processor=<KSActionProcessor:0x1002932a0
+			delegate=<KSUpdateEngine:0x1002930a0>
+			isProcessing=NO actionsCompleted=0 progress=0.00
+			errors=0 currentActionErrors=0
+			events=0 currentActionEvents=0
+			actionQueue=( )
+		>
+		delegate=(null)
+		serverInfoStore=<KSServerPrivateInfoStore:0x10030f1d0 path="/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/Servers">
+		errors=0
+	>
+Dec 26 02:47:50 MacBookPro GoogleSoftwareUpdateAgent[14228]: 2017-12-26 02:47:50.120 GoogleSoftwareUpdateAgent[14228/0x7000041d1000] [lvl=2] -[KSEngineInvocation(KeystoneThread) performSelfUpdateWithEngine:error:] Checking for self update with Engine: <KSUpdateEngine:0x1002930a0
+		ticketStore=<KSPersistentTicketStore:0x10040b910 store=<KSKeyedPersistentStore:0x10040d030
+			path="/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore"
+			lockFile=<KSLockFile:0x10040cc10
+				path="/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore.lock"
+				locked=NO
+			>
+		>>
+		processor=<KSActionProcessor:0x1002932a0
+			delegate=<KSUpdateEngine:0x1002930a0>
+			isProcessing=NO actionsCompleted=0 progress=0.00
+			errors=0 currentActionErrors=0
+			events=0 currentActionEvents=0
+			actionQueue=( )
+		>
+		delegate=(null)
+		serverInfoStore=<KSServerPrivateInfoStore:0x10030f1d0 path="/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/Servers">
+		errors=0
+	>
+Dec 26 02:47:50 MacBookPro GoogleSoftwareUpdateAgent[14228]: 2017-12-26 02:47:50.120 GoogleSoftwareUpdateAgent[14228/0x7000041d1000] [lvl=2] -[KSEngineInvocation(KeystoneThread) performSelfUpdateWithEngine:error:] This process may be killed if self-update is necessary. In such cases, sub-processes may still be running to complete the self-update.
+Dec 26 02:47:50 MacBookPro GoogleSoftwareUpdateAgent[14228]: 2017-12-26 02:47:50.120 GoogleSoftwareUpdateAgent[14228/0x7000041d1000] [lvl=2] -[KSEngineInvocation(KeystoneThread) updateProductWithProductID:usingEngine:error:] Checking for updates for "com.google.Keystone" using engine <KSUpdateEngine:0x1002930a0
+		ticketStore=<KSPersistentTicketStore:0x10040b910 store=<KSKeyedPersistentStore:0x10040d030
+			path="/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore"
+			lockFile=<KSLockFile:0x10040cc10
+				path="/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore.lock"
+				locked=NO
+			>
+		>>
+		processor=<KSActionProcessor:0x1002932a0
+			delegate=<KSUpdateEngine:0x1002930a0>
+			isProcessing=NO actionsCompleted=0 progress=0.00
+			errors=0 currentActionErrors=0
+			events=0 currentActionEvents=0
+			actionQueue=( )
+		>
+		delegate=(null)
+		serverInfoStore=<KSServerPrivateInfoStore:0x10030f1d0 path="/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/Servers">
+		errors=0
+	>
+Dec 26 02:47:50 MacBookPro GoogleSoftwareUpdateAgent[14228]: 2017-12-26 02:47:50.138 GoogleSoftwareUpdateAgent[14228/0x7000041d1000] [lvl=2] -[KSUpdateEngine updateProductID:] KSUpdateEngine updating product ID: "com.google.Keystone"
+Dec 26 02:47:50 MacBookPro GoogleSoftwareUpdateAgent[14228]: 2017-12-26 02:47:50.149 GoogleSoftwareUpdateAgent[14228/0x7000041d1000] [lvl=2] -[KSCheckAction performAction] KSCheckAction checking 1 ticket(s).
+Dec 26 02:47:50 MacBookPro GoogleSoftwareUpdateAgent[14228]: 2017-12-26 02:47:50.163 GoogleSoftwareUpdateAgent[14228/0x7000041d1000] [lvl=2] -[KSUpdateCheckAction performAction] KSUpdateCheckAction starting update check for ticket(s): {(
+		<KSTicket:0x10032ce00
+			productID=com.google.Keystone
+			version=1.2.9.98
+			xc=<KSPathExistenceChecker:0x10032c720 path=/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/GoogleSoftwareUpdate.bundle>
+			url=https://tools.google.com/service/update2
+			creationDate=2017-12-13 18:35:00
+			cohort=1:0:
+			cohortName=Everyone
+			ticketVersion=1
+		>
+	)}
+	Using server: <KSOmahaServer:0x1003ba0d0
+		engine=<KSUpdateEngine:0x1002930a0>
+	>
+Dec 26 02:47:50 MacBookPro GoogleSoftwareUpdateAgent[14228]: 2017-12-26 02:47:50.190 GoogleSoftwareUpdateAgent[14228/0x7000041d1000] [lvl=2] +[KSCodeSigningVerification verifyBundle:applicationId:error:] KSCodeSigningVerification verifying code signing for '/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/GoogleSoftwareUpdate.bundle/Contents/MacOS/GoogleSoftwareUpdateDaemon' with the requirement 'anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists and certificate leaf[subject.OU]="EQHXZ8M8AV" and (identifier="com.google.Keystone")'
+Dec 26 02:47:50 MacBookPro GoogleSoftwareUpdateAgent[14228]: 2017-12-26 02:47:50.390 GoogleSoftwareUpdateAgent[14228/0x7000041d1000] [lvl=2] -[KSUpdateCheckAction performAction] KSUpdateCheckAction running KSServerUpdateRequest: <KSOmahaServerUpdateRequest:0x1003dc4d0
+		server=<KSOmahaServer:0x1003ba0d0>
+		url="https://tools.google.com/service/update2?cup2hreq=efbc94bb00e895d0fecd9bd86c1e489f9e64aaf6aa6a3b41b91de1b268f15d2a&cup2key=7:1527050609"
+		fallbackURLs=(
+			http://tools.google.com/service/update2?cup2hreq=efbc94bb00e895d0fecd9bd86c1e489f9e64aaf6aa6a3b41b91de1b268f15d2a&cup2key=7:2728175070
+		)
+		runningFetchers=0
+		tickets=1
+		body=
+			<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+			<request protocol="3.0" version="KeystoneAgent-1.2.9.98" ismachine="0" requestid="{F570EFB1-E27C-42F0-BE1E-4D5888E1D39A}" dedup="cr" sessionid="{060A0E7E-ED02-4A86-BA55-944EEEA988E4}">
+			    <os platform="mac" version="10.12" arch="i486" sp="10.12.0_i486"></os>
+			    <app appid="com.google.Keystone" version="1.2.9.98" cohort="1:0:" cohortname="Everyone" lang="en-us" installage="12" installdate="3997" brand="GGLG" signed="1">
+			        <ping rd="4011" ad="4011" ping_freshness="{27EE6D23-C77A-48CD-9532-DAB46D4019E4}"></ping>
+			        <updatecheck></updatecheck>
+			    </app>
+			</request>
+		headers={
+			"X-GoogleUpdate-Interactivity" = bg;
+		}
+	>
+Dec 26 02:47:50 MacBookPro GoogleSoftwareUpdateAgent[14228]: 2017-12-26 02:47:50.390 GoogleSoftwareUpdateAgent[14228/0x7000041d1000] [lvl=2] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher start fetch from URL: "https://tools.google.com/service/update2?cup2hreq=efbc94bb00e895d0fecd9bd86c1e489f9e64aaf6aa6a3b41b91de1b268f15d2a&cup2key=7:1527050609"
+Dec 26 02:47:50 MacBookPro GoogleSoftwareUpdateAgent[14228]: 2017-12-26 02:47:50.396 GoogleSoftwareUpdateAgent[14228/0x7000041d1000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) launchedHelperTaskForToolPath:error:] KSOutOfProcessFetcher launched '/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/GoogleSoftwareUpdate.bundle/Contents/MacOS/ksfetch' with process id: 14230
+Dec 26 02:47:50 MacBookPro GoogleSoftwareUpdateAgent[14228]: 2017-12-26 02:47:50.396 GoogleSoftwareUpdateAgent[14228/0x7000041d1000] [lvl=2] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher fetching from URL: "https://tools.google.com/service/update2?cup2hreq=efbc94bb00e895d0fecd9bd86c1e489f9e64aaf6aa6a3b41b91de1b268f15d2a&cup2key=7:1527050609"
+Dec 26 02:47:50 MacBookPro ksfetch[14230]: 2017-12-26 02:47:50.431 ksfetch[14230/0x7fffa83e53c0] [lvl=2] KSHelperReceiveAllData() KSHelperTool read 2030 bytes from stdin.
+Dec 26 02:47:50 MacBookPro ksfetch[14230]: 2017-12-26 02:47:50.433 ksfetch[14230/0x7fffa83e53c0] [lvl=2] main() Fetcher received a request: <NSMutableURLRequest: 0x10010ef80> { URL: https://tools.google.com/service/update2?cup2hreq=efbc94bb00e895d0fecd9bd86c1e489f9e64aaf6aa6a3b41b91de1b268f15d2a&cup2key=7:1527050609 }
+Dec 26 02:47:50 MacBookPro ksfetch[14230]: 2017-12-26 02:47:50.433 ksfetch[14230/0x7fffa83e53c0] [lvl=2] main() Fetcher received a download path: /tmp/KSOutOfProcessFetcher.H1m1Sc9WKz/download
+Dec 26 02:47:50 MacBookPro ksfetch[14230]: 2017-12-26 02:47:50.434 ksfetch[14230/0x7fffa83e53c0] [lvl=2] main() ksfetch fetching URL (<NSMutableURLRequest: 0x10010ef80> { URL: https://tools.google.com/service/update2?cup2hreq=efbc94bb00e895d0fecd9bd86c1e489f9e64aaf6aa6a3b41b91de1b268f15d2a&cup2key=7:1527050609 }) to folder:/tmp/KSOutOfProcessFetcher.H1m1Sc9WKz/download
+Dec 26 02:47:50 MacBookPro ksfetch[14230]: 2017-12-26 02:47:50.434 ksfetch[14230/0x7fffa83e53c0] [lvl=2] main() Setting up download file handles...
+Dec 26 02:47:51 MacBookPro ksfetch[14230]: 2017-12-26 02:47:51.115 ksfetch[14230/0x7fffa83e53c0] [lvl=2] -[FetchDelegate fetcher:finishedWithData:] Fetcher downloaded successfully data of length: 0
+Dec 26 02:47:51 MacBookPro ksfetch[14230]: 2017-12-26 02:47:51.116 ksfetch[14230/0x7fffa83e53c0] [lvl=2] main() ksfetch done fetching.
+Dec 26 02:47:51 MacBookPro ksfetch[14230]: 2017-12-26 02:47:51.160 ksfetch[14230/0x7fffa83e53c0] [lvl=2] main() Fetcher is exiting.
+Dec 26 02:47:51 MacBookPro GoogleSoftwareUpdateAgent[14228]: 2017-12-26 02:47:51.164 GoogleSoftwareUpdateAgent[14228/0x7000041d1000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) helperErrorAvailable:] KSOutOfProcessFetcher helper tool raw STDERR:
+	:	<>
+Dec 26 02:47:51 MacBookPro GoogleSoftwareUpdateAgent[14228]: 2017-12-26 02:47:51.164 GoogleSoftwareUpdateAgent[14228/0x7000041d1000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) helperDidTerminate:] KSOutOfProcessFetcher fetch ended for URL: "https://tools.google.com/service/update2?cup2hreq=efbc94bb00e895d0fecd9bd86c1e489f9e64aaf6aa6a3b41b91de1b268f15d2a&cup2key=7:1527050609"
+Dec 26 02:47:52 MacBookPro GoogleSoftwareUpdateAgent[14228]: 2017-12-26 02:47:52.200 GoogleSoftwareUpdateAgent[14228/0x7000041d1000] [lvl=2] -[KSUpdateCheckAction(KSServerUpdateRequestDelegate) serverRequest:fetchedWithResponse:] KSUpdateCheckAction received KSServerUpdateResponse: <KSOmahaServerUpdateResponse:0x105b00390
+		server=<KSOmahaServer:0x1003ba0d0>
+		url="https://tools.google.com/service/update2?cup2hreq=efbc94bb00e895d0fecd9bd86c1e489f9e64aaf6aa6a3b41b91de1b268f15d2a&cup2key=7:1527050609"
+		tickets=1
+		status=200
+		data=
+			<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+			<response protocol="3.0" server="prod">
+			    <daystart elapsed_days="4011" elapsed_seconds="85671"></daystart>
+			    <app appid="com.google.Keystone" cohort="1:0:" cohortname="Everyone" status="ok">
+			        <ping status="ok"></ping>
+			        <updatecheck status="noupdate"></updatecheck>
+			    </app>
+			</response>
+	>
+Dec 26 02:47:52 MacBookPro GoogleSoftwareUpdateAgent[14228]: 2017-12-26 02:47:52.202 GoogleSoftwareUpdateAgent[14228/0x7000041d1000] [lvl=2] -[KSOmahaServer updateInfosForUpdateResponse:updateRequest:infoStore:upToDateTickets:updatedTickets:events:errors:] Response passed CUP validation.
+Dec 26 02:47:52 MacBookPro GoogleSoftwareUpdateAgent[14228]: 2017-12-26 02:47:52.278 GoogleSoftwareUpdateAgent[14228/0x7000041d1000] [lvl=2] -[KSUpdateCheckAction(PrivateMethods) finishAction] KSUpdateCheckAction found updates: {( )}
+Dec 26 02:47:52 MacBookPro GoogleSoftwareUpdateAgent[14228]: 2017-12-26 02:47:52.283 GoogleSoftwareUpdateAgent[14228/0x7000041d1000] [lvl=2] -[KSPrefetchAction performAction] KSPrefetchAction no updates to prefetch.
+Dec 26 02:47:52 MacBookPro GoogleSoftwareUpdateAgent[14228]: 2017-12-26 02:47:52.283 GoogleSoftwareUpdateAgent[14228/0x7000041d1000] [lvl=2] -[KSMultiUpdateAction performAction] KSSilentUpdateAction had no updates to apply.
+Dec 26 02:47:52 MacBookPro GoogleSoftwareUpdateAgent[14228]: 2017-12-26 02:47:52.283 GoogleSoftwareUpdateAgent[14228/0x7000041d1000] [lvl=2] -[KSMultiUpdateAction performAction] KSPromptAction had no updates to apply.
+Dec 26 02:47:52 MacBookPro GoogleSoftwareUpdateAgent[14228]: 2017-12-26 02:47:52.283 GoogleSoftwareUpdateAgent[14228/0x7000041d1000] [lvl=2] -[KSEngineInvocation(KeystoneDelegate) updateEngineFinishedWithErrors:] Keystone finished: errors=0
+Dec 26 02:47:52 MacBookPro GoogleSoftwareUpdateAgent[14228]: 2017-12-26 02:47:52.283 GoogleSoftwareUpdateAgent[14228/0x7000041d1000] [lvl=2] -[KSUpdateEngine(PrivateMethods) updateFinish] KSUpdateEngine update processing complete.
+Dec 26 02:47:52 MacBookPro GoogleSoftwareUpdateAgent[14228]: 2017-12-26 02:47:52.284 GoogleSoftwareUpdateAgent[14228/0x7000041d1000] [lvl=2] -[KSEngineInvocation(KeystoneThread) updateProductWithProductID:usingEngine:error:] Done checking for updates for '"com.google.Keystone"' using engine <KSUpdateEngine:0x1002930a0
+		ticketStore=<KSPersistentTicketStore:0x10040b910 store=<KSKeyedPersistentStore:0x10040d030
+			path="/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore"
+			lockFile=<KSLockFile:0x10040cc10
+				path="/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore.lock"
+				locked=NO
+			>
+		>>
+		processor=<KSActionProcessor:0x10063d620
+			delegate=<KSUpdateEngine:0x1002930a0>
+			isProcessing=NO actionsCompleted=0 progress=0.00
+			errors=0 currentActionErrors=0
+			events=0 currentActionEvents=0
+			actionQueue=( )
+		>
+		delegate=<KSEngineInvocation: 0x10063eaf0>
+		serverInfoStore=<KSServerPrivateInfoStore:0x10030f1d0 path="/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/Servers">
+		errors=0
+	>
+Dec 26 02:47:52 MacBookPro GoogleSoftwareUpdateAgent[14228]: 2017-12-26 02:47:52.284 GoogleSoftwareUpdateAgent[14228/0x7000041d1000] [lvl=2] -[KSEngineInvocation(KeystoneThread) performSelfUpdateWithEngine:error:] Finished self update check.
+Dec 26 02:47:52 MacBookPro GoogleSoftwareUpdateAgent[14228]: 2017-12-26 02:47:52.284 GoogleSoftwareUpdateAgent[14228/0x7000041d1000] [lvl=2] -[KSEngineInvocation(KeystoneThread) runKeystonesInThread] About to run checks for any other apps.
+Dec 26 02:47:52 MacBookPro GoogleSoftwareUpdateAgent[14228]: 2017-12-26 02:47:52.284 GoogleSoftwareUpdateAgent[14228/0x7000041d1000] [lvl=2] -[KSEngineInvocation(KeystoneThread) updateProductWithProductID:usingEngine:error:] Checking for updates for "All Products" using engine <KSUpdateEngine:0x1002930a0
+		ticketStore=<KSPersistentTicketStore:0x10040b910 store=<KSKeyedPersistentStore:0x10040d030
+			path="/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore"
+			lockFile=<KSLockFile:0x10040cc10
+				path="/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore.lock"
+				locked=NO
+			>
+		>>
+		processor=<KSActionProcessor:0x10063d620
+			delegate=<KSUpdateEngine:0x1002930a0>
+			isProcessing=NO actionsCompleted=0 progress=0.00
+			errors=0 currentActionErrors=0
+			events=0 currentActionEvents=0
+			actionQueue=( )
+		>
+		delegate=(null)
+		serverInfoStore=<KSServerPrivateInfoStore:0x10030f1d0 path="/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/Servers">
+		errors=0
+	>
+Dec 26 02:47:52 MacBookPro GoogleSoftwareUpdateAgent[14228]: 2017-12-26 02:47:52.285 GoogleSoftwareUpdateAgent[14228/0x7000041d1000] [lvl=2] -[KSUpdateEngine updateAllExceptProduct:] KSUpdateEngine updating all installed products, except:'com.google.Keystone'.
+Dec 26 02:47:52 MacBookPro GoogleSoftwareUpdateAgent[14228]: 2017-12-26 02:47:52.289 GoogleSoftwareUpdateAgent[14228/0x7000041d1000] [lvl=2] -[KSCheckAction performAction] KSCheckAction checking 2 ticket(s).
+Dec 26 02:47:52 MacBookPro GoogleSoftwareUpdateAgent[14228]: 2017-12-26 02:47:52.302 GoogleSoftwareUpdateAgent[14228/0x7000041d1000] [lvl=2] -[KSUpdateCheckAction performAction] KSUpdateCheckAction starting update check for ticket(s): {(
+		<KSTicket:0x1004159f0
+			productID=com.google.Chrome.canary
+			version=65.0.3303.0
+			xc=<KSPathExistenceChecker:0x100403680 path=/Volumes/Macintosh HD/Applications/Google Chrome Canary.app>
+			serverType=Omaha
+			url=https://tools.google.com/service/update2
+			creationDate=2017-12-15 04:56:55
+			tag=canary
+			tagPath=/Volumes/Macintosh HD/Applications/Google Chrome Canary.app/Contents/Info.plist
+			tagKey=KSChannelID
+			versionPath=/Volumes/Macintosh HD/Applications/Google Chrome Canary.app/Contents/Info.plist
+			versionKey=KSVersion
+			cohort=1:0:
+			cohortName=Canary
+			ticketVersion=1
+		>,
+		<KSTicket:0x100415070
+			productID=com.google.Chrome
+			version=63.0.3239.84
+			xc=<KSPathExistenceChecker:0x1004119e0 path=/Volumes/Macintosh HD/Applications/Google Chrome.app>
+			serverType=Omaha
+			url=https://tools.google.com/service/update2
+			creationDate=2017-12-13 18:35:01
+			tagPath=/Volumes/Macintosh HD/Applications/Google Chrome.app/Contents/Info.plist
+			tagKey=KSChannelID
+			versionPath=/Volumes/Macintosh HD/Applications/Google Chrome.app/Contents/Info.plist
+			versionKey=KSVersion
+			cohort=1:1y5:mhf@0.05
+			cohortName=Stable
+			ticketVersion=1
+		>
+	)}
+	Using server: <KSOmahaServer:0x1006361c0
+		engine=<KSUpdateEngine:0x1002930a0>
+	>
+Dec 26 02:47:52 MacBookPro GoogleSoftwareUpdateAgent[14228]: 2017-12-26 02:47:52.419 GoogleSoftwareUpdateAgent[14228/0x7000041d1000] [lvl=2] +[KSCodeSigningVerification verifyBundle:applicationId:error:] KSCodeSigningVerification verifying code signing for '/Volumes/Macintosh HD/Applications/Google Chrome Canary.app' with the requirement 'anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists and certificate leaf[subject.OU]="EQHXZ8M8AV" and (identifier="com.google.Chrome.canary")'
+Dec 26 02:47:53 MacBookPro GoogleSoftwareUpdateAgent[14228]: 2017-12-26 02:47:53.901 GoogleSoftwareUpdateAgent[14228/0x7000041d1000] [lvl=2] +[KSCodeSigningVerification verifyBundle:applicationId:error:] KSCodeSigningVerification verifying code signing for '/Volumes/Macintosh HD/Applications/Google Chrome.app' with the requirement 'anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists and certificate leaf[subject.OU]="EQHXZ8M8AV" and (identifier="com.google.Chrome")'
+Dec 26 02:47:54 MacBookPro GoogleSoftwareUpdateAgent[14228]: 2017-12-26 02:47:54.896 GoogleSoftwareUpdateAgent[14228/0x7000041d1000] [lvl=2] -[KSUpdateCheckAction performAction] KSUpdateCheckAction running KSServerUpdateRequest: <KSOmahaServerUpdateRequest:0x1002add50
+		server=<KSOmahaServer:0x1006361c0>
+		url="https://tools.google.com/service/update2?cup2hreq=2de36fa061cd952448727a0154a020d798e75cbff268c6002353fe1e2ce5bd21&cup2key=7:654479262"
+		fallbackURLs=(
+			http://tools.google.com/service/update2?cup2hreq=2de36fa061cd952448727a0154a020d798e75cbff268c6002353fe1e2ce5bd21&cup2key=7:3364114287
+		)
+		runningFetchers=0
+		tickets=2
+		body=
+			<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+			<request protocol="3.0" version="KeystoneAgent-1.2.9.98" ismachine="0" requestid="{669A23D5-DDF5-4CA7-AE7C-286566FCD465}" dedup="cr" sessionid="{060A0E7E-ED02-4A86-BA55-944EEEA988E4}">
+			    <os platform="mac" version="10.12" arch="i486" sp="10.12.0_i486"></os>
+			    <app appid="com.google.Chrome.canary" version="65.0.3303.0" cohort="1:0:" cohortname="Canary" lang="en-us" installage="11" ap="canary" brand="GGLG" signed="1">
+			        <ping rd="4011" ping_freshness="{C9F273C0-8EED-4F01-86BA-AA17E789D250}"></ping>
+			        <updatecheck></updatecheck>
+			    </app>
+			    <app appid="com.google.Chrome" version="63.0.3239.84" cohort="1:1y5:mhf@0.05" cohortname="Stable" lang="en-us" installage="12" installdate="3997" brand="GGLG" _numaccounts="1" _numsignedin="1" signed="1">
+			        <ping rd="4011" ping_freshness="{B51DB754-B472-4F46-A98A-BB21EB293AA0}"></ping>
+			        <updatecheck></updatecheck>
+			    </app>
+			</request>
+		headers={
+			"X-GoogleUpdate-Interactivity" = bg;
+		}
+	>
+Dec 26 02:47:54 MacBookPro GoogleSoftwareUpdateAgent[14228]: 2017-12-26 02:47:54.896 GoogleSoftwareUpdateAgent[14228/0x7000041d1000] [lvl=2] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher start fetch from URL: "https://tools.google.com/service/update2?cup2hreq=2de36fa061cd952448727a0154a020d798e75cbff268c6002353fe1e2ce5bd21&cup2key=7:654479262"
+Dec 26 02:47:54 MacBookPro GoogleSoftwareUpdateAgent[14228]: 2017-12-26 02:47:54.897 GoogleSoftwareUpdateAgent[14228/0x7000041d1000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) launchedHelperTaskForToolPath:error:] KSOutOfProcessFetcher launched '/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/GoogleSoftwareUpdate.bundle/Contents/MacOS/ksfetch' with process id: 14231
+Dec 26 02:47:54 MacBookPro GoogleSoftwareUpdateAgent[14228]: 2017-12-26 02:47:54.897 GoogleSoftwareUpdateAgent[14228/0x7000041d1000] [lvl=2] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher fetching from URL: "https://tools.google.com/service/update2?cup2hreq=2de36fa061cd952448727a0154a020d798e75cbff268c6002353fe1e2ce5bd21&cup2key=7:654479262"
+Dec 26 02:47:54 MacBookPro ksfetch[14231]: 2017-12-26 02:47:54.925 ksfetch[14231/0x7fffa83e53c0] [lvl=2] KSHelperReceiveAllData() KSHelperTool read 2362 bytes from stdin.
+Dec 26 02:47:54 MacBookPro ksfetch[14231]: 2017-12-26 02:47:54.927 ksfetch[14231/0x7fffa83e53c0] [lvl=2] main() Fetcher received a request: <NSMutableURLRequest: 0x100506340> { URL: https://tools.google.com/service/update2?cup2hreq=2de36fa061cd952448727a0154a020d798e75cbff268c6002353fe1e2ce5bd21&cup2key=7:654479262 }
+Dec 26 02:47:54 MacBookPro ksfetch[14231]: 2017-12-26 02:47:54.927 ksfetch[14231/0x7fffa83e53c0] [lvl=2] main() Fetcher received a download path: /tmp/KSOutOfProcessFetcher.Y4WccL6hWl/download
+Dec 26 02:47:54 MacBookPro ksfetch[14231]: 2017-12-26 02:47:54.927 ksfetch[14231/0x7fffa83e53c0] [lvl=2] main() ksfetch fetching URL (<NSMutableURLRequest: 0x100506340> { URL: https://tools.google.com/service/update2?cup2hreq=2de36fa061cd952448727a0154a020d798e75cbff268c6002353fe1e2ce5bd21&cup2key=7:654479262 }) to folder:/tmp/KSOutOfProcessFetcher.Y4WccL6hWl/download
+Dec 26 02:47:54 MacBookPro ksfetch[14231]: 2017-12-26 02:47:54.928 ksfetch[14231/0x7fffa83e53c0] [lvl=2] main() Setting up download file handles...
+Dec 26 02:47:55 MacBookPro ksfetch[14231]: 2017-12-26 02:47:55.113 ksfetch[14231/0x7fffa83e53c0] [lvl=2] -[FetchDelegate fetcher:finishedWithData:] Fetcher downloaded successfully data of length: 0
+Dec 26 02:47:55 MacBookPro ksfetch[14231]: 2017-12-26 02:47:55.113 ksfetch[14231/0x7fffa83e53c0] [lvl=2] main() ksfetch done fetching.
+Dec 26 02:47:55 MacBookPro ksfetch[14231]: 2017-12-26 02:47:55.116 ksfetch[14231/0x7fffa83e53c0] [lvl=2] main() Fetcher is exiting.
+Dec 26 02:47:55 MacBookPro GoogleSoftwareUpdateAgent[14228]: 2017-12-26 02:47:55.119 GoogleSoftwareUpdateAgent[14228/0x7000041d1000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) helperErrorAvailable:] KSOutOfProcessFetcher helper tool raw STDERR:
+	:	<>
+Dec 26 02:47:55 MacBookPro GoogleSoftwareUpdateAgent[14228]: 2017-12-26 02:47:55.119 GoogleSoftwareUpdateAgent[14228/0x7000041d1000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) helperDidTerminate:] KSOutOfProcessFetcher fetch ended for URL: "https://tools.google.com/service/update2?cup2hreq=2de36fa061cd952448727a0154a020d798e75cbff268c6002353fe1e2ce5bd21&cup2key=7:654479262"
+Dec 26 02:47:55 MacBookPro GoogleSoftwareUpdateAgent[14228]: 2017-12-26 02:47:55.183 GoogleSoftwareUpdateAgent[14228/0x7000041d1000] [lvl=2] -[KSUpdateCheckAction(KSServerUpdateRequestDelegate) serverRequest:fetchedWithResponse:] KSUpdateCheckAction received KSServerUpdateResponse: <KSOmahaServerUpdateResponse:0x1002b9590
+		server=<KSOmahaServer:0x1006361c0>
+		url="https://tools.google.com/service/update2?cup2hreq=2de36fa061cd952448727a0154a020d798e75cbff268c6002353fe1e2ce5bd21&cup2key=7:654479262"
+		tickets=2
+		status=200
+		data=
+			<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+			<response protocol="3.0" server="prod">
+			    <daystart elapsed_days="4011" elapsed_seconds="85675"></daystart>
+			    <app appid="com.google.Chrome.canary" cohort="1:0:" cohortname="Canary" status="ok">
+			        <ping status="ok"></ping>
+			        <updatecheck status="noupdate"></updatecheck>
+			    </app>
+			    <app appid="com.google.Chrome" cohort="1:1y5:mhf@0.05" cohortname="Stable" status="ok">
+			        <ping status="ok"></ping>
+			        <updatecheck status="noupdate"></updatecheck>
+			    </app>
+			</response>
+	>
+Dec 26 02:47:55 MacBookPro GoogleSoftwareUpdateAgent[14228]: 2017-12-26 02:47:55.184 GoogleSoftwareUpdateAgent[14228/0x7000041d1000] [lvl=2] -[KSOmahaServer updateInfosForUpdateResponse:updateRequest:infoStore:upToDateTickets:updatedTickets:events:errors:] Response passed CUP validation.
+Dec 26 02:47:55 MacBookPro GoogleSoftwareUpdateAgent[14228]: 2017-12-26 02:47:55.371 GoogleSoftwareUpdateAgent[14228/0x7000041d1000] [lvl=2] -[KSUpdateCheckAction(PrivateMethods) finishAction] KSUpdateCheckAction found updates: {( )}
+Dec 26 02:47:56 MacBookPro GoogleSoftwareUpdateAgent[14228]: 2017-12-26 02:47:56.179 GoogleSoftwareUpdateAgent[14228/0x7000041d1000] [lvl=2] -[KSPrefetchAction performAction] KSPrefetchAction no updates to prefetch.
+Dec 26 02:47:56 MacBookPro GoogleSoftwareUpdateAgent[14228]: 2017-12-26 02:47:56.179 GoogleSoftwareUpdateAgent[14228/0x7000041d1000] [lvl=2] -[KSMultiUpdateAction performAction] KSSilentUpdateAction had no updates to apply.
+Dec 26 02:47:56 MacBookPro GoogleSoftwareUpdateAgent[14228]: 2017-12-26 02:47:56.179 GoogleSoftwareUpdateAgent[14228/0x7000041d1000] [lvl=2] -[KSMultiUpdateAction performAction] KSPromptAction had no updates to apply.
+Dec 26 02:47:56 MacBookPro GoogleSoftwareUpdateAgent[14228]: 2017-12-26 02:47:56.180 GoogleSoftwareUpdateAgent[14228/0x7000041d1000] [lvl=2] -[KSEngineInvocation(KeystoneDelegate) updateEngineFinishedWithErrors:] Keystone finished: errors=0
+Dec 26 02:47:56 MacBookPro GoogleSoftwareUpdateAgent[14228]: 2017-12-26 02:47:56.180 GoogleSoftwareUpdateAgent[14228/0x7000041d1000] [lvl=2] -[KSUpdateEngine(PrivateMethods) updateFinish] KSUpdateEngine update processing complete.
+Dec 26 02:47:56 MacBookPro GoogleSoftwareUpdateAgent[14228]: 2017-12-26 02:47:56.181 GoogleSoftwareUpdateAgent[14228/0x7000041d1000] [lvl=2] -[KSEngineInvocation(KeystoneThread) updateProductWithProductID:usingEngine:error:] Done checking for updates for '"All Products"' using engine <KSUpdateEngine:0x1002930a0
+		ticketStore=<KSPersistentTicketStore:0x10040b910 store=<KSKeyedPersistentStore:0x10040d030
+			path="/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore"
+			lockFile=<KSLockFile:0x10040cc10
+				path="/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore.lock"
+				locked=NO
+			>
+		>>
+		processor=<KSActionProcessor:0x1003ce250
+			delegate=<KSUpdateEngine:0x1002930a0>
+			isProcessing=NO actionsCompleted=0 progress=0.00
+			errors=0 currentActionErrors=0
+			events=0 currentActionEvents=0
+			actionQueue=( )
+		>
+		delegate=<KSEngineInvocation: 0x10063eaf0>
+		serverInfoStore=<KSServerPrivateInfoStore:0x10030f1d0 path="/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/Servers">
+		errors=0
+	>
+Dec 26 02:47:57 MacBookPro GoogleSoftwareUpdateAgent[14228]: 2017-12-26 02:47:57.026 GoogleSoftwareUpdateAgent[14228/0x7000041d1000] [lvl=2] -[KSAgentUploader fetcher:finishedWithData:] Successfully uploaded stats to <NSMutableURLRequest: 0x1002c16c0> { URL: https://tools.google.com/service/update2 }
+Dec 26 02:47:57 MacBookPro GoogleSoftwareUpdateAgent[14228]: 2017-12-26 02:47:57.026 GoogleSoftwareUpdateAgent[14228/0x7000041d1000] [lvl=2] -[KSAgentApp(PrivateMethods) uploadStats:forInvocation:error:] Successfully uploaded stats <KSStatsCollection:0x100310a00 path="/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/Stats/Keystone.stats", count=5, stats={
+	    checks = 2;
+	    tickets = 2;
+	    usertickets = 3;
+	    validtickets = 2;
+	    validusertickets = 3;
+	}>
+Dec 26 02:47:57 MacBookPro GoogleSoftwareUpdateAgent[14228]: 2017-12-26 02:47:57.028 GoogleSoftwareUpdateAgent[14228/0x7000041d1000] [lvl=2] -[KSEngineInvocation(KeystoneThread) runKeystonesInThread] Failed to upload Keystone statistics: (null)
+Dec 26 02:47:58 MacBookPro GoogleSoftwareUpdateAgent[14228]: 2017-12-26 02:47:58.035 GoogleSoftwareUpdateAgent[14228/0x7000041d1000] [lvl=2] -[KSEngineInvocation(KeystoneThread) runKeystonesInThread] Finished with engine thread
+Dec 26 02:47:58 MacBookPro GoogleSoftwareUpdateAgent[14228]: 2017-12-26 02:47:58.036 GoogleSoftwareUpdateAgent[14228/0x7000041d1000] [lvl=2] -[KSAgentApp(PrivateMethods) setUpLoggerOutputForVerboseMode:] Agent default/global settings: <KSAgentSettings:0x100403690 bundleID=com.google.Keystone.Agent lastCheck=2017-12-26 07:47:55 +0000 lastServerCheck=2017-12-13 18:35:07 +0000 lastCheckStart=2017-12-26 07:47:49 +0000 checkInterval=18000.000000 uiDisplayInterval=604800.000000 sleepInterval=1800.000000 jitterInterval=900 maxRunInterval=0.000000 isConsoleUser=1 ticketStorePath=/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore runMode=3 daemonUpdateEngineBrokerServiceName=com.google.Keystone.Daemon.UpdateEngine daemonAdministrationServiceName=com.google.Keystone.Daemon.Administration alwaysPromptForUpdates=0 lastUIDisplayed=(null) alwaysShowStatusItem=0 updateCheckTag=(null) printResults=NO userInitiated=NO>
+Dec 26 02:47:58 MacBookPro GoogleSoftwareUpdateAgent[14228]: 2017-12-26 02:47:58.674 GoogleSoftwareUpdateAgent[14228/0x7fffa83e53c0] [lvl=2] -[KSAgentApp(PrivateMethods) checkForUpdatesUsingArguments:invocation:error:] Finished update check.
+Dec 26 02:53:52 MacBookPro syslogd[37]: ASL Sender Statistics
+Dec 26 02:57:39 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 03:04:09 MacBookPro syslogd[37]: ASL Sender Statistics
+Dec 26 03:14:24 MacBookPro syslogd[37]: ASL Sender Statistics
+Dec 26 03:24:36 MacBookPro syslogd[37]: ASL Sender Statistics
+Dec 26 03:34:46 MacBookPro syslogd[37]: ASL Sender Statistics
+Dec 26 03:35:01 MacBookPro com.apple.xpc.launchd[1] (com.apple.bsd.dirhelper[14370]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.bsd.dirhelper
+Dec 26 03:45:02 MacBookPro syslogd[37]: ASL Sender Statistics
+Dec 26 03:48:21 MacBookPro GoogleSoftwareUpdateAgent[14427]: 2017-12-26 03:48:21.680 GoogleSoftwareUpdateAgent[14427/0x7fffa83e53c0] [lvl=2] -[KSAgentApp(PrivateMethods) setUpLoggerOutputForVerboseMode:] Agent default/global settings: <KSAgentSettings:0x10201d2a0 bundleID=com.google.Keystone.Agent lastCheck=2017-12-26 07:47:58 +0000 lastServerCheck=2017-12-13 18:35:07 +0000 lastCheckStart=2017-12-26 07:47:49 +0000 checkInterval=18000.000000 uiDisplayInterval=604800.000000 sleepInterval=1800.000000 jitterInterval=900 maxRunInterval=0.000000 isConsoleUser=1 ticketStorePath=/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore runMode=3 daemonUpdateEngineBrokerServiceName=com.google.Keystone.Daemon.UpdateEngine daemonAdministrationServiceName=com.google.Keystone.Daemon.Administration alwaysPromptForUpdates=0 lastUIDisplayed=(null) alwaysShowStatusItem=0 updateCheckTag=(null) printResults=NO userInitiated=NO>
+Dec 26 03:55:05 MacBookPro syslogd[37]: ASL Sender Statistics
+Dec 26 03:56:08 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 04:05:17 MacBookPro syslogd[37]: ASL Sender Statistics
+Dec 26 04:07:50 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 04:15:37 MacBookPro syslogd[37]: ASL Sender Statistics
+Dec 26 04:25:49 MacBookPro syslogd[37]: ASL Sender Statistics
+Dec 26 04:36:06 MacBookPro syslogd[37]: ASL Sender Statistics
+Dec 26 04:36:55 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 04:46:06 MacBookPro syslogd[37]: ASL Sender Statistics
+Dec 26 04:48:44 MacBookPro GoogleSoftwareUpdateAgent[14673]: 2017-12-26 04:48:44.692 GoogleSoftwareUpdateAgent[14673/0x7fffa83e53c0] [lvl=2] -[KSAgentApp(PrivateMethods) setUpLoggerOutputForVerboseMode:] Agent default/global settings: <KSAgentSettings:0x10030f6b0 bundleID=com.google.Keystone.Agent lastCheck=2017-12-26 07:47:58 +0000 lastServerCheck=2017-12-13 18:35:07 +0000 lastCheckStart=2017-12-26 07:47:49 +0000 checkInterval=18000.000000 uiDisplayInterval=604800.000000 sleepInterval=1800.000000 jitterInterval=900 maxRunInterval=0.000000 isConsoleUser=1 ticketStorePath=/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore runMode=3 daemonUpdateEngineBrokerServiceName=com.google.Keystone.Daemon.UpdateEngine daemonAdministrationServiceName=com.google.Keystone.Daemon.Administration alwaysPromptForUpdates=0 lastUIDisplayed=(null) alwaysShowStatusItem=0 updateCheckTag=(null) printResults=NO userInitiated=NO>
+Dec 26 04:55:34 MacBookPro com.apple.xpc.launchd[1] (com.apple.quicklook[14693]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Dec 26 04:56:27 MacBookPro syslogd[37]: ASL Sender Statistics
+Dec 26 05:06:36 MacBookPro syslogd[37]: ASL Sender Statistics
+Dec 26 05:11:57 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 05:16:50 MacBookPro syslogd[37]: ASL Sender Statistics
+Dec 26 05:20:52 MacBookPro com.apple.security.pboxd[14774]: DEPRECATED USE in libdispatch client: Changing the target of a source after it has been activated
+Dec 26 05:26:53 MacBookPro syslogd[37]: ASL Sender Statistics
+Dec 26 05:36:04 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 05:36:05 MacBookPro sqlitebrowser[12971]: assertion failed: 16A323: libxpc.dylib + 74287 [2A901937-48E1-3BF2-83F1-2431156D82B7]: 0x89
+Dec 26 05:36:57 MacBookPro syslogd[37]: ASL Sender Statistics
+Dec 26 05:37:38 MacBookPro sqlitebrowser[12971]: BUG in libdispatch client: kevent[EVFILT_MACHPORT] monitored resource vanished before the source cancel handler was invoked
+Dec 26 05:38:24 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 05:39:25 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 05:41:33 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 05:42:18 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 05:44:09 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 05:44:47 MacBookPro com.apple.xpc.launchd[1] (com.openssh.sshd): Unknown key for string: SHAuthorizationRight
+Dec 26 05:44:49 MacBookPro com.apple.xpc.launchd[1] (com.apple.screensharing.server): The HideUntilCheckIn property is an architectural performance issue. Please transition away from it.
+Dec 26 05:44:49 MacBookPro com.apple.xpc.launchd[1] (com.apple.screensharing): Unknown key for string: SHAuthorizationRight
+Dec 26 05:46:51 MacBookPro com.apple.xpc.launchd[1] (com.apple.Kerberos.kdc[14900]): Service exited due to signal: Killed: 9 sent by launchd[1]
+Dec 26 05:47:00 MacBookPro syslogd[37]: ASL Sender Statistics
+Dec 26 05:47:17 MacBookPro com.apple.xpc.launchd[1] (com.apple.IntlTexts.KeyboardServicesHelper): Unknown key for string: _AllowedClients
+Dec 26 05:49:08 MacBookPro GoogleSoftwareUpdateAgent[14919]: 2017-12-26 05:49:08.173 GoogleSoftwareUpdateAgent[14919/0x7fffa83e53c0] [lvl=2] -[KSAgentApp(PrivateMethods) setUpLoggerOutputForVerboseMode:] Agent default/global settings: <KSAgentSettings:0x100404200 bundleID=com.google.Keystone.Agent lastCheck=2017-12-26 07:47:58 +0000 lastServerCheck=2017-12-13 18:35:07 +0000 lastCheckStart=2017-12-26 07:47:49 +0000 checkInterval=18000.000000 uiDisplayInterval=604800.000000 sleepInterval=1800.000000 jitterInterval=900 maxRunInterval=0.000000 isConsoleUser=1 ticketStorePath=/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore runMode=3 daemonUpdateEngineBrokerServiceName=com.google.Keystone.Daemon.UpdateEngine daemonAdministrationServiceName=com.google.Keystone.Daemon.Administration alwaysPromptForUpdates=0 lastUIDisplayed=(null) alwaysShowStatusItem=0 updateCheckTag=(null) printResults=NO userInitiated=NO>
+Dec 26 05:49:52 MacBookPro System Preferences[14878]: objc[14878]: Class BTDeviceManager is implemented in both /System/Library/PreferencePanes/Keyboard.prefPane/Contents/MacOS/Keyboard (0x1109d4238) and /System/Library/PreferencePanes/Mouse.prefPane/Contents/MacOS/Mouse (0x116be57d0). One of the two will be used. Which one is undefined.
+Dec 26 05:49:56 MacBookPro System Preferences[14878]: objc[14878]: Class AssetQuery is implemented in both /System/Library/PreferencePanes/Mouse.prefPane/Contents/MacOS/Mouse (0x116be53c0) and /System/Library/PreferencePanes/Trackpad.prefPane/Contents/MacOS/Trackpad (0x116d06190). One of the two will be used. Which one is undefined.
+Dec 26 05:49:56 MacBookPro System Preferences[14878]: objc[14878]: Class BTDeviceManager is implemented in both /System/Library/PreferencePanes/Keyboard.prefPane/Contents/MacOS/Keyboard (0x1109d4238) and /System/Library/PreferencePanes/Trackpad.prefPane/Contents/MacOS/Trackpad (0x116d06870). One of the two will be used. Which one is undefined.
+Dec 26 05:50:13 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 05:50:34 --- last message repeated 1 time ---
+Dec 26 05:50:34 MacBookPro com.apple.preference.security.remoteservice[14924]: assertion failed: 16A323: libxpc.dylib + 74287 [2A901937-48E1-3BF2-83F1-2431156D82B7]: 0x89
+Dec 26 05:50:37 MacBookPro com.apple.preference.security.remoteservice[14924]: BUG in libdispatch client: kevent[EVFILT_MACHPORT] monitored resource vanished before the source cancel handler was invoked
+Dec 26 05:50:53 MacBookPro xpcproxy[14938]: libcoreservices: _dirhelper_userdir: 523: bootstrap_look_up returned 268435459
+Dec 26 05:50:53 MacBookPro xpcproxy[14938]: libcoreservices: _dirhelper_userdir: 529: __dirhelper_create_user_local returned 268435459
+Dec 26 05:51:06 MacBookPro com.apple.xpc.launchd[1] (com.apple.appkit.xpc.sandboxedServiceRunner): The JoinExistingSession key is only available to Application services.
+Dec 26 05:51:06 MacBookPro com.apple.xpc.launchd[1] (com.apple.xpc.launchd.domain.user.205): Service sets EnableTransactions=false and EnablePressuredExit=true, which makes no sense. Enabling Transactions.
+Dec 26 05:51:37 --- last message repeated 3 times ---
+Dec 26 05:52:21 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 05:53:04 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 05:53:17 --- last message repeated 1 time ---
+Dec 26 05:53:17 MacBookPro Contacts[14957]: BUG in libdispatch client: kevent[EVFILT_MACHPORT] monitored resource vanished before the source cancel handler was invoked
+Dec 26 05:54:28 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 05:55:01 MacBookPro logd[53]: metadata page is missing PID information for warmd (59)
+Dec 26 05:55:01 MacBookPro logd[53]: metadata page is missing main binary UUID info warmd (59)
+Dec 26 05:55:01 MacBookPro logd[53]: metadata shared cached uuid is null (using logd's shared cache info) warmd (59)
+Dec 26 05:55:02 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 05:57:00 MacBookPro syslogd[37]: ASL Sender Statistics
+Dec 26 05:57:28 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 06:07:13 MacBookPro syslogd[37]: ASL Sender Statistics
+Dec 26 06:17:01 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 06:17:34 MacBookPro syslogd[37]: ASL Sender Statistics
+Dec 26 06:27:35 MacBookPro syslogd[37]: ASL Sender Statistics
+Dec 26 06:29:56 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 06:32:49 MacBookPro com.apple.xpc.launchd[1] (com.apple.CoreLocationAgent[15122]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.CoreLocation.agent
+Dec 26 06:32:51 MacBookPro iStumbler[15121]: BUG in libdispatch client: kevent[EVFILT_MACHPORT] monitored resource vanished before the source cancel handler was invoked
+Dec 26 06:37:37 MacBookPro syslogd[37]: ASL Sender Statistics
+Dec 26 06:47:39 MacBookPro syslogd[37]: ASL Sender Statistics
+Dec 26 06:49:31 MacBookPro GoogleSoftwareUpdateAgent[15197]: 2017-12-26 06:49:31.517 GoogleSoftwareUpdateAgent[15197/0x7fffa83e53c0] [lvl=2] -[KSAgentApp(PrivateMethods) setUpLoggerOutputForVerboseMode:] Agent default/global settings: <KSAgentSettings:0x10021ce10 bundleID=com.google.Keystone.Agent lastCheck=2017-12-26 07:47:58 +0000 lastServerCheck=2017-12-13 18:35:07 +0000 lastCheckStart=2017-12-26 07:47:49 +0000 checkInterval=18000.000000 uiDisplayInterval=604800.000000 sleepInterval=1800.000000 jitterInterval=900 maxRunInterval=0.000000 isConsoleUser=1 ticketStorePath=/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore runMode=3 daemonUpdateEngineBrokerServiceName=com.google.Keystone.Daemon.UpdateEngine daemonAdministrationServiceName=com.google.Keystone.Daemon.Administration alwaysPromptForUpdates=0 lastUIDisplayed=(null) alwaysShowStatusItem=0 updateCheckTag=(null) printResults=NO userInitiated=NO>
+Dec 26 06:57:41 MacBookPro syslogd[37]: ASL Sender Statistics
+Dec 26 07:02:41 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 07:04:07 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 07:04:10 MacBookPro com.apple.preferences.sharing.remoteservice[14883]: assertion failed: 16A323: libxpc.dylib + 74287 [2A901937-48E1-3BF2-83F1-2431156D82B7]: 0x89
+Dec 26 07:07:41 MacBookPro syslogd[37]: ASL Sender Statistics
+Dec 26 07:08:00 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 07:08:04 MacBookPro com.apple.preferences.sharing.remoteservice[14883]: BUG in libdispatch client: kevent[EVFILT_MACHPORT] monitored resource vanished before the source cancel handler was invoked
+Dec 26 07:08:10 MacBookPro com.apple.xpc.launchd[1] (com.openssh.sshd): Unknown key for string: SHAuthorizationRight
+Dec 26 07:08:12 MacBookPro com.apple.xpc.launchd[1] (com.apple.screensharing.server): The HideUntilCheckIn property is an architectural performance issue. Please transition away from it.
+Dec 26 07:08:12 MacBookPro com.apple.xpc.launchd[1] (com.apple.screensharing): Unknown key for string: SHAuthorizationRight
+Dec 26 07:08:15 MacBookPro com.apple.xpc.launchd[1] (com.apple.Kerberos.kdc[15275]): Service exited due to signal: Killed: 9 sent by launchd[1]
+Dec 26 07:08:27 MacBookPro com.apple.xpc.launchd[1] (com.apple.screensharing.server): The HideUntilCheckIn property is an architectural performance issue. Please transition away from it.
+Dec 26 07:08:27 MacBookPro com.apple.xpc.launchd[1] (com.apple.screensharing): Unknown key for string: SHAuthorizationRight
+Dec 26 07:09:24 MacBookPro com.apple.xpc.launchd[1] (com.apple.smbd): The HideUntilCheckIn property is an architectural performance issue. Please transition away from it.
+Dec 26 07:09:28 MacBookPro smb-sync-preferences[15288]: assertion failed: 16A323: libxpc.dylib + 35245 [2A901937-48E1-3BF2-83F1-2431156D82B7]: 0x2d
+Dec 26 07:10:07 MacBookPro Keychain Access[15270]: BUG in libdispatch client: kevent[EVFILT_MACHPORT] monitored resource vanished before the source cancel handler was invoked
+Dec 26 07:12:01 MacBookPro com.apple.WebKit.WebContent[14805]: BUG in libdispatch client: kevent[EVFILT_MACHPORT] monitored resource vanished before the source cancel handler was invoked
+Dec 26 07:12:09 MacBookPro com.apple.xpc.launchd[1] (com.apple.xpc.launchd.domain.system): Caller tried to hijack service: path = /System/Library/LaunchDaemons/com.apple.smbd.plist, caller = launchctl.15325
+Dec 26 07:12:11 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 07:12:15 MacBookPro com.apple.preferences.users.remoteservice[14947]: assertion failed: 16A323: libxpc.dylib + 74287 [2A901937-48E1-3BF2-83F1-2431156D82B7]: 0x89
+Dec 26 07:12:19 MacBookPro com.apple.preferences.users.remoteservice[14947]: BUG in libdispatch client: kevent[EVFILT_MACHPORT] monitored resource vanished before the source cancel handler was invoked
+Dec 26 07:13:16 MacBookPro Activity Monitor[15341]: BUG in libdispatch client: kevent[EVFILT_MACHPORT] monitored resource vanished before the source cancel handler was invoked
+Dec 26 07:16:02 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 07:16:49 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 07:17:02 MacBookPro SandboxedServiceRunner[2481]: assertion failed: 16A323: libxpc.dylib + 20875 [2A901937-48E1-3BF2-83F1-2431156D82B7]: 0x13
+Dec 26 07:17:13 --- last message repeated 22310 times ---
+Dec 26 07:17:05 MacBookPro syslogd[37]: Internal memory size limit 10240000 exceeded - dropping messages
+Dec 26 07:17:11 MacBookPro SandboxedServiceRunner[2481]: assertion failed: 16A323: libxpc.dylib + 20875 [2A901937-48E1-3BF2-83F1-2431156D82B7]: 0x13
+Dec 26 07:17:18 --- last message repeated 16407 times ---
+Dec 26 07:17:14 MacBookPro syslogd[37]: Internal memory size limit 10240000 exceeded - dropping messages
+Dec 26 07:17:17 MacBookPro SandboxedServiceRunner[2481]: assertion failed: 16A323: libxpc.dylib + 20875 [2A901937-48E1-3BF2-83F1-2431156D82B7]: 0x13
+Dec 26 07:17:52 --- last message repeated 22782 times ---
+Dec 26 07:17:21 MacBookPro SandboxedServiceRunner[2481]: assertion failed: 16A323: libxpc.dylib + 20875 [2A901937-48E1-3BF2-83F1-2431156D82B7]: 0x13
+Dec 26 07:17:55 --- last message repeated 16351 times ---
+Dec 26 07:17:24 MacBookPro syslogd[37]: Internal memory size limit 10240000 exceeded - dropping messages
+Dec 26 07:17:56 MacBookPro syslogd[37]: ASL Sender Statistics
+Dec 26 07:18:30 MacBookPro com.apple.xpc.launchd[1] (com.apple.opendirectoryd[76]): Service exited with abnormal code: 70
+Dec 26 07:20:05 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 07:24:18 MacBookPro System Preferences[14878]: BUG in libdispatch client: kevent[EVFILT_MACHPORT] monitored resource vanished before the source cancel handler was invoked
+Dec 26 07:24:35 MacBookPro mds_stores[217]: assertion failed: 16A323: libxpc.dylib + 28725 [2A901937-48E1-3BF2-83F1-2431156D82B7]: 0xf
+Dec 26 07:26:29 MacBookPro com.apple.xpc.launchd[1] (com.apple.quicklook[16122]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Dec 26 07:26:45 MacBookPro com.apple.xpc.launchd[1] (com.apple.Siri.agent[462]): Service exited due to signal: Terminated: 15 sent by Activity Monitor[15341]
+Dec 26 07:26:46 MacBookPro com.apple.xpc.launchd[1] (com.apple.xpc.launchd.user.domain.501.100006.Aqua): Caller not allowed to perform action: launchctl.16151, action = service bootout, code = 150: Operation not permitted while System Integrity Protection is engaged, uid = 501, euid = 501, gid = 20, egid = 20, asid = 100006
+Dec 26 07:27:56 MacBookPro syslogd[37]: ASL Sender Statistics
+Dec 26 07:29:01 MacBookPro com.apple.xpc.launchd[1] (com.apple.quicklook[16616]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Dec 26 07:31:32 MacBookPro com.apple.xpc.launchd[1] (com.apple.xpc.launchd.oneshot.0x10000012.ipscan[16962]): Service exited due to signal: Killed: 9 sent by CoreServicesUIAgent[16963]
+Dec 26 07:31:45 MacBookPro com.apple.xpc.launchd[1] (com.apple.quicklook[16983]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Dec 26 07:31:52 MacBookPro com.apple.WebKit.WebContent[16935]: BUG in libdispatch client: kevent[EVFILT_MACHPORT] monitored resource vanished before the source cancel handler was invoked
+Dec 26 07:32:16 MacBookPro com.apple.xpc.launchd[1] (com.apple.WebKit.Networking.4640F45E-E952-47AE-82CE-D310F7BCB980[16933]): Service exited with abnormal code: 1
+Dec 26 07:33:00 MacBookPro com.apple.xpc.launchd[1] (com.apple.quicklook[17051]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Dec 26 07:34:12 MacBookPro com.apple.xpc.launchd[1] (com.apple.ReportCrash[17120]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.ReportCrash
+Dec 26 07:34:18 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 07:34:18 MacBookPro Finder[17119]: assertion failed: 16A323: libxpc.dylib + 74287 [2A901937-48E1-3BF2-83F1-2431156D82B7]: 0x89
+Dec 26 07:34:19 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 07:34:21 MacBookPro Finder[17119]: notify name "user.uid.501.BRNotificationServerAvailabilityChanges" has been registered 20 times - this may be a leak
+Dec 26 07:34:25 MacBookPro com.apple.xpc.launchd[1] (com.apple.quicklook[17143]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Dec 26 07:34:45 MacBookPro ReportCrash[17120]: Saved crash report for Finder[711] version 10.12 (10.12) to /Users/shanemcconnell/Library/Logs/DiagnosticReports/Finder_2017-12-26-073445_MacBookPro.crash
+Dec 26 07:37:07 MacBookPro com.apple.xpc.launchd[1] (com.apple.xpc.launchd.oneshot.0x10000013.Dash[17297]): Service exited due to signal: Killed: 9 sent by CoreServicesUIAgent[16963]
+Dec 26 07:37:14 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 07:37:56 MacBookPro syslogd[37]: ASL Sender Statistics
+Dec 26 07:39:08 MacBookPro xpcproxy[17411]: libcoreservices: _dirhelper_userdir: 523: bootstrap_look_up returned 268435459
+Dec 26 07:39:08 MacBookPro xpcproxy[17411]: libcoreservices: _dirhelper_userdir: 529: __dirhelper_create_user_local returned 268435459
+Dec 26 07:39:34 MacBookPro com.apple.xpc.launchd[1] (com.apple.quicklook[17436]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Dec 26 07:40:53 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 07:41:00 MacBookPro com.apple.xpc.launchd[1] (com.apple.iTunesCacheExtension[17641]): Extension is hanging on launch. Killing.
+Dec 26 07:41:00 MacBookPro com.apple.xpc.launchd[1] (com.apple.iBooks.CacheDelete[17642]): Extension is hanging on launch. Killing.
+Dec 26 07:41:00 MacBookPro com.apple.xpc.launchd[1] (com.apple.MailCacheDelete[17643]): Extension is hanging on launch. Killing.
+Dec 26 07:41:00 MacBookPro com.apple.xpc.launchd[1] (com.apple.MailCacheDelete[17643]): Extension did not initialize in time.
+Dec 26 07:41:01 MacBookPro com.apple.xpc.launchd[1] (com.apple.iBooks.CacheDelete[17642]): Extension did not initialize in time.
+Dec 26 07:41:02 MacBookPro com.apple.xpc.launchd[1] (com.apple.iTunesCacheExtension[17641]): Extension did not initialize in time.
+Dec 26 07:41:03 MacBookPro com.apple.xpc.launchd[1] (com.apple.Safari.CacheDeleteExtension[17644]): Extension is hanging on launch. Killing.
+Dec 26 07:41:04 MacBookPro com.apple.xpc.launchd[1] (com.apple.Safari.CacheDeleteExtension[17644]): Extension did not initialize in time.
+Dec 26 07:41:05 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 07:41:12 MacBookPro com.apple.xpc.launchd[1] (com.apple.quicklook[17667]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Dec 26 07:41:47 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 07:42:02 --- last message repeated 1 time ---
+Dec 26 07:42:02 MacBookPro com.apple.xpc.launchd[1] (com.apple.WebKit.Networking.21202F92-F4E0-469E-BC24-C86686E2E196[17687]): Service exited with abnormal code: 1
+Dec 26 07:42:02 MacBookPro com.apple.xpc.launchd[1] (com.apple.WebKit.Networking.6DD07732-D076-4891-ADF3-81006532A80E[17673]): Service exited with abnormal code: 1
+Dec 26 07:42:11 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 07:42:14 MacBookPro com.apple.xpc.launchd[1] (com.apple.WebKit.Networking.D4511441-0AD8-48E9-A217-89702B02CB00[17745]): Service exited with abnormal code: 1
+Dec 26 07:42:14 MacBookPro com.apple.xpc.launchd[1] (com.apple.WebKit.Networking.B751971D-9000-4648-B81F-FDF723D521BD[17746]): Service exited with abnormal code: 1
+Dec 26 07:42:15 MacBookPro com.apple.xpc.launchd[1] (com.apple.WebKit.Networking.0D0401BB-E274-4EFD-88C5-BBE31527FE10[17747]): Service exited with abnormal code: 1
+Dec 26 07:42:17 MacBookPro com.apple.xpc.launchd[1] (com.apple.WebKit.Networking.74E46581-1121-481E-9D9D-DA5AE51C57A7[17748]): Service exited with abnormal code: 1
+Dec 26 07:43:03 MacBookPro com.apple.xpc.launchd[1] (com.apple.quicklook[17790]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Dec 26 07:43:23 MacBookPro login[17799]: USER_PROCESS: 17799 ttys001
+Dec 26 07:44:41 MacBookPro login[17885]: USER_PROCESS: 17885 ttys002
+Dec 26 07:45:19 MacBookPro Atom[17406]: Download completed to: file:///Users/shanemcconnell/Library/Caches/com.github.atom.ShipIt/update.UyxvJSh/atom-mac.zip
+Dec 26 07:48:01 MacBookPro syslogd[37]: ASL Sender Statistics
+Dec 26 07:48:10 MacBookPro com.apple.xpc.launchd[1] (com.apple.quicklook[18060]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Dec 26 07:48:50 MacBookPro logd[53]: Flushing contents to disk due to sleep event
+Dec 26 07:50:07 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:50:07.773 GoogleSoftwareUpdateAgent[18169/0x7fffa83e53c0] [lvl=2] -[KSAgentApp(PrivateMethods) setUpLoggerOutputForVerboseMode:] Agent default/global settings: <KSAgentSettings:0x100526820 bundleID=com.google.Keystone.Agent lastCheck=2017-12-26 07:47:58 +0000 lastServerCheck=2017-12-13 18:35:07 +0000 lastCheckStart=2017-12-26 07:47:49 +0000 checkInterval=18000.000000 uiDisplayInterval=604800.000000 sleepInterval=1800.000000 jitterInterval=900 maxRunInterval=0.000000 isConsoleUser=1 ticketStorePath=/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore runMode=3 daemonUpdateEngineBrokerServiceName=com.google.Keystone.Daemon.UpdateEngine daemonAdministrationServiceName=com.google.Keystone.Daemon.Administration alwaysPromptForUpdates=0 lastUIDisplayed=(null) alwaysShowStatusItem=0 updateCheckTag=(null) printResults=NO userInitiated=NO>
+Dec 26 07:50:07 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:50:07.900 GoogleSoftwareUpdateAgent[18169/0x7fffa83e53c0] [lvl=2] -[KSAgentApp(PrivateMethods) checkForUpdatesUsingArguments:invocation:error:] Starting update check.
+Dec 26 07:50:07 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:50:07.902 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSEngineInvocation(KeystoneThread) runKeystonesInThread] Starting engine thread
+Dec 26 07:50:08 MacBookPro com.apple.xpc.launchd[1] (com.apple.quicklook[18181]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Dec 26 07:50:19 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:50:19.195 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSEngineInvocation(KeystoneThread) runKeystonesInThread] No functional system update engine detected. Only user tickets will be processed.
+Dec 26 07:50:23 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:50:23.135 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSEngineInvocation(KeystoneThread) runKeystonesInThread] Checking with local engine: <KSUpdateEngine:0x100536aa0
+		ticketStore=<KSPersistentTicketStore:0x100311780 store=<KSKeyedPersistentStore:0x100303420
+			path="/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore"
+			lockFile=<KSLockFile:0x100312a60
+				path="/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore.lock"
+				locked=NO
+			>
+		>>
+		processor=<KSActionProcessor:0x100536bd0
+			delegate=<KSUpdateEngine:0x100536aa0>
+			isProcessing=NO actionsCompleted=0 progress=0.00
+			errors=0 currentActionErrors=0
+			events=0 currentActionEvents=0
+			actionQueue=( )
+		>
+		delegate=(null)
+		serverInfoStore=<KSServerPrivateInfoStore:0x1002120f0 path="/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/Servers">
+		errors=0
+	>
+Dec 26 07:50:23 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:50:23.180 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSEngineInvocation(KeystoneThread) performSelfUpdateWithEngine:error:] Checking for self update with Engine: <KSUpdateEngine:0x100536aa0
+		ticketStore=<KSPersistentTicketStore:0x100311780 store=<KSKeyedPersistentStore:0x100303420
+			path="/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore"
+			lockFile=<KSLockFile:0x100312a60
+				path="/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore.lock"
+				locked=NO
+			>
+		>>
+		processor=<KSActionProcessor:0x100536bd0
+			delegate=<KSUpdateEngine:0x100536aa0>
+			isProcessing=NO actionsCompleted=0 progress=0.00
+			errors=0 currentActionErrors=0
+			events=0 currentActionEvents=0
+			actionQueue=( )
+		>
+		delegate=(null)
+		serverInfoStore=<KSServerPrivateInfoStore:0x1002120f0 path="/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/Servers">
+		errors=0
+	>
+Dec 26 07:50:23 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:50:23.180 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSEngineInvocation(KeystoneThread) performSelfUpdateWithEngine:error:] This process may be killed if self-update is necessary. In such cases, sub-processes may still be running to complete the self-update.
+Dec 26 07:50:23 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:50:23.181 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSEngineInvocation(KeystoneThread) updateProductWithProductID:usingEngine:error:] Checking for updates for "com.google.Keystone" using engine <KSUpdateEngine:0x100536aa0
+		ticketStore=<KSPersistentTicketStore:0x100311780 store=<KSKeyedPersistentStore:0x100303420
+			path="/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore"
+			lockFile=<KSLockFile:0x100312a60
+				path="/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore.lock"
+				locked=NO
+			>
+		>>
+		processor=<KSActionProcessor:0x100536bd0
+			delegate=<KSUpdateEngine:0x100536aa0>
+			isProcessing=NO actionsCompleted=0 progress=0.00
+			errors=0 currentActionErrors=0
+			events=0 currentActionEvents=0
+			actionQueue=( )
+		>
+		delegate=(null)
+		serverInfoStore=<KSServerPrivateInfoStore:0x1002120f0 path="/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/Servers">
+		errors=0
+	>
+Dec 26 07:50:23 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:50:23.891 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSUpdateEngine updateProductID:] KSUpdateEngine updating product ID: "com.google.Keystone"
+Dec 26 07:50:24 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:50:24.725 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSCheckAction performAction] KSCheckAction checking 1 ticket(s).
+Dec 26 07:50:26 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:50:26.341 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSUpdateCheckAction performAction] KSUpdateCheckAction starting update check for ticket(s): {(
+		<KSTicket:0x10037bd70
+			productID=com.google.Keystone
+			version=1.2.9.98
+			xc=<KSPathExistenceChecker:0x10037bc10 path=/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/GoogleSoftwareUpdate.bundle>
+			url=https://tools.google.com/service/update2
+			creationDate=2017-12-13 18:35:00
+			cohort=1:0:
+			cohortName=Everyone
+			ticketVersion=1
+		>
+	)}
+	Using server: <KSOmahaServer:0x1003045a0
+		engine=<KSUpdateEngine:0x100536aa0>
+	>
+Dec 26 07:50:28 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:50:28.206 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] +[KSCodeSigningVerification verifyBundle:applicationId:error:] KSCodeSigningVerification verifying code signing for '/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/GoogleSoftwareUpdate.bundle/Contents/MacOS/GoogleSoftwareUpdateDaemon' with the requirement 'anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists and certificate leaf[subject.OU]="EQHXZ8M8AV" and (identifier="com.google.Keystone")'
+Dec 26 07:50:33 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:50:33.077 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSUpdateCheckAction performAction] KSUpdateCheckAction running KSServerUpdateRequest: <KSOmahaServerUpdateRequest:0x106c03900
+		server=<KSOmahaServer:0x1003045a0>
+		url="https://tools.google.com/service/update2?cup2hreq=f1626451e1cb5dffe81ace7b7a16bef9ab8e8a25b8e67208b517b6005b1fb8d5&cup2key=7:2822113737"
+		fallbackURLs=(
+			http://tools.google.com/service/update2?cup2hreq=f1626451e1cb5dffe81ace7b7a16bef9ab8e8a25b8e67208b517b6005b1fb8d5&cup2key=7:2667065995
+		)
+		runningFetchers=0
+		tickets=1
+		body=
+			<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+			<request protocol="3.0" version="KeystoneAgent-1.2.9.98" ismachine="0" requestid="{C14B3183-1EA8-4D35-9EDF-2C08E3D6B536}" dedup="cr" sessionid="{E6E34C24-BD76-4E52-B564-A08986C57137}">
+			    <os platform="mac" version="10.12" arch="i486" sp="10.12.0_i486"></os>
+			    <app appid="com.google.Keystone" version="1.2.9.98" cohort="1:0:" cohortname="Everyone" lang="en-us" installage="12" installdate="3997" brand="GGLG" signed="1">
+			        <ping r="1" rd="4011" a="1" ad="4011" ping_freshness="{B4ED00AC-DBB5-4317-A21C-67ADECE4C843}"></ping>
+			        <updatecheck></updatecheck>
+			    </app>
+			</request>
+		headers={
+			"X-GoogleUpdate-Interactivity" = bg;
+		}
+	>
+Dec 26 07:50:33 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:50:33.080 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher start fetch from URL: "https://tools.google.com/service/update2?cup2hreq=f1626451e1cb5dffe81ace7b7a16bef9ab8e8a25b8e67208b517b6005b1fb8d5&cup2key=7:2822113737"
+Dec 26 07:50:33 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:50:33.087 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) launchedHelperTaskForToolPath:error:] KSOutOfProcessFetcher launched '/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/GoogleSoftwareUpdate.bundle/Contents/MacOS/ksfetch' with process id: 18206
+Dec 26 07:50:33 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:50:33.103 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher fetching from URL: "https://tools.google.com/service/update2?cup2hreq=f1626451e1cb5dffe81ace7b7a16bef9ab8e8a25b8e67208b517b6005b1fb8d5&cup2key=7:2822113737"
+Dec 26 07:50:33 MacBookPro ksfetch[18206]: 2017-12-26 07:50:33.132 ksfetch[18206/0x7fffa83e53c0] [lvl=2] KSHelperReceiveAllData() KSHelperTool read 2042 bytes from stdin.
+Dec 26 07:50:33 MacBookPro ksfetch[18206]: 2017-12-26 07:50:33.135 ksfetch[18206/0x7fffa83e53c0] [lvl=2] main() Fetcher received a request: <NSMutableURLRequest: 0x100600570> { URL: https://tools.google.com/service/update2?cup2hreq=f1626451e1cb5dffe81ace7b7a16bef9ab8e8a25b8e67208b517b6005b1fb8d5&cup2key=7:2822113737 }
+Dec 26 07:50:33 MacBookPro ksfetch[18206]: 2017-12-26 07:50:33.135 ksfetch[18206/0x7fffa83e53c0] [lvl=2] main() Fetcher received a download path: /tmp/KSOutOfProcessFetcher.zJPqCPc5Sd/download
+Dec 26 07:50:33 MacBookPro ksfetch[18206]: 2017-12-26 07:50:33.135 ksfetch[18206/0x7fffa83e53c0] [lvl=2] main() ksfetch fetching URL (<NSMutableURLRequest: 0x100600570> { URL: https://tools.google.com/service/update2?cup2hreq=f1626451e1cb5dffe81ace7b7a16bef9ab8e8a25b8e67208b517b6005b1fb8d5&cup2key=7:2822113737 }) to folder:/tmp/KSOutOfProcessFetcher.zJPqCPc5Sd/download
+Dec 26 07:50:33 MacBookPro ksfetch[18206]: 2017-12-26 07:50:33.137 ksfetch[18206/0x7fffa83e53c0] [lvl=2] main() Setting up download file handles...
+Dec 26 07:50:34 MacBookPro ksfetch[18206]: 2017-12-26 07:50:34.240 ksfetch[18206/0x7fffa83e53c0] [lvl=2] -[FetchDelegate fetcher:finishedWithData:] Fetcher downloaded successfully data of length: 0
+Dec 26 07:50:34 MacBookPro ksfetch[18206]: 2017-12-26 07:50:34.240 ksfetch[18206/0x7fffa83e53c0] [lvl=2] main() ksfetch done fetching.
+Dec 26 07:50:34 MacBookPro ksfetch[18206]: 2017-12-26 07:50:34.285 ksfetch[18206/0x7fffa83e53c0] [lvl=2] main() Fetcher is exiting.
+Dec 26 07:50:34 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:50:34.289 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) helperErrorAvailable:] KSOutOfProcessFetcher helper tool raw STDERR:
+	:	<>
+Dec 26 07:50:34 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:50:34.289 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) helperDidTerminate:] KSOutOfProcessFetcher fetch ended for URL: "https://tools.google.com/service/update2?cup2hreq=f1626451e1cb5dffe81ace7b7a16bef9ab8e8a25b8e67208b517b6005b1fb8d5&cup2key=7:2822113737"
+Dec 26 07:50:34 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:50:34.933 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSUpdateCheckAction(KSServerUpdateRequestDelegate) serverRequest:fetchedWithResponse:] KSUpdateCheckAction received KSServerUpdateResponse: <KSOmahaServerUpdateResponse:0x105201810
+		server=<KSOmahaServer:0x1003045a0>
+		url="https://tools.google.com/service/update2?cup2hreq=f1626451e1cb5dffe81ace7b7a16bef9ab8e8a25b8e67208b517b6005b1fb8d5&cup2key=7:2822113737"
+		tickets=1
+		status=200
+		data=
+			<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+			<response protocol="3.0" server="prod">
+			    <daystart elapsed_days="4012" elapsed_seconds="17434"></daystart>
+			    <app appid="com.google.Keystone" cohort="1:0:" cohortname="Everyone" status="ok">
+			        <ping status="ok"></ping>
+			        <updatecheck status="noupdate"></updatecheck>
+			    </app>
+			</response>
+	>
+Dec 26 07:50:35 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:50:35.014 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSOmahaServer updateInfosForUpdateResponse:updateRequest:infoStore:upToDateTickets:updatedTickets:events:errors:] Response passed CUP validation.
+Dec 26 07:50:35 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:50:35.854 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSUpdateCheckAction(PrivateMethods) finishAction] KSUpdateCheckAction found updates: {( )}
+Dec 26 07:50:35 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:50:35.870 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSPrefetchAction performAction] KSPrefetchAction no updates to prefetch.
+Dec 26 07:50:35 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:50:35.870 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSMultiUpdateAction performAction] KSSilentUpdateAction had no updates to apply.
+Dec 26 07:50:35 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:50:35.871 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSMultiUpdateAction performAction] KSPromptAction had no updates to apply.
+Dec 26 07:50:35 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:50:35.871 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSEngineInvocation(KeystoneDelegate) updateEngineFinishedWithErrors:] Keystone finished: errors=0
+Dec 26 07:50:35 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:50:35.871 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSUpdateEngine(PrivateMethods) updateFinish] KSUpdateEngine update processing complete.
+Dec 26 07:50:35 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:50:35.872 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSEngineInvocation(KeystoneThread) updateProductWithProductID:usingEngine:error:] Done checking for updates for '"com.google.Keystone"' using engine <KSUpdateEngine:0x100536aa0
+		ticketStore=<KSPersistentTicketStore:0x100311780 store=<KSKeyedPersistentStore:0x100303420
+			path="/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore"
+			lockFile=<KSLockFile:0x100312a60
+				path="/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore.lock"
+				locked=NO
+			>
+		>>
+		processor=<KSActionProcessor:0x10025a260
+			delegate=<KSUpdateEngine:0x100536aa0>
+			isProcessing=NO actionsCompleted=0 progress=0.00
+			errors=0 currentActionErrors=0
+			events=0 currentActionEvents=0
+			actionQueue=( )
+		>
+		delegate=<KSEngineInvocation: 0x100313220>
+		serverInfoStore=<KSServerPrivateInfoStore:0x1002120f0 path="/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/Servers">
+		errors=0
+	>
+Dec 26 07:50:35 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:50:35.872 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSEngineInvocation(KeystoneThread) performSelfUpdateWithEngine:error:] Finished self update check.
+Dec 26 07:50:35 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:50:35.872 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSEngineInvocation(KeystoneThread) runKeystonesInThread] About to run checks for any other apps.
+Dec 26 07:50:35 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:50:35.872 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSEngineInvocation(KeystoneThread) updateProductWithProductID:usingEngine:error:] Checking for updates for "All Products" using engine <KSUpdateEngine:0x100536aa0
+		ticketStore=<KSPersistentTicketStore:0x100311780 store=<KSKeyedPersistentStore:0x100303420
+			path="/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore"
+			lockFile=<KSLockFile:0x100312a60
+				path="/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore.lock"
+				locked=NO
+			>
+		>>
+		processor=<KSActionProcessor:0x10025a260
+			delegate=<KSUpdateEngine:0x100536aa0>
+			isProcessing=NO actionsCompleted=0 progress=0.00
+			errors=0 currentActionErrors=0
+			events=0 currentActionEvents=0
+			actionQueue=( )
+		>
+		delegate=(null)
+		serverInfoStore=<KSServerPrivateInfoStore:0x1002120f0 path="/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/Servers">
+		errors=0
+	>
+Dec 26 07:50:35 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:50:35.873 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSUpdateEngine updateAllExceptProduct:] KSUpdateEngine updating all installed products, except:'com.google.Keystone'.
+Dec 26 07:50:35 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:50:35.890 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSCheckAction performAction] KSCheckAction checking 2 ticket(s).
+Dec 26 07:50:35 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:50:35.925 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSUpdateCheckAction performAction] KSUpdateCheckAction starting update check for ticket(s): {(
+		<KSTicket:0x1005379b0
+			productID=com.google.Chrome.canary
+			version=65.0.3303.0
+			xc=<KSPathExistenceChecker:0x100526010 path=/Volumes/Macintosh HD/Applications/Google Chrome Canary.app>
+			serverType=Omaha
+			url=https://tools.google.com/service/update2
+			creationDate=2017-12-15 04:56:55
+			tag=canary
+			tagPath=/Volumes/Macintosh HD/Applications/Google Chrome Canary.app/Contents/Info.plist
+			tagKey=KSChannelID
+			versionPath=/Volumes/Macintosh HD/Applications/Google Chrome Canary.app/Contents/Info.plist
+			versionKey=KSVersion
+			cohort=1:0:
+			cohortName=Canary
+			ticketVersion=1
+		>,
+		<KSTicket:0x1005375a0
+			productID=com.google.Chrome
+			version=63.0.3239.84
+			xc=<KSPathExistenceChecker:0x1005108f0 path=/Volumes/Macintosh HD/Applications/Google Chrome.app>
+			serverType=Omaha
+			url=https://tools.google.com/service/update2
+			creationDate=2017-12-13 18:35:01
+			tagPath=/Volumes/Macintosh HD/Applications/Google Chrome.app/Contents/Info.plist
+			tagKey=KSChannelID
+			versionPath=/Volumes/Macintosh HD/Applications/Google Chrome.app/Contents/Info.plist
+			versionKey=KSVersion
+			cohort=1:1y5:mhf@0.05
+			cohortName=Stable
+			ticketVersion=1
+		>
+	)}
+	Using server: <KSOmahaServer:0x100520030
+		engine=<KSUpdateEngine:0x100536aa0>
+	>
+Dec 26 07:50:35 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:50:35.959 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] +[KSCodeSigningVerification verifyBundle:applicationId:error:] KSCodeSigningVerification verifying code signing for '/Volumes/Macintosh HD/Applications/Google Chrome Canary.app' with the requirement 'anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists and certificate leaf[subject.OU]="EQHXZ8M8AV" and (identifier="com.google.Chrome.canary")'
+Dec 26 07:50:36 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:50:36.949 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] +[KSCodeSigningVerification verifyBundle:applicationId:error:] KSCodeSigningVerification verifying code signing for '/Volumes/Macintosh HD/Applications/Google Chrome.app' with the requirement 'anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists and certificate leaf[subject.OU]="EQHXZ8M8AV" and (identifier="com.google.Chrome")'
+Dec 26 07:50:38 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:50:38.092 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSUpdateCheckAction performAction] KSUpdateCheckAction running KSServerUpdateRequest: <KSOmahaServerUpdateRequest:0x1005461a0
+		server=<KSOmahaServer:0x100520030>
+		url="https://tools.google.com/service/update2?cup2hreq=f8d2e510da0ea0b653cdc30fbffdd40efc75bf0a27d89f95f0d5bbdb9530ffa7&cup2key=7:1817252814"
+		fallbackURLs=(
+			http://tools.google.com/service/update2?cup2hreq=f8d2e510da0ea0b653cdc30fbffdd40efc75bf0a27d89f95f0d5bbdb9530ffa7&cup2key=7:4258156447
+		)
+		runningFetchers=0
+		tickets=2
+		body=
+			<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+			<request protocol="3.0" version="KeystoneAgent-1.2.9.98" ismachine="0" requestid="{1D4947F8-FAC7-4D32-A487-986BF4522888}" dedup="cr" sessionid="{E6E34C24-BD76-4E52-B564-A08986C57137}">
+			    <os platform="mac" version="10.12" arch="i486" sp="10.12.0_i486"></os>
+			    <app appid="com.google.Chrome.canary" version="65.0.3303.0" cohort="1:0:" cohortname="Canary" lang="en-us" installage="11" ap="canary" brand="GGLG" signed="1">
+			        <ping r="1" rd="4011" ping_freshness="{64350D9D-61DE-4B38-B01E-69565E4E49C2}"></ping>
+			        <updatecheck></updatecheck>
+			    </app>
+			    <app appid="com.google.Chrome" version="63.0.3239.84" cohort="1:1y5:mhf@0.05" cohortname="Stable" lang="en-us" installage="12" installdate="3997" brand="GGLG" _numaccounts="1" _numsignedin="1" signed="1">
+			        <ping r="1" rd="4011" ping_freshness="{54B54729-C004-474D-9959-AD31DBE5DD60}"></ping>
+			        <updatecheck></updatecheck>
+			    </app>
+			</request>
+		headers={
+			"X-GoogleUpdate-Interactivity" = bg;
+		}
+	>
+Dec 26 07:50:38 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:50:38.093 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher start fetch from URL: "https://tools.google.com/service/update2?cup2hreq=f8d2e510da0ea0b653cdc30fbffdd40efc75bf0a27d89f95f0d5bbdb9530ffa7&cup2key=7:1817252814"
+Dec 26 07:50:38 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:50:38.094 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) launchedHelperTaskForToolPath:error:] KSOutOfProcessFetcher launched '/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/GoogleSoftwareUpdate.bundle/Contents/MacOS/ksfetch' with process id: 18212
+Dec 26 07:50:38 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:50:38.094 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher fetching from URL: "https://tools.google.com/service/update2?cup2hreq=f8d2e510da0ea0b653cdc30fbffdd40efc75bf0a27d89f95f0d5bbdb9530ffa7&cup2key=7:1817252814"
+Dec 26 07:50:38 MacBookPro ksfetch[18212]: 2017-12-26 07:50:38.130 ksfetch[18212/0x7fffa83e53c0] [lvl=2] KSHelperReceiveAllData() KSHelperTool read 2375 bytes from stdin.
+Dec 26 07:50:38 MacBookPro ksfetch[18212]: 2017-12-26 07:50:38.132 ksfetch[18212/0x7fffa83e53c0] [lvl=2] main() Fetcher received a request: <NSMutableURLRequest: 0x104901d60> { URL: https://tools.google.com/service/update2?cup2hreq=f8d2e510da0ea0b653cdc30fbffdd40efc75bf0a27d89f95f0d5bbdb9530ffa7&cup2key=7:1817252814 }
+Dec 26 07:50:38 MacBookPro ksfetch[18212]: 2017-12-26 07:50:38.132 ksfetch[18212/0x7fffa83e53c0] [lvl=2] main() Fetcher received a download path: /tmp/KSOutOfProcessFetcher.cOlC146KGW/download
+Dec 26 07:50:38 MacBookPro ksfetch[18212]: 2017-12-26 07:50:38.133 ksfetch[18212/0x7fffa83e53c0] [lvl=2] main() ksfetch fetching URL (<NSMutableURLRequest: 0x104901d60> { URL: https://tools.google.com/service/update2?cup2hreq=f8d2e510da0ea0b653cdc30fbffdd40efc75bf0a27d89f95f0d5bbdb9530ffa7&cup2key=7:1817252814 }) to folder:/tmp/KSOutOfProcessFetcher.cOlC146KGW/download
+Dec 26 07:50:38 MacBookPro ksfetch[18212]: 2017-12-26 07:50:38.133 ksfetch[18212/0x7fffa83e53c0] [lvl=2] main() Setting up download file handles...
+Dec 26 07:50:38 MacBookPro ksfetch[18212]: 2017-12-26 07:50:38.353 ksfetch[18212/0x7fffa83e53c0] [lvl=2] -[FetchDelegate fetcher:finishedWithData:] Fetcher downloaded successfully data of length: 0
+Dec 26 07:50:38 MacBookPro ksfetch[18212]: 2017-12-26 07:50:38.353 ksfetch[18212/0x7fffa83e53c0] [lvl=2] main() ksfetch done fetching.
+Dec 26 07:50:38 MacBookPro ksfetch[18212]: 2017-12-26 07:50:38.513 ksfetch[18212/0x7fffa83e53c0] [lvl=2] main() Fetcher is exiting.
+Dec 26 07:50:38 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:50:38.517 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) helperErrorAvailable:] KSOutOfProcessFetcher helper tool raw STDERR:
+	:	<>
+Dec 26 07:50:38 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:50:38.517 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) helperDidTerminate:] KSOutOfProcessFetcher fetch ended for URL: "https://tools.google.com/service/update2?cup2hreq=f8d2e510da0ea0b653cdc30fbffdd40efc75bf0a27d89f95f0d5bbdb9530ffa7&cup2key=7:1817252814"
+Dec 26 07:50:38 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:50:38.954 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSUpdateCheckAction(KSServerUpdateRequestDelegate) serverRequest:fetchedWithResponse:] KSUpdateCheckAction received KSServerUpdateResponse: <KSOmahaServerUpdateResponse:0x106c15de0
+		server=<KSOmahaServer:0x100520030>
+		url="https://tools.google.com/service/update2?cup2hreq=f8d2e510da0ea0b653cdc30fbffdd40efc75bf0a27d89f95f0d5bbdb9530ffa7&cup2key=7:1817252814"
+		tickets=2
+		status=200
+		data=
+			<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+			<response protocol="3.0" server="prod">
+			    <daystart elapsed_days="4012" elapsed_seconds="17438"></daystart>
+			    <app appid="com.google.Chrome.canary" cohort="1:0:" cohortname="Canary" status="ok">
+			        <ping status="ok"></ping>
+			        <updatecheck status="ok">
+			            <urls>
+			                <url codebase="http://redirector.gvt1.com/edgedl/release2/chrome/AKGvAOYIKCYl_65.0.3304.0/"></url>
+			                <url codebase="https://redirector.gvt1.com/edgedl/release2/chrome/AKGvAOYIKCYl_65.0.3304.0/"></url>
+			                <url codebase="http://dl.google.com/release2/chrome/AKGvAOYIKCYl_65.0.3304.0/"></url>
+			                <url codebase="https://dl.google.com/release2/chrome/AKGvAOYIKCYl_65.0.3304.0/"></url>
+			                <url codebase="http://www.google.com/dl/release2/chrome/AKGvAOYIKCYl_65.0.3304.0/"></url>
+			                <url codebase="https://www.google.com/dl/release2/chrome/AKGvAOYIKCYl_65.0.3304.0/"></url>
+			            </urls>
+			            <manifest version="65.0.3304.0">
+			                <actions>
+			                    <action event="update" run="GoogleChromeCanary-65.0.3303.0-65.0.3304.0-Update.dmg"></action>
+			                    <action DisplayVersion="65.0.3304.0" event="postinstall"></action>
+			                </actions>
+			                <packages>
+			                    <package fp="1.233c4a3d9154714d9a3d1277d2d26efae178b7a847cd99510d340597dc9cfd9d" hash="uawQEqGQxWL27mXJi7JFFlQri7k=" hash_sha256="233c4a3d9154714d9a3d1277d2d26efae178b7a847cd99510d340597dc9cfd9d" name="GoogleChromeCanary-65.0.3303.0-65.0.3304.0-Update.dmg" required="true" size="4901920"></package>
+			                </packages>
+			            </manifest>
+			        </updatecheck>
+			    </app>
+			    <app appid="com.google.Chrome" cohort="1:1y5:mhf@0.05" cohortname="Stable" status="ok">
+			        <ping status="ok"></ping>
+			        <updatecheck status="noupdate"></updatecheck>
+			    </app>
+			</response>
+	>
+Dec 26 07:50:38 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:50:38.956 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSOmahaServer updateInfosForUpdateResponse:updateRequest:infoStore:upToDateTickets:updatedTickets:events:errors:] Response passed CUP validation.
+Dec 26 07:50:40 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:50:40.126 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSUpdateCheckAction(PrivateMethods) finishAction] KSUpdateCheckAction found updates: {(
+		<KSUpdateInfo:0x100267750
+			productID="com.google.Chrome.canary"
+			ticket=<KSTicket:0x1005379b0
+				productID=com.google.Chrome.canary
+				version=65.0.3303.0
+				xc=<KSPathExistenceChecker:0x100526010 path=/Volumes/Macintosh HD/Applications/Google Chrome Canary.app>
+				serverType=Omaha
+				url=https://tools.google.com/service/update2
+				creationDate=2017-12-15 04:56:55
+				tag=canary
+				tagPath=/Volumes/Macintosh HD/Applications/Google Chrome Canary.app/Contents/Info.plist
+				tagKey=KSChannelID
+				versionPath=/Volumes/Macintosh HD/Applications/Google Chrome Canary.app/Contents/Info.plist
+				versionKey=KSVersion
+				cohort=1:0:
+				cohortName=Canary
+				ticketVersion=1
+			>
+			version="65.0.3304.0"
+			codebases=(
+				<KSCodeBaseInfo:0x1005434e0
+					codebase="http://redirector.gvt1.com/edgedl/release2/chrome/AKGvAOYIKCYl_65.0.3304.0/"
+				>,
+				<KSCodeBaseInfo:0x100270700
+					codebase="https://redirector.gvt1.com/edgedl/release2/chrome/AKGvAOYIKCYl_65.0.3304.0/"
+				>,
+				<KSCodeBaseInfo:0x100257890
+					codebase="http://dl.google.com/release2/chrome/AKGvAOYIKCYl_65.0.3304.0/"
+				>,
+				<KSCodeBaseInfo:0x10025cab0
+					codebase="https://dl.google.com/release2/chrome/AKGvAOYIKCYl_65.0.3304.0/"
+				>,
+				<KSCodeBaseInfo:0x10026f610
+					codebase="http://www.google.com/dl/release2/chrome/AKGvAOYIKCYl_65.0.3304.0/"
+				>,
+				<KSCodeBaseInfo:0x1002606c0
+					codebase="https://www.google.com/dl/release2/chrome/AKGvAOYIKCYl_65.0.3304.0/"
+				>
+			)
+			packages=(
+				<KSPackageInfo:0x100250010
+					name="GoogleChromeCanary-65.0.3303.0-65.0.3304.0-Update.dmg"
+					size=4901920
+					hashSHA256=233c4a3d9154714d9a3d1277d2d26efae178b7a847cd99510d340597dc9cfd9d
+					required=1
+					fp="1.233c4a3d9154714d9a3d1277d2d26efae178b7a847cd99510d340597dc9cfd9d"
+				>
+			)
+			action=<KSActionInfo:0x10026bdc0
+				run="GoogleChromeCanary-65.0.3303.0-65.0.3304.0-Update.dmg"
+				needsAdmin=0
+				terminateAllBrowsers=0
+				promptUser=0
+				requireReboot=0
+				displayVersion="65.0.3304.0"
+			>
+		>
+	)}
+Dec 26 07:50:40 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:50:40.149 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher start fetch from URL: "http://redirector.gvt1.com/edgedl/release2/chrome/AKGvAOYIKCYl_65.0.3304.0/GoogleChromeCanary-65.0.3303.0-65.0.3304.0-Update.dmg"
+Dec 26 07:50:40 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:50:40.150 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) launchedHelperTaskForToolPath:error:] KSOutOfProcessFetcher launched '/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/GoogleSoftwareUpdate.bundle/Contents/MacOS/ksfetch' with process id: 18217
+Dec 26 07:50:40 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:50:40.150 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher fetching from URL: "http://redirector.gvt1.com/edgedl/release2/chrome/AKGvAOYIKCYl_65.0.3304.0/GoogleChromeCanary-65.0.3303.0-65.0.3304.0-Update.dmg"
+Dec 26 07:50:40 MacBookPro ksfetch[18217]: 2017-12-26 07:50:40.191 ksfetch[18217/0x7fffa83e53c0] [lvl=2] KSHelperReceiveAllData() KSHelperTool read 1069 bytes from stdin.
+Dec 26 07:50:40 MacBookPro ksfetch[18217]: 2017-12-26 07:50:40.193 ksfetch[18217/0x7fffa83e53c0] [lvl=2] main() Fetcher received a request: <NSURLRequest: 0x102013b90> { URL: http://redirector.gvt1.com/edgedl/release2/chrome/AKGvAOYIKCYl_65.0.3304.0/GoogleChromeCanary-65.0.3303.0-65.0.3304.0-Update.dmg }
+Dec 26 07:50:40 MacBookPro ksfetch[18217]: 2017-12-26 07:50:40.193 ksfetch[18217/0x7fffa83e53c0] [lvl=2] main() Fetcher received a download path: /tmp/KSOutOfProcessFetcher.U1rnkaTaN7/download
+Dec 26 07:50:40 MacBookPro ksfetch[18217]: 2017-12-26 07:50:40.194 ksfetch[18217/0x7fffa83e53c0] [lvl=2] main() ksfetch fetching URL (<NSURLRequest: 0x102013b90> { URL: http://redirector.gvt1.com/edgedl/release2/chrome/AKGvAOYIKCYl_65.0.3304.0/GoogleChromeCanary-65.0.3303.0-65.0.3304.0-Update.dmg }) to folder:/tmp/KSOutOfProcessFetcher.U1rnkaTaN7/download
+Dec 26 07:50:40 MacBookPro ksfetch[18217]: 2017-12-26 07:50:40.194 ksfetch[18217/0x7fffa83e53c0] [lvl=2] main() Setting up download file handles...
+Dec 26 07:50:44 MacBookPro ksfetch[18217]: 2017-12-26 07:50:44.769 ksfetch[18217/0x7fffa83e53c0] [lvl=2] -[FetchDelegate fetcher:finishedWithData:] Fetcher downloaded successfully data of length: 0
+Dec 26 07:50:44 MacBookPro ksfetch[18217]: 2017-12-26 07:50:44.769 ksfetch[18217/0x7fffa83e53c0] [lvl=2] main() ksfetch done fetching.
+Dec 26 07:50:51 MacBookPro ksfetch[18217]: 2017-12-26 07:50:51.773 ksfetch[18217/0x7fffa83e53c0] [lvl=2] main() Fetcher is exiting.
+Dec 26 07:50:51 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:50:51.776 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) helperErrorAvailable:] KSOutOfProcessFetcher helper tool raw STDERR:
+	:	<>
+Dec 26 07:50:51 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:50:51.776 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) helperDidTerminate:] KSOutOfProcessFetcher fetch ended for URL: "http://redirector.gvt1.com/edgedl/release2/chrome/AKGvAOYIKCYl_65.0.3304.0/GoogleChromeCanary-65.0.3303.0-65.0.3304.0-Update.dmg"
+Dec 26 07:50:51 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:50:51.778 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSPrefetchAction(PrivateMethods) fetcher:finishedWithData:] KSPrefetchAction prefetched update for product ID "com.google.Chrome.canary" to cache "/Users/shanemcconnell/Library/Caches/com.google.SoftwareUpdate/Downloads/com.google.Chrome.canary_65.0.3304.0"
+Dec 26 07:50:51 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:50:51.880 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSMultiUpdateAction performAction] KSSilentUpdateAction handling update(s): {(
+		<KSUpdateInfo:0x100267750
+			productID="com.google.Chrome.canary"
+			ticket=<KSTicket:0x1005379b0
+				productID=com.google.Chrome.canary
+				version=65.0.3303.0
+				xc=<KSPathExistenceChecker:0x100526010 path=/Volumes/Macintosh HD/Applications/Google Chrome Canary.app>
+				serverType=Omaha
+				url=https://tools.google.com/service/update2
+				creationDate=2017-12-15 04:56:55
+				tag=canary
+				tagPath=/Volumes/Macintosh HD/Applications/Google Chrome Canary.app/Contents/Info.plist
+				tagKey=KSChannelID
+				versionPath=/Volumes/Macintosh HD/Applications/Google Chrome Canary.app/Contents/Info.plist
+				versionKey=KSVersion
+				cohort=1:0:
+				cohortName=Canary
+				ticketVersion=1
+			>
+			version="65.0.3304.0"
+			codebases=(
+				<KSCodeBaseInfo:0x1005434e0
+					codebase="http://redirector.gvt1.com/edgedl/release2/chrome/AKGvAOYIKCYl_65.0.3304.0/"
+				>,
+				<KSCodeBaseInfo:0x100270700
+					codebase="https://redirector.gvt1.com/edgedl/release2/chrome/AKGvAOYIKCYl_65.0.3304.0/"
+				>,
+				<KSCodeBaseInfo:0x100257890
+					codebase="http://dl.google.com/release2/chrome/AKGvAOYIKCYl_65.0.3304.0/"
+				>,
+				<KSCodeBaseInfo:0x10025cab0
+					codebase="https://dl.google.com/release2/chrome/AKGvAOYIKCYl_65.0.3304.0/"
+				>,
+				<KSCodeBaseInfo:0x10026f610
+					codebase="http://www.google.com/dl/release2/chrome/AKGvAOYIKCYl_65.0.3304.0/"
+				>,
+				<KSCodeBaseInfo:0x1002606c0
+					codebase="https://www.google.com/dl/release2/chrome/AKGvAOYIKCYl_65.0.3304.0/"
+				>
+			)
+			packages=(
+				<KSPackageInfo:0x100250010
+					name="GoogleChromeCanary-65.0.3303.0-65.0.3304.0-Update.dmg"
+					size=4901920
+					hashSHA256=233c4a3d9154714d9a3d1277d2d26efae178b7a847cd99510d340597dc9cfd9d
+					required=1
+					fp="1.233c4a3d9154714d9a3d1277d2d26efae178b7a847cd99510d340597dc9cfd9d"
+				>
+			)
+			action=<KSActionInfo:0x10026bdc0
+				run="GoogleChromeCanary-65.0.3303.0-65.0.3304.0-Update.dmg"
+				needsAdmin=0
+				terminateAllBrowsers=0
+				promptUser=0
+				requireReboot=0
+				displayVersion="65.0.3304.0"
+			>
+		>
+	)}
+Dec 26 07:50:51 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:50:51.887 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSDownloadAction performAction] KSDownloadAction begin download of update for product ID "com.google.Chrome.canary"
+Dec 26 07:50:54 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:50:54.524 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSDownloadAction(PrivateMethods) attemptPerformActionCacheHit] KSDownloadAction using matching cache item: "/Users/shanemcconnell/Library/Caches/com.google.SoftwareUpdate/Downloads/com.google.Chrome.canary_65.0.3304.0"
+Dec 26 07:50:54 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:50:54.623 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSInstallAction prepareUpdateWithUpdateInfo:downloadPath:diskImage:runner:error:] KSInstallAction installing "/tmp/KSDownloadAction.trpKNzOtq2/com.google.Chrome.canary" to update product ID "com.google.Chrome.canary"
+Dec 26 07:51:08 MacBookPro logd[53]: Could not find proc_uniqidentifierinfo for pid 18265
+Dec 26 07:51:08 MacBookPro logd[53]: Could not find proc_uniqidentifierinfo for pid 18266
+Dec 26 07:51:08 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 07:51:09 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:51:09.460 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSInstallAction prepareUpdateWithUpdateInfo:downloadPath:diskImage:runner:error:] KSInstallAction product "com.google.Chrome.canary" update mounted on "/tmp/KSInstallAction.sfO6WfWkvW/m"
+Dec 26 07:51:11 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:51:11.135 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSInstallAction performAction] KSInstallAction product "com.google.Chrome.canary" install: "/tmp/KSInstallAction.sfO6WfWkvW/m/.keystone_install"
+Dec 26 07:51:12 MacBookPro ksadmin[18287]: Using ticket store: <KSPersistentTicketStore:0x100506f70 store=<KSKeyedPersistentStore:0x100509210
+		path="/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore"
+		lockFile=<KSLockFile:0x100509760
+			path="/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore.lock"
+			locked=NO
+		>
+	>>.
+Dec 26 07:52:11 MacBookPro ksadmin[19939]: Using ticket store: <KSPersistentTicketStore:0x103000600 store=<KSKeyedPersistentStore:0x103000380
+		path="/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore"
+		lockFile=<KSLockFile:0x103000fd0
+			path="/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore.lock"
+			locked=NO
+		>
+	>>.
+Dec 26 07:52:11 MacBookPro ksadmin[19939]: Creating a new ticket...
+Dec 26 07:52:11 MacBookPro ksadmin[19939]: Created ticket <KSTicket:0x100502010
+		productID=com.google.Chrome.canary
+		version=65.0.3304.0
+		xc=<KSPathExistenceChecker:0x10020e340 path=/Volumes/Macintosh HD/Applications/Google Chrome Canary.app>
+		serverType=Omaha
+		url=https://tools.google.com/service/update2
+		creationDate=2017-12-15 04:56:55
+		tag=canary
+		tagPath=/Volumes/Macintosh HD/Applications/Google Chrome Canary.app/Contents/Info.plist
+		tagKey=KSChannelID
+		versionPath=/Volumes/Macintosh HD/Applications/Google Chrome Canary.app/Contents/Info.plist
+		versionKey=KSVersion
+		cohort=1:0:
+		cohortName=Canary
+		ticketVersion=1
+	> in store /Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore.
+Dec 26 07:52:16 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:52:16.330 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSInstallAction(PrivateMethods) runScriptWithRunner:script:args:environment:output:stdError:rcPipeName:updateInfo:needsRetry:exitEventType:errorCode:errorMessage:] KSInstallAction script execution for product: com.google.Chrome.canary (status: 0): "/tmp/KSInstallAction.sfO6WfWkvW/m/.keystone_install"
+		STDOUT:
+			
+		STDERR:
+			
+		ExecutionError:
+			(null)
+Dec 26 07:52:17 MacBookPro com.apple.xpc.launchd[1] (com.apple.quicklook[19965]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Dec 26 07:52:27 MacBookPro spindump[436]: Saved wakeups_resource.diag report for WindowServer version ??? (???) to /Library/Logs/DiagnosticReports/WindowServer_2017-12-26-075227_MacBookPro.wakeups_resource.diag
+Dec 26 07:52:30 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:52:30.054 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSInstallAction performAction] KSInstallAction successful update of product ID "com.google.Chrome.canary"
+Dec 26 07:52:30 MacBookPro com.apple.xpc.launchd[1] (com.apple.quicklook[19981]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Dec 26 07:52:30 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:52:30.251 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSMultiUpdateAction(KSActionProcessorDelegate) processingDone:] KSSilentUpdateAction updates complete (errors: 0).
+Dec 26 07:52:30 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:52:30.252 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSMultiUpdateAction performAction] KSPromptAction had no updates to apply.
+Dec 26 07:52:30 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:52:30.255 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSOmahaServer(PrivateMethods) appElementForActionEvents:productID:error:] Skipping action event not supported by Omaha3 protocol: <KSActionEvent:0x100444510
+		eventSource=<KSActionEventSource:0x1004356d0
+		server=Omaha:https://tools.google.com/service/update2
+		productID=com.google.Chrome.canary
+		version=65.0.3303.0
+		nextVersion=65.0.3304.0
+		lang=(null)>
+		type=14
+		result=2
+		errorCode=0
+		extraData=[3 items]>
+Dec 26 07:52:30 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:52:30.255 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSOmahaServer(PrivateMethods) appElementForActionEvents:productID:error:] Skipping action event not supported by Omaha3 protocol: <KSActionEvent:0x100542f60
+		eventSource=<KSActionEventSource:0x106c198c0
+		server=Omaha:https://tools.google.com/service/update2
+		productID=com.google.Chrome.canary
+		version=65.0.3303.0
+		nextVersion=65.0.3304.0
+		lang=(null)>
+		type=8
+		result=2
+		errorCode=0
+		extraData=[0 items]>
+Dec 26 07:52:30 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:52:30.255 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSOmahaServer(PrivateMethods) appElementForActionEvents:productID:error:] Skipping action event not supported by Omaha3 protocol: <KSActionEvent:0x1005455b0
+		eventSource=<KSActionEventSource:0x100706ae0
+		server=Omaha:https://tools.google.com/service/update2
+		productID=com.google.Chrome.canary
+		version=65.0.3304.0
+		nextVersion=65.0.3304.0
+		lang=(null)>
+		type=9
+		result=2
+		errorCode=0
+		extraData=[1 items]>
+Dec 26 07:52:30 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:52:30.256 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSUpdateEngine(PrivateMethods) sendActionEventsToServer:errors:] Sending event ping to https://tools.google.com/service/update2: <?xml version="1.0" encoding="UTF-8"?>
+	<request protocol="3.0" version="KeystoneAgent-1.2.9.98" ismachine="0" requestid="{965AA352-FAAA-4D86-835A-027C01DC1E67}" sessionid="{E6E34C24-BD76-4E52-B564-A08986C57137}">
+	    <os platform="mac" version="10.12" arch="i486" sp="10.12.0_i486"></os>
+	    <app appid="com.google.Chrome.canary" version="65.0.3303.0" nextversion="65.0.3304.0">
+	        <event eventtype="3" installrc="0" eventresult="1" errorcode="0" install_time_ms="65196"></event>
+	        <event eventtype="13" eventresult="1" errorcode="0" download_type="prefetch"></event>
+	        <event eventtype="14" eventresult="1" errorcode="0" download_type="prefetch" download_time_ms="11627" downloaded="4901920" url="http://redirector.gvt1.com/edgedl/release2/chrome/AKGvAOYIKCYl_65.0.3304.0/GoogleChromeCanary-65.0.3303.0-65.0.3304.0-Update.dmg"></event>
+	    </app>
+	</request>
+Dec 26 07:52:30 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:52:30.337 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher start fetch from URL: "https://tools.google.com/service/update2"
+Dec 26 07:52:30 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:52:30.378 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) launchedHelperTaskForToolPath:error:] KSOutOfProcessFetcher launched '/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/GoogleSoftwareUpdate.bundle/Contents/MacOS/ksfetch' with process id: 19982
+Dec 26 07:52:30 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:52:30.379 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher fetching from URL: "https://tools.google.com/service/update2"
+Dec 26 07:52:30 MacBookPro ksfetch[19982]: 2017-12-26 07:52:30.988 ksfetch[19982/0x7fffa83e53c0] [lvl=2] KSHelperReceiveAllData() KSHelperTool read 2141 bytes from stdin.
+Dec 26 07:52:30 MacBookPro ksfetch[19982]: 2017-12-26 07:52:30.990 ksfetch[19982/0x7fffa83e53c0] [lvl=2] main() Fetcher received a request: <NSMutableURLRequest: 0x10040c9a0> { URL: https://tools.google.com/service/update2 }
+Dec 26 07:52:30 MacBookPro ksfetch[19982]: 2017-12-26 07:52:30.990 ksfetch[19982/0x7fffa83e53c0] [lvl=2] main() Fetcher received a download path: /tmp/KSOutOfProcessFetcher.MIYxmutOU3/download
+Dec 26 07:52:30 MacBookPro ksfetch[19982]: 2017-12-26 07:52:30.991 ksfetch[19982/0x7fffa83e53c0] [lvl=2] main() ksfetch fetching URL (<NSMutableURLRequest: 0x10040c9a0> { URL: https://tools.google.com/service/update2 }) to folder:/tmp/KSOutOfProcessFetcher.MIYxmutOU3/download
+Dec 26 07:52:30 MacBookPro ksfetch[19982]: 2017-12-26 07:52:30.991 ksfetch[19982/0x7fffa83e53c0] [lvl=2] main() Setting up download file handles...
+Dec 26 07:52:31 MacBookPro ksfetch[19982]: 2017-12-26 07:52:31.196 ksfetch[19982/0x7fffa83e53c0] [lvl=2] -[FetchDelegate fetcher:finishedWithData:] Fetcher downloaded successfully data of length: 0
+Dec 26 07:52:31 MacBookPro ksfetch[19982]: 2017-12-26 07:52:31.197 ksfetch[19982/0x7fffa83e53c0] [lvl=2] main() ksfetch done fetching.
+Dec 26 07:52:31 MacBookPro ksfetch[19982]: 2017-12-26 07:52:31.715 ksfetch[19982/0x7fffa83e53c0] [lvl=2] main() Fetcher is exiting.
+Dec 26 07:52:31 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:52:31.719 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) helperDidTerminate:] KSOutOfProcessFetcher fetch ended for URL: "https://tools.google.com/service/update2"
+Dec 26 07:52:31 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:52:31.721 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSReportUploader(PrivateMethods) fetcher:finishedWithData:] Successfully completed upload of <NSMutableURLRequest: 0x10025f5c0> { URL: https://tools.google.com/service/update2 }
+Dec 26 07:52:31 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:52:31.721 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSEngineInvocation(KeystoneDelegate) updateEngineFinishedWithErrors:] Keystone finished: errors=0
+Dec 26 07:52:31 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:52:31.722 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSUpdateEngine(PrivateMethods) updateFinish] KSUpdateEngine update processing complete.
+Dec 26 07:52:31 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:52:31.724 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSEngineInvocation(KeystoneThread) updateProductWithProductID:usingEngine:error:] Done checking for updates for '"All Products"' using engine <KSUpdateEngine:0x100536aa0
+		ticketStore=<KSPersistentTicketStore:0x100311780 store=<KSKeyedPersistentStore:0x100303420
+			path="/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore"
+			lockFile=<KSLockFile:0x100312a60
+				path="/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore.lock"
+				locked=NO
+			>
+		>>
+		processor=<KSActionProcessor:0x10043b930
+			delegate=<KSUpdateEngine:0x100536aa0>
+			isProcessing=NO actionsCompleted=0 progress=0.00
+			errors=0 currentActionErrors=0
+			events=0 currentActionEvents=0
+			actionQueue=( )
+		>
+		delegate=<KSEngineInvocation: 0x100313220>
+		serverInfoStore=<KSServerPrivateInfoStore:0x1002120f0 path="/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/Servers">
+		errors=0
+	>
+Dec 26 07:52:32 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:52:32.051 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSAgentUploader fetcher:finishedWithData:] Successfully uploaded stats to <NSMutableURLRequest: 0x10054f860> { URL: https://tools.google.com/service/update2 }
+Dec 26 07:52:32 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:52:32.051 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSAgentApp(PrivateMethods) uploadStats:forInvocation:error:] Successfully uploaded stats <KSStatsCollection:0x1004007a0 path="/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/Stats/Keystone.stats", count=8, stats={
+	    checks = 2;
+	    downloadcachehits = 1;
+	    downloads = 1;
+	    "installrc///com.google.Chrome.canary" = 0;
+	    tickets = 2;
+	    usertickets = 3;
+	    validtickets = 2;
+	    validusertickets = 3;
+	}>
+Dec 26 07:52:32 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:52:32.076 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSEngineInvocation(KeystoneThread) runKeystonesInThread] Failed to upload Keystone statistics: (null)
+Dec 26 07:52:33 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:52:33.148 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSEngineInvocation(KeystoneThread) runKeystonesInThread] Finished with engine thread
+Dec 26 07:52:33 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:52:33.150 GoogleSoftwareUpdateAgent[18169/0x700005d47000] [lvl=2] -[KSAgentApp(PrivateMethods) setUpLoggerOutputForVerboseMode:] Agent default/global settings: <KSAgentSettings:0x100526820 bundleID=com.google.Keystone.Agent lastCheck=2017-12-26 12:50:40 +0000 lastServerCheck=2017-12-13 18:35:07 +0000 lastCheckStart=2017-12-26 12:50:07 +0000 checkInterval=18000.000000 uiDisplayInterval=604800.000000 sleepInterval=1800.000000 jitterInterval=900 maxRunInterval=0.000000 isConsoleUser=1 ticketStorePath=/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore runMode=3 daemonUpdateEngineBrokerServiceName=com.google.Keystone.Daemon.UpdateEngine daemonAdministrationServiceName=com.google.Keystone.Daemon.Administration alwaysPromptForUpdates=0 lastUIDisplayed=(null) alwaysShowStatusItem=0 updateCheckTag=(null) printResults=NO userInitiated=NO>
+Dec 26 07:52:34 MacBookPro GoogleSoftwareUpdateAgent[18169]: 2017-12-26 07:52:34.338 GoogleSoftwareUpdateAgent[18169/0x7fffa83e53c0] [lvl=2] -[KSAgentApp(PrivateMethods) checkForUpdatesUsingArguments:invocation:error:] Finished update check.
+Dec 26 07:58:03 MacBookPro syslogd[37]: ASL Sender Statistics
+Dec 26 07:59:46 MacBookPro com.apple.xpc.launchd[1] (com.apple.CoreLocationAgent[20849]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.CoreLocation.agent
+Dec 26 08:00:07 MacBookPro com.apple.xpc.launchd[1] (com.apple.quicklook[20885]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Dec 26 08:02:37 MacBookPro com.apple.xpc.launchd[1] (com.apple.quicklook[21278]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Dec 26 08:03:55 MacBookPro WiFi Explorer[21248]: BUG in libdispatch client: kevent[EVFILT_MACHPORT] monitored resource vanished before the source cancel handler was invoked
+Dec 26 08:05:57 MacBookPro com.apple.xpc.launchd[1] (com.apple.keychainaccess.8640[15270]): Service exited due to signal: Terminated: 15 sent by Dock[355]
+Dec 26 08:06:10 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 08:06:17 MacBookPro Keychain Access[21472]: BUG in libdispatch client: kevent[EVFILT_MACHPORT] monitored resource vanished before the source cancel handler was invoked
+Dec 26 08:06:57 MacBookPro com.apple.xpc.launchd[1] (com.apple.ReportCrash[21515]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.ReportCrash
+Dec 26 08:06:59 MacBookPro spindump[436]: Saved memory_resource.diag report for Keychain Access version (null) to /Library/Logs/DiagnosticReports/Keychain Access_2017-12-26-080659_MacBookPro.memory_resource.diag
+Dec 26 08:07:43 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 08:07:47 MacBookPro ReportCrash[21515]: Saved crash report for Keychain Agent[21559] version 55161 to /Users/shanemcconnell/Library/Logs/DiagnosticReports/Keychain Agent_2017-12-26-080747_MacBookPro.crash
+Dec 26 08:08:03 MacBookPro syslogd[37]: ASL Sender Statistics
+Dec 26 08:09:44 MacBookPro Keychain Access[21472]: Error creating UTF-8 encoded string from password data!
+Dec 26 08:10:14 MacBookPro com.apple.WebKit.WebContent[20860]: BUG in libdispatch client: kevent[EVFILT_MACHPORT] monitored resource vanished before the source cancel handler was invoked
+Dec 26 08:10:59 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 08:11:23 --- last message repeated 1 time ---
+Dec 26 08:11:23 MacBookPro System Preferences[14878]: objc[14878]: Class IPKeyboardLayoutWebView is implemented in both /System/Library/PreferencePanes/Keyboard.prefPane/Contents/Resources/IntlKeyboard.prefPane/Contents/MacOS/IntlKeyboard (0x111aca470) and /System/Library/PreferencePanes/Localization.prefPane/Contents/MacOS/Localization (0x10d40fdf8). One of the two will be used. Which one is undefined.
+Dec 26 08:11:40 MacBookPro com.apple.xpc.launchd[1] (com.apple.updateEFIDesktopPicture): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Dec 26 08:12:11 MacBookPro xpcproxy[21844]: libcoreservices: _dirhelper_userdir: 523: bootstrap_look_up returned 268435459
+Dec 26 08:12:11 MacBookPro xpcproxy[21844]: libcoreservices: _dirhelper_userdir: 529: __dirhelper_create_user_local returned 268435459
+Dec 26 08:15:29 MacBookPro Evernote[17640]: BUG in libdispatch client: kevent[EVFILT_MACHPORT] monitored resource vanished before the source cancel handler was invoked
+Dec 26 08:17:13 MacBookPro com.apple.xpc.launchd[1] (com.apple.xpc.launchd.oneshot.0x10000015.ipscan[22105]): Service exited with abnormal code: 1
+Dec 26 08:17:26 MacBookPro Keychain Access[21472]: Error creating UTF-8 encoded string from password data!
+Dec 26 08:17:29 MacBookPro com.apple.xpc.launchd[1] (com.apple.quicklook[22129]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Dec 26 08:18:03 MacBookPro syslogd[37]: ASL Sender Statistics
+Dec 26 08:19:05 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 08:19:52 --- last message repeated 1 time ---
+Dec 26 08:28:03 MacBookPro syslogd[37]: ASL Sender Statistics
+Dec 26 08:34:21 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 08:34:25 MacBookPro WiFi Explorer[21248]: assertion failed: 16A323: libxpc.dylib + 74287 [2A901937-48E1-3BF2-83F1-2431156D82B7]: 0x89
+Dec 26 08:35:10 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 08:35:49 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 08:36:26 MacBookPro com.apple.xpc.launchd[1] (com.apple.quicklook[23179]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Dec 26 08:36:32 MacBookPro com.apple.xpc.launchd[1] (com.apple.quicklook[23190]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Dec 26 08:38:05 MacBookPro syslogd[37]: ASL Sender Statistics
+Dec 26 08:40:33 MacBookPro Messages[23394]: objc[23394]: Class IMEmoteMessageChatItem is implemented in both /System/Library/PrivateFrameworks/IMCore.framework/Versions/A/IMCore (0x7fffa710bf80) and /Applications/Messages.app/Contents/MacOS/Messages (0x1036192d0). One of the two will be used. Which one is undefined.
+Dec 26 08:40:33 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 08:41:01 --- last message repeated 4 times ---
+Dec 26 08:41:01 MacBookPro com.apple.xpc.launchd[1] (com.apple.quicklook[23426]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Dec 26 08:48:05 MacBookPro syslogd[37]: ASL Sender Statistics
+Dec 26 08:53:06 MacBookPro GoogleSoftwareUpdateAgent[24084]: 2017-12-26 08:53:06.070 GoogleSoftwareUpdateAgent[24084/0x7fffa83e53c0] [lvl=2] -[KSAgentApp(PrivateMethods) setUpLoggerOutputForVerboseMode:] Agent default/global settings: <KSAgentSettings:0x10051ce10 bundleID=com.google.Keystone.Agent lastCheck=2017-12-26 12:52:33 +0000 lastServerCheck=2017-12-13 18:35:07 +0000 lastCheckStart=2017-12-26 12:50:07 +0000 checkInterval=18000.000000 uiDisplayInterval=604800.000000 sleepInterval=1800.000000 jitterInterval=900 maxRunInterval=0.000000 isConsoleUser=1 ticketStorePath=/Users/shanemcconnell/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore runMode=3 daemonUpdateEngineBrokerServiceName=com.google.Keystone.Daemon.UpdateEngine daemonAdministrationServiceName=com.google.Keystone.Daemon.Administration alwaysPromptForUpdates=0 lastUIDisplayed=(null) alwaysShowStatusItem=0 updateCheckTag=(null) printResults=NO userInitiated=NO>
+Dec 26 08:55:39 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 08:55:43 MacBookPro Bluetooth File Exchange[20743]: assertion failed: 16A323: libxpc.dylib + 74287 [2A901937-48E1-3BF2-83F1-2431156D82B7]: 0x89
+Dec 26 08:55:49 MacBookPro Bluetooth File Exchange[20743]: BUG in libdispatch client: kevent[EVFILT_MACHPORT] monitored resource vanished before the source cancel handler was invoked
+Dec 26 08:56:02 MacBookPro com.apple.xpc.launchd[1] (com.apple.xpc.launchd.domain.system): Caller tried to hijack service: path = /System/Library/LaunchDaemons/com.apple.smbd.plist, caller = launchctl.24277
+Dec 26 08:56:02 MacBookPro com.apple.xpc.launchd[1] (com.apple.xpc.launchd.domain.system): Caller tried to hijack service: path = /System/Library/LaunchDaemons/com.apple.smbd.plist, caller = launchctl.24281
+Dec 26 08:56:19 MacBookPro com.apple.xpc.launchd[1] (com.apple.bsd.dirhelper[24308]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.bsd.dirhelper
+Dec 26 08:56:35 MacBookPro com.apple.xpc.launchd[1] (com.apple.quicklook[24322]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Dec 26 08:57:02 MacBookPro xpcproxy[24363]: libcoreservices: _dirhelper_userdir: 523: bootstrap_look_up returned 268435459
+Dec 26 08:57:02 MacBookPro xpcproxy[24363]: libcoreservices: _dirhelper_userdir: 529: __dirhelper_create_user_local returned 268435459
+Dec 26 08:57:07 MacBookPro com.apple.xpc.launchd[1] (com.apple.CoreLocationAgent[24370]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.CoreLocation.agent
+Dec 26 08:57:44 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 08:57:44 MacBookPro Activity Monitor[15341]: assertion failed: 16A323: libxpc.dylib + 74287 [2A901937-48E1-3BF2-83F1-2431156D82B7]: 0x89
+Dec 26 08:57:47 MacBookPro com.apple.xpc.launchd[1] (com.apple.quicklook[24418]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Dec 26 08:58:19 MacBookPro syslogd[37]: ASL Sender Statistics
+Dec 26 08:59:30 MacBookPro com.apple.usbmuxd[2816]: HandleUSBMuxDictionary client 0x7ff0a8100ef0-libusbmuxd/NULL using library device_listener, running usbmuxd-374.70
+Dec 26 08:59:30 MacBookPro com.apple.usbmuxd[2816]: LOCKDOWN_V2_BONJOUR_SERVICE_NAME is _apple-mobdev2._tcp,938b07fa
+Dec 26 09:00:20 MacBookPro iStumbler[24357]: BUG in libdispatch client: kevent[EVFILT_MACHPORT] monitored resource vanished before the source cancel handler was invoked
+Dec 26 09:01:08 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 09:03:21 MacBookPro com.apple.preference.notifications.remoteservice[24601]: BUG in libdispatch client: kevent[EVFILT_MACHPORT] monitored resource vanished before the source cancel handler was invoked
+Dec 26 09:06:37 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 09:06:50 MacBookPro App Store[24706]: BUG in libdispatch client: kevent[EVFILT_MACHPORT] monitored resource vanished before the source cancel handler was invoked
+Dec 26 09:06:50 MacBookPro com.apple.xpc.launchd[1] (com.apple.WebKit.Networking.3F8F4407-1971-439B-A3BC-44560DCDF859[24711]): Service exited with abnormal code: 1
+Dec 26 09:07:34 MacBookPro com.apple.usbmuxd[2816]: HandleUSBMuxDictionary client 0x7ff0a5e13960-libusbmuxd/org.libimobiledevice.usbmuxd using library usbmuxd built for freedom, running usbmuxd-374.70
+Dec 26 09:07:34 MacBookPro com.apple.usbmuxd[2816]: HandleUSBMuxDictionary client 0x7ff0a5d04a50-libusbmuxd/org.libimobiledevice.usbmuxd using library usbmuxd built for freedom, running usbmuxd-374.70
+Dec 26 09:07:34 MacBookPro com.apple.usbmuxd[2816]: HandleUSBMuxDictionary client 0x7ff0a5f08ab0-libusbmuxd/org.libimobiledevice.usbmuxd using library usbmuxd built for freedom, running usbmuxd-374.70
+Dec 26 09:07:34 MacBookPro com.apple.usbmuxd[2816]: HandleUSBMuxDictionary client 0x7ff0a8101650-libusbmuxd/org.libimobiledevice.usbmuxd using library usbmuxd built for freedom, running usbmuxd-374.70
+Dec 26 09:08:23 MacBookPro com.apple.usbmuxd[2816]: HandleUSBMuxDictionary client 0x7ff0a5e15e30-libusbmuxd/NULL using library device_listener, running usbmuxd-374.70
+Dec 26 09:08:23 MacBookPro syslogd[37]: ASL Sender Statistics
+Dec 26 09:08:23 MacBookPro com.apple.usbmuxd[2816]: HandleUSBMuxDictionary client 0x7ff0a5d02340-libusbmuxd/org.libimobiledevice.usbmuxd using library usbmuxd built for freedom, running usbmuxd-374.70
+Dec 26 09:08:23 MacBookPro com.apple.usbmuxd[2816]: HandleUSBMuxDictionary client 0x7ff0a5f08ab0-libusbmuxd/org.libimobiledevice.usbmuxd using library usbmuxd built for freedom, running usbmuxd-374.70
+Dec 26 09:08:23 MacBookPro com.apple.usbmuxd[2816]: HandleUSBMuxDictionary client 0x7ff0a5e139c0-libusbmuxd/org.libimobiledevice.usbmuxd using library usbmuxd built for freedom, running usbmuxd-374.70
+Dec 26 09:08:24 MacBookPro com.apple.usbmuxd[2816]: HandleUSBMuxDictionary client 0x7ff0a5c06ed0-libusbmuxd/org.libimobiledevice.usbmuxd using library usbmuxd built for freedom, running usbmuxd-374.70
+Dec 26 09:08:25 MacBookPro com.apple.usbmuxd[2816]: HandleUSBMuxDictionary client 0x7ff0a5d02340-libusbmuxd/org.libimobiledevice.usbmuxd using library usbmuxd built for freedom, running usbmuxd-374.70
+Dec 26 09:09:12 MacBookPro com.apple.xpc.launchd[1] (com.apple.WebKit.Networking.12910673-1CE6-474E-B844-F80D2EC3962B[24807]): Service exited with abnormal code: 1
+Dec 26 09:09:16 MacBookPro com.apple.WebKit.WebContent[21692]: BUG in libdispatch client: kevent[EVFILT_MACHPORT] monitored resource vanished before the source cancel handler was invoked
+Dec 26 09:09:36 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 09:09:49 MacBookPro com.apple.xpc.launchd[1] (com.apple.ReportCrash[24846]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.ReportCrash
+Dec 26 09:09:51 MacBookPro com.apple.xpc.launchd[1] (com.apple.xpc.launchd.domain.system): Caller tried to hijack service: path = /System/Library/LaunchDaemons/com.apple.smbd.plist, caller = launchctl.24849
+Dec 26 09:09:51 MacBookPro com.apple.xpc.launchd[1] (com.apple.xpc.launchd.domain.system): Caller tried to hijack service: path = /System/Library/LaunchDaemons/com.apple.smbd.plist, caller = launchctl.24855
+Dec 26 09:10:00 MacBookPro spindump[436]: Saved memory_resource.diag report for Network Diagnostics version (null) to /Library/Logs/DiagnosticReports/Network Diagnostics_2017-12-26-090959_MacBookPro.memory_resource.diag
+Dec 26 09:11:08 MacBookPro com.apple.xpc.launchd[1] (com.apple.ReportCrash[24966]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.ReportCrash
+Dec 26 09:11:12 MacBookPro spindump[436]: Saved memory_resource.diag report for Activity Monitor version (null) to /Library/Logs/DiagnosticReports/Activity Monitor_2017-12-26-091111_MacBookPro.memory_resource.diag
+Dec 26 09:12:13 MacBookPro com.apple.usbmuxd[2816]: HandleUSBMuxDictionary client 0x7ff0a5d02340-libusbmuxd/NULL using library device_listener, running usbmuxd-374.70
+Dec 26 09:12:14 MacBookPro com.apple.usbmuxd[2816]: HandleUSBMuxDictionary client 0x7ff0a5e15e30-libusbmuxd/org.libimobiledevice.usbmuxd using library usbmuxd built for freedom, running usbmuxd-374.70
+Dec 26 09:12:14 MacBookPro com.apple.usbmuxd[2816]: HandleUSBMuxDictionary client 0x7ff0a5d026f0-libusbmuxd/org.libimobiledevice.usbmuxd using library usbmuxd built for freedom, running usbmuxd-374.70
+Dec 26 09:12:14 MacBookPro com.apple.usbmuxd[2816]: HandleUSBMuxDictionary client 0x7ff0a5d04d10-libusbmuxd/org.libimobiledevice.usbmuxd using library usbmuxd built for freedom, running usbmuxd-374.70
+Dec 26 09:12:14 MacBookPro com.apple.usbmuxd[2816]: HandleUSBMuxDictionary client 0x7ff0a5e15e30-libusbmuxd/org.libimobiledevice.usbmuxd using library usbmuxd built for freedom, running usbmuxd-374.70
+Dec 26 09:12:52 MacBookPro com.apple.usbmuxd[2816]: HandleUSBMuxDictionary client 0x7ff0a5c096c0-libusbmuxd/NULL using library device_listener, running usbmuxd-374.70
+Dec 26 09:12:52 MacBookPro com.apple.usbmuxd[2816]: HandleUSBMuxDictionary client 0x7ff0a8101790-libusbmuxd/org.libimobiledevice.usbmuxd using library usbmuxd built for freedom, running usbmuxd-374.70
+Dec 26 09:12:52 MacBookPro com.apple.usbmuxd[2816]: HandleUSBMuxDictionary client 0x7ff0a5c098a0-libusbmuxd/org.libimobiledevice.usbmuxd using library usbmuxd built for freedom, running usbmuxd-374.70
+Dec 26 09:12:52 MacBookPro com.apple.usbmuxd[2816]: HandleUSBMuxDictionary client 0x7ff0a5f098e0-libusbmuxd/org.libimobiledevice.usbmuxd using library usbmuxd built for freedom, running usbmuxd-374.70
+Dec 26 09:12:52 MacBookPro com.apple.usbmuxd[2816]: HandleUSBMuxDictionary client 0x7ff0a5c07b20-libusbmuxd/org.libimobiledevice.usbmuxd using library usbmuxd built for freedom, running usbmuxd-374.70
+Dec 26 09:12:52 MacBookPro com.apple.usbmuxd[2816]: HandleUSBMuxDictionary client 0x7ff0a5c07d50-libusbmuxd/org.libimobiledevice.usbmuxd using library usbmuxd built for freedom, running usbmuxd-374.70
+Dec 26 09:12:52 MacBookPro com.apple.usbmuxd[2816]: HandleUSBMuxDictionary client 0x7ff0a5e17c50-libusbmuxd/org.libimobiledevice.usbmuxd using library usbmuxd built for freedom, running usbmuxd-374.70
+Dec 26 09:13:12 MacBookPro iTunes[25115]: Entered:_AMMuxedVersion2DeviceConnected, mux-device:1
+Dec 26 09:13:12 MacBookPro iTunes[25115]: tid:70b - unable to query device capabilities
+Dec 26 09:13:23 MacBookPro com.apple.xpc.launchd[1] (com.apple.ReportCrash[25132]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.ReportCrash
+Dec 26 09:15:40 MacBookPro MDCrashReportTool[25255]: 25255:245915648|CrashReportCopierAFC.m:-[CrashReportCopierAFC copyAndProcessRemotePath:usingConnection:]| ERROR: Could not remove remote path at ./WiFi/WiFiManager/wifi-buf-12-16-2017__22:41:05.log
+Dec 26 09:16:02 MacBookPro com.apple.usbmuxd[2816]: ClientSendDictionary to client 0x7ff0a5d024f0-iTunes/com.apple.iTunes failed to send header: -1, 32 Broken pipe
+Dec 26 09:18:29 MacBookPro syslogd[37]: ASL Sender Statistics
+Dec 26 09:28:29 MacBookPro syslogd[37]: ASL Sender Statistics
+Dec 26 09:29:18 MacBookPro com.apple.usbmuxd[2816]: ClientSendDictionary to client 0x7ff0a5f098e0-iTunes/com.apple.iTunes failed to send header: -1, 32 Broken pipe
+Dec 26 09:29:44 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 09:29:47 --- last message repeated 1 time ---
+Dec 26 09:29:47 MacBookPro com.apple.xpc.launchd[1] (com.apple.bsd.dirhelper[26159]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.bsd.dirhelper
+Dec 26 09:29:47 MacBookPro Finder[17119]: libcoreservices: __create_or_fix_relative_directory: 937: __dirhelper_create_relative returned 5
+Dec 26 09:29:55 MacBookPro com.apple.xpc.launchd[1] (com.apple.quicklook[26166]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Dec 26 09:30:50 MacBookPro com.apple.xpc.launchd[1] (com.apple.preferences.internetaccounts.remoteservice[24718]): Service exited due to signal: Killed: 9 sent by com.apple.preferences.internetac[24718]
+Dec 26 09:30:51 MacBookPro com.apple.xpc.launchd[1] (com.apple.preference.network.remoteservice[15112]): Service did not exit 5 seconds after SIGTERM. Sending SIGKILL.
+Dec 26 09:31:00 MacBookPro com.apple.usbmuxd[2816]: ClientSendDictionary to client 0x7ff0a5f098e0-iTunes/com.apple.iTunes failed to send header: -1, 32 Broken pipe
+Dec 26 09:31:25 MacBookPro ShipIt[19444]: Beginning installation
+Dec 26 09:32:16 MacBookPro login[26378]: USER_PROCESS: 26378 ttys003
+Dec 26 09:32:37 MacBookPro login[26412]: USER_PROCESS: 26412 ttys004
+Dec 26 09:36:06 MacBookPro com.apple.xpc.launchd[1] (com.apple.MTLCompilerService.186D0E96-29D8-4002-BB0E-D02529D41328[21757]): Service exited due to signal: Killed: 9 sent by Activity Monitor[15341]
+Dec 26 09:36:14 MacBookPro com.apple.xpc.launchd[1] (com.apple.audio.SandboxHelper[21261]): Service exited due to signal: Killed: 9 sent by Activity Monitor[15341]
+Dec 26 09:36:24 MacBookPro com.apple.xpc.launchd[1] (com.apple.keychainaccess.8640[21472]): Service exited due to signal: Terminated: 15 sent by Dock[355]
+Dec 26 09:36:48 MacBookPro com.apple.usbmuxd[2816]: ClientSendDictionary to client 0x7ff0a5e17c50-iTunes/com.apple.iTunes failed to send header: -1, 32 Broken pipe
+Dec 26 09:37:20 MacBookPro com.apple.xpc.launchd[1] (com.apple.appkit.xpc.openAndSavePanelService[2444]): Service exited due to signal: Killed: 9 sent by Activity Monitor[15341]
+Dec 26 09:37:26 MacBookPro com.apple.xpc.launchd[1] (com.apple.FollowUpUI[1503]): Service exited due to signal: Killed: 9 sent by Activity Monitor[15341]
+Dec 26 09:37:29 MacBookPro com.apple.xpc.launchd[1] (com.apple.iBooksX.DiskSpaceEfficiency[1399]): Service exited due to signal: Killed: 9 sent by Activity Monitor[15341]
+Dec 26 09:37:42 MacBookPro com.apple.xpc.launchd[1] (com.apple.ViewBridgeAuxiliary[391]): Service exited due to signal: Killed: 9 sent by Activity Monitor[15341]
+Dec 26 09:37:50 MacBookPro com.apple.xpc.launchd[1] (com.apple.trustd.agent[293]): Service exited due to signal: Killed: 9 sent by Activity Monitor[15341]
+Dec 26 09:38:02 MacBookPro com.apple.xpc.launchd[1] (com.apple.CrashReporterSupportHelper[185]): Service exited due to signal: Killed: 9 sent by com.apple.activitymonitor.helper[27111]
+Dec 26 09:38:03 MacBookPro com.apple.xpc.launchd[1] (com.apple.mDNSResponder.reloaded[164]): Service exited due to signal: Killed: 9 sent by com.apple.activitymonitor.helper[27111]
+Dec 26 09:38:31 MacBookPro syslogd[37]: ASL Sender Statistics
+Dec 26 09:38:48 MacBookPro com.apple.usbmuxd[2816]: ClientSendDictionary to client 0x7ff0a5e12dd0-iTunes/com.apple.iTunes failed to send header: -1, 32 Broken pipe
+Dec 26 09:40:31 MacBookPro com.apple.usbmuxd[2816]: ClientSendDictionary to client 0x7ff0a5e17a20-iTunes/com.apple.iTunes failed to send header: -1, 32 Broken pipe
+Dec 26 09:40:51 MacBookPro iTunes[25115]: Entered:_AMMuxedDeviceDisconnected, mux-device:1
+Dec 26 09:40:51 MacBookPro iTunes[25115]: Entered:__thr_AMMuxedDeviceDisconnected, mux-device:1
+Dec 26 09:40:51 MacBookPro iTunes[25115]: tid:48f4f - BootedOS mode device disconnected
+Dec 26 09:41:58 MacBookPro com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Dec 26 09:42:01 MacBookPro com.apple.xpc.launchd[1] (com.apple.auditd[27559]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.auditd
